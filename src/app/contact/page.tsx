@@ -8,10 +8,10 @@ export const metadata = { title: 'Contact Us' }
 export default function ContactPage() {
   return (
     <div>
-      <section className="bg-[#1E3A8A] text-white py-16">
+      <section className="bg-[#00253D] text-white py-16">
         <div className="max-w-7xl mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-3">Contact Us</h1>
-          <p className="text-blue-100 text-xl">We&apos;d love to help you find the perfect furniture.</p>
+          <p className="text-white/70 text-xl">We&apos;d love to help you find the perfect furniture.</p>
         </div>
       </section>
 
@@ -22,20 +22,20 @@ export default function ContactPage() {
             <h2 className="text-2xl font-bold text-gray-900 mb-8">Get in Touch</h2>
             <ul className="space-y-6 mb-10">
               <li className="flex items-start gap-4">
-                <div className="w-10 h-10 bg-blue-50 rounded-full flex items-center justify-center shrink-0">
-                  <Phone className="text-[#1E3A8A]" size={18} />
+                <div className="w-10 h-10 bg-[#E7E0CE]/30 rounded-full flex items-center justify-center shrink-0">
+                  <Phone className="text-[#00253D]" size={18} />
                 </div>
                 <div>
                   <p className="font-semibold text-gray-900 mb-1">Phone</p>
-                  <a href={siteData.phoneUrl} className="text-[#1E3A8A] font-bold text-lg hover:underline">
+                  <a href={siteData.phoneUrl} className="text-[#00253D] font-bold text-lg hover:underline">
                     {siteData.phone}
                   </a>
                   <p className="text-gray-400 text-xs mt-1">Call or text anytime during business hours</p>
                 </div>
               </li>
               <li className="flex items-start gap-4">
-                <div className="w-10 h-10 bg-blue-50 rounded-full flex items-center justify-center shrink-0">
-                  <MapPin className="text-[#1E3A8A]" size={18} />
+                <div className="w-10 h-10 bg-[#E7E0CE]/30 rounded-full flex items-center justify-center shrink-0">
+                  <MapPin className="text-[#00253D]" size={18} />
                 </div>
                 <div>
                   <p className="font-semibold text-gray-900 mb-1">Showroom</p>
@@ -43,7 +43,7 @@ export default function ContactPage() {
                     href={siteData.googleMapsUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-600 hover:text-[#1E3A8A] transition-colors"
+                    className="text-gray-600 hover:text-[#00253D] transition-colors"
                   >
                     {siteData.address}<br />
                     {siteData.city}, {siteData.state} {siteData.zip}
@@ -51,8 +51,8 @@ export default function ContactPage() {
                 </div>
               </li>
               <li className="flex items-start gap-4">
-                <div className="w-10 h-10 bg-blue-50 rounded-full flex items-center justify-center shrink-0">
-                  <Clock className="text-[#1E3A8A]" size={18} />
+                <div className="w-10 h-10 bg-[#E7E0CE]/30 rounded-full flex items-center justify-center shrink-0">
+                  <Clock className="text-[#00253D]" size={18} />
                 </div>
                 <div>
                   <p className="font-semibold text-gray-900 mb-1">Hours</p>
@@ -63,7 +63,7 @@ export default function ContactPage() {
 
             <a
               href={siteData.phoneUrl}
-              className="inline-flex items-center gap-2 bg-[#16A34A] text-white font-bold px-8 py-4 rounded-xl hover:bg-green-700 transition-colors"
+              className="inline-flex items-center gap-2 bg-[#1E3331] text-white font-bold px-8 py-4 rounded-xl hover:bg-[#2a4745] transition-colors"
             >
               <Phone size={18} />
               Call {siteData.phone}

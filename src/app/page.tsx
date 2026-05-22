@@ -24,7 +24,7 @@ export default function HomePage() {
   return (
     <>
       {/* ── Hero ──────────────────────────────────────────── */}
-      <section className="relative bg-[#1B4332] text-white overflow-hidden" style={{ minHeight: 'calc(100vh - 88px)', maxHeight: 700 }}>
+      <section className="relative bg-[#1E3331] text-white overflow-hidden" style={{ minHeight: 'calc(100vh - 88px)', maxHeight: 700 }}>
         {hero?.imageUrl && (
           <Image
             src={hero.imageUrl}
@@ -39,7 +39,7 @@ export default function HomePage() {
 
         <div className="relative z-10 max-w-screen-xl mx-auto px-6 md:px-16 flex flex-col justify-center h-full" style={{ minHeight: 'inherit' }}>
           <div className="max-w-xl py-24">
-            <p className="text-[11px] tracking-[0.3em] uppercase text-[#74B49B] mb-5 font-medium">
+            <p className="text-[11px] tracking-[0.3em] uppercase text-[#7DA68B] mb-5 font-medium">
               Houston, TX · Financing Available
             </p>
             <h1 className="text-5xl md:text-[64px] font-light leading-[1.08] mb-6 text-white">
@@ -51,7 +51,7 @@ export default function HomePage() {
             <div className="flex flex-wrap gap-3">
               <Link
                 href={hero?.ctaLink ?? '/shop'}
-                className="text-sm font-medium text-[#1B4332] bg-white px-7 py-3.5 hover:bg-[#F0F7F4] transition-colors flex items-center gap-2"
+                className="text-sm font-medium text-[#1E3331] bg-white px-7 py-3.5 hover:bg-[#F5F2EC] transition-colors flex items-center gap-2"
                 style={{ borderRadius: 25 }}
               >
                 {hero?.ctaText ?? 'Shop Collection'}
@@ -75,7 +75,7 @@ export default function HomePage() {
         <div className="max-w-screen-xl mx-auto px-6 py-4 flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-12 text-xs tracking-widest uppercase text-gray-500 font-medium">
           {['Same-Day Delivery in Houston', 'Financing — No Credit Needed', 'Professional Assembly Included'].map((t) => (
             <span key={t} className="flex items-center gap-2">
-              <span className="w-1 h-1 rounded-full bg-[#74B49B] inline-block" />
+              <span className="w-1 h-1 rounded-full bg-[#7DA68B] inline-block" />
               {t}
             </span>
           ))}
@@ -86,10 +86,10 @@ export default function HomePage() {
       <section className="max-w-screen-xl mx-auto px-6 py-24">
         <div className="flex items-end justify-between mb-12">
           <div>
-            <p className="text-[10px] tracking-[0.3em] uppercase text-[#74B49B] mb-2 font-medium">Explore</p>
+            <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-2 font-medium">Explore</p>
             <h2 className="text-3xl font-light text-gray-900">Shop by Room</h2>
           </div>
-          <Link href="/shop" className="text-xs tracking-widest uppercase text-[#1B4332] hover:opacity-70 transition-opacity flex items-center gap-2 font-medium">
+          <Link href="/shop" className="text-xs tracking-widest uppercase text-[#1E3331] hover:opacity-70 transition-opacity flex items-center gap-2 font-medium">
             View All <ArrowRight size={13} />
           </Link>
         </div>
@@ -105,9 +105,9 @@ export default function HomePage() {
                 {cat.image && (
                   <Image src={cat.image} alt={cat.name} fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
                 )}
-                <div className="absolute inset-0 bg-[#1B4332]/0 group-hover:bg-[#1B4332]/10 transition-colors" />
+                <div className="absolute inset-0 bg-[#1E3331]/0 group-hover:bg-[#1E3331]/10 transition-colors" />
               </div>
-              <p className="text-xs font-medium text-gray-700 group-hover:text-[#1B4332] transition-colors">
+              <p className="text-xs font-medium text-gray-700 group-hover:text-[#1E3331] transition-colors">
                 {cat.name}
               </p>
             </Link>
@@ -120,10 +120,10 @@ export default function HomePage() {
         <div className="max-w-screen-xl mx-auto px-6 py-24">
           <div className="flex items-end justify-between mb-12">
             <div>
-              <p className="text-[10px] tracking-[0.3em] uppercase text-[#74B49B] mb-2 font-medium">Featured</p>
+              <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-2 font-medium">Featured</p>
               <h2 className="text-3xl font-light text-gray-900">Best Sellers</h2>
             </div>
-            <Link href="/shop" className="text-xs tracking-widest uppercase text-[#1B4332] hover:opacity-70 transition-opacity flex items-center gap-2 font-medium">
+            <Link href="/shop" className="text-xs tracking-widest uppercase text-[#1E3331] hover:opacity-70 transition-opacity flex items-center gap-2 font-medium">
               Full Catalog <ArrowRight size={13} />
             </Link>
           </div>
@@ -137,10 +137,10 @@ export default function HomePage() {
       </section>
 
       {/* ── Financing ────────────────────────────────────── */}
-      <section className="bg-[#F0F7F4]">
+      <section className="bg-[#F5F2EC]">
         <div className="max-w-screen-xl mx-auto px-6 py-24">
           <div className="max-w-lg mb-14">
-            <p className="text-[10px] tracking-[0.3em] uppercase text-[#74B49B] mb-2 font-medium">Flexible Options</p>
+            <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-2 font-medium">Flexible Options</p>
             <h2 className="text-3xl font-light text-gray-900 mb-4">Financing Available</h2>
             <p className="text-sm font-light text-gray-500 leading-relaxed">
               No credit? No problem. We partner with three leading financing companies so you can take your furniture home today and pay over time.
@@ -155,13 +155,13 @@ export default function HomePage() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white p-8 group hover:shadow-sm transition-shadow"
-                style={{ border: '1px solid #E8F0EC' }}
+                style={{ border: '1px solid #ECEAE4' }}
               >
-                <p className="text-lg font-semibold text-[#1B4332] mb-1.5 group-hover:text-[#2D6A4F]">
+                <p className="text-lg font-semibold text-[#1E3331] mb-1.5 group-hover:text-[#1E3331]">
                   {partner.name}
                 </p>
                 <p className="text-xs font-light text-gray-500 mb-4">{partner.description}</p>
-                <span className="text-xs tracking-widest uppercase text-[#1B4332] flex items-center gap-1.5 font-medium">
+                <span className="text-xs tracking-widest uppercase text-[#1E3331] flex items-center gap-1.5 font-medium">
                   Apply Now <ArrowRight size={11} />
                 </span>
               </a>
@@ -171,7 +171,7 @@ export default function HomePage() {
           <div className="mt-8">
             <Link
               href="/services#financing"
-              className="text-xs tracking-widest uppercase text-[#1B4332] hover:opacity-70 transition-opacity flex items-center gap-2 font-medium"
+              className="text-xs tracking-widest uppercase text-[#1E3331] hover:opacity-70 transition-opacity flex items-center gap-2 font-medium"
             >
               Learn more about financing <ArrowRight size={12} />
             </Link>
@@ -180,10 +180,10 @@ export default function HomePage() {
       </section>
 
       {/* ── Testimonials ─────────────────────────────────── */}
-      <section className="bg-[#1B4332] text-white">
+      <section className="bg-[#1E3331] text-white">
         <div className="max-w-screen-xl mx-auto px-6 py-24">
           <div className="mb-14 text-center">
-            <p className="text-[10px] tracking-[0.3em] uppercase text-[#74B49B] mb-2 font-medium">Reviews</p>
+            <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-2 font-medium">Reviews</p>
             <h2 className="text-3xl font-light text-white">What Our Customers Say</h2>
           </div>
 
@@ -192,7 +192,7 @@ export default function HomePage() {
               <div key={t.id} className="p-8" style={{ background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.1)' }}>
                 <div className="flex gap-0.5 mb-4">
                   {Array.from({ length: t.rating }).map((_, i) => (
-                    <Star key={i} size={13} className="text-[#74B49B] fill-[#74B49B]" />
+                    <Star key={i} size={13} className="text-[#7DA68B] fill-[#7DA68B]" />
                   ))}
                 </div>
                 <p className="text-sm font-light text-white/75 leading-relaxed mb-6">&ldquo;{t.text}&rdquo;</p>
@@ -205,7 +205,7 @@ export default function HomePage() {
           </div>
 
           <div className="text-center mt-10">
-            <Link href="/testimonials" className="text-xs tracking-widest uppercase text-[#74B49B] hover:text-white transition-colors font-medium flex items-center gap-2 justify-center">
+            <Link href="/testimonials" className="text-xs tracking-widest uppercase text-[#7DA68B] hover:text-white transition-colors font-medium flex items-center gap-2 justify-center">
               Read All Reviews <ArrowRight size={12} />
             </Link>
           </div>
@@ -216,7 +216,7 @@ export default function HomePage() {
       <section className="max-w-screen-xl mx-auto px-6 py-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div>
-            <p className="text-[10px] tracking-[0.3em] uppercase text-[#74B49B] mb-3 font-medium">Houston Showroom</p>
+            <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-3 font-medium">Houston Showroom</p>
             <h2 className="text-4xl font-light text-gray-900 mb-6 leading-tight">
               Come See It<br />In Person
             </h2>
@@ -225,14 +225,14 @@ export default function HomePage() {
             </p>
             <ul className="space-y-3 mb-10 text-sm font-light text-gray-500">
               <li className="flex items-start gap-3">
-                <MapPin size={15} className="text-[#1B4332] shrink-0 mt-0.5" />
-                <a href={siteData.googleMapsUrl} target="_blank" rel="noopener noreferrer" className="hover:text-[#1B4332] transition-colors">
+                <MapPin size={15} className="text-[#1E3331] shrink-0 mt-0.5" />
+                <a href={siteData.googleMapsUrl} target="_blank" rel="noopener noreferrer" className="hover:text-[#1E3331] transition-colors">
                   {siteData.address}, {siteData.city} {siteData.state} {siteData.zip}
                 </a>
               </li>
               <li className="flex items-center gap-3">
-                <Phone size={15} className="text-[#1B4332] shrink-0" />
-                <a href={siteData.phoneUrl} className="hover:text-[#1B4332] transition-colors">{siteData.phone}</a>
+                <Phone size={15} className="text-[#1E3331] shrink-0" />
+                <a href={siteData.phoneUrl} className="hover:text-[#1E3331] transition-colors">{siteData.phone}</a>
               </li>
             </ul>
             <div className="flex flex-wrap gap-3">
@@ -240,7 +240,7 @@ export default function HomePage() {
                 href={siteData.googleMapsUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm font-medium text-white bg-[#1B4332] px-7 py-3.5 hover:bg-[#2D6A4F] transition-colors flex items-center gap-2"
+                className="text-sm font-medium text-white bg-[#1E3331] px-7 py-3.5 hover:bg-[#1E3331] transition-colors flex items-center gap-2"
                 style={{ borderRadius: 25 }}
               >
                 <MapPin size={14} />
@@ -248,7 +248,7 @@ export default function HomePage() {
               </a>
               <a
                 href={siteData.phoneUrl}
-                className="text-sm font-medium text-[#1B4332] border border-[#1B4332] px-7 py-3.5 hover:bg-[#1B4332] hover:text-white transition-colors flex items-center gap-2"
+                className="text-sm font-medium text-[#1E3331] border border-[#1E3331] px-7 py-3.5 hover:bg-[#1E3331] hover:text-white transition-colors flex items-center gap-2"
                 style={{ borderRadius: 25 }}
               >
                 <Phone size={14} />

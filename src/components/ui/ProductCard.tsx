@@ -29,7 +29,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         )}
         {hasDiscount && (
           <div className="absolute top-3 left-3">
-            <span className="text-[10px] font-semibold tracking-widest uppercase bg-[#1E3A8A] text-white px-2.5 py-1">
+            <span className="text-[10px] font-semibold tracking-widest uppercase bg-[#00253D] text-white px-2.5 py-1">
               Sale
             </span>
           </div>
@@ -39,12 +39,12 @@ export default function ProductCard({ product }: ProductCardProps) {
       {/* Info */}
       <div className="px-0.5">
         {/* Category */}
-        <p className="text-[10px] font-medium tracking-[0.2em] uppercase text-[#74B49B] mb-1.5">
+        <p className="text-[10px] font-medium tracking-[0.2em] uppercase text-[#7DA68B] mb-1.5">
           {product.category.replace(/-/g, ' ')}
         </p>
 
         {/* Name */}
-        <h3 className="text-sm font-medium text-gray-900 leading-snug mb-2 group-hover:text-[#1B4332] transition-colors">
+        <h3 className="text-sm font-medium text-gray-900 leading-snug mb-2 group-hover:text-[#1E3331] transition-colors">
           {product.name}
         </h3>
 
@@ -59,7 +59,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         <div className="flex items-center gap-2.5">
           {hasDiscount ? (
             <>
-              <span className="text-sm font-semibold text-[#1B4332]">
+              <span className="text-sm font-semibold text-[#1E3331]">
                 {formatPrice(product.salePrice!)}
               </span>
               <span className="text-xs text-gray-300 line-through">
@@ -67,7 +67,7 @@ export default function ProductCard({ product }: ProductCardProps) {
               </span>
             </>
           ) : (
-            <span className="text-sm font-semibold text-[#1B4332]">
+            <span className="text-sm font-semibold text-[#1E3331]">
               {formatPrice(product.price)}
             </span>
           )}

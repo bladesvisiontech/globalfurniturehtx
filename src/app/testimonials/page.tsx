@@ -9,10 +9,10 @@ export default function TestimonialsPage() {
 
   return (
     <div>
-      <section className="bg-[#1E3A8A] text-white py-16">
+      <section className="bg-[#00253D] text-white py-16">
         <div className="max-w-7xl mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-3">Customer Reviews</h1>
-          <p className="text-blue-100 text-xl">See what Houston families are saying about Global Furniture HTX.</p>
+          <p className="text-white/70 text-xl">See what Houston families are saying about Global Furniture HTX.</p>
         </div>
       </section>
 
@@ -42,10 +42,10 @@ export default function TestimonialsPage() {
         </div>
       </section>
 
-      <section className="bg-gray-50 py-12 text-center">
+      <section className="bg-[#F5F2EC] py-12 text-center">
         <h2 className="text-2xl font-bold text-gray-900 mb-3">Experience it yourself</h2>
         <p className="text-gray-500 mb-6">Visit our showroom or browse online and see why Houston families choose us.</p>
-        <Link href="/shop" className="bg-[#1E3A8A] text-white font-bold px-8 py-4 rounded-xl hover:bg-blue-900 transition-colors">
+        <Link href="/shop" className="bg-[#00253D] text-white font-bold px-8 py-4 rounded-xl hover:opacity-90 transition-colors">
           Shop Now
         </Link>
       </section>

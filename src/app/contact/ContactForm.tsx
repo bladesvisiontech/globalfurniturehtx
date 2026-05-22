@@ -45,16 +45,16 @@ export default function ContactForm() {
 
   if (status === 'success') {
     return (
-      <div className="bg-green-50 border border-green-200 rounded-2xl p-8 text-center">
-        <CheckCircle className="text-[#16A34A] mx-auto mb-3" size={40} />
+      <div className="bg-[#E7E0CE] border border-green-200 rounded-2xl p-8 text-center">
+        <CheckCircle className="text-[#1E3331] mx-auto mb-3" size={40} />
         <h3 className="text-xl font-bold text-gray-900 mb-2">Message Sent!</h3>
         <p className="text-gray-600 text-sm">
           We&apos;ll get back to you shortly. You can also call us directly at{' '}
-          <a href="tel:+18328515250" className="text-[#1E3A8A] font-semibold">832-851-5250</a>.
+          <a href="tel:+18328515250" className="text-[#00253D] font-semibold">832-851-5250</a>.
         </p>
         <button
           onClick={() => setStatus('idle')}
-          className="mt-6 text-sm text-[#1E3A8A] underline"
+          className="mt-6 text-sm text-[#00253D] underline"
         >
           Send another message
         </button>
@@ -73,7 +73,7 @@ export default function ContactForm() {
             value={form.name}
             onChange={(e) => update('name', e.target.value)}
             placeholder="Your full name"
-            className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#1E3A8A] focus:ring-1 focus:ring-[#1E3A8A]"
+            className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#00253D] focus:ring-1 focus:ring-[#00253D]"
           />
         </div>
         <div>
@@ -84,7 +84,7 @@ export default function ContactForm() {
             value={form.phone}
             onChange={(e) => update('phone', e.target.value)}
             placeholder="(832) 000-0000"
-            className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#1E3A8A] focus:ring-1 focus:ring-[#1E3A8A]"
+            className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#00253D] focus:ring-1 focus:ring-[#00253D]"
           />
         </div>
       </div>
@@ -96,7 +96,7 @@ export default function ContactForm() {
           value={form.email}
           onChange={(e) => update('email', e.target.value)}
           placeholder="you@example.com"
-          className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#1E3A8A] focus:ring-1 focus:ring-[#1E3A8A]"
+          className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#00253D] focus:ring-1 focus:ring-[#00253D]"
         />
       </div>
 
@@ -107,7 +107,7 @@ export default function ContactForm() {
           value={form.productInterest}
           onChange={(e) => update('productInterest', e.target.value)}
           placeholder="e.g. King bedroom set, sectional sofa..."
-          className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#1E3A8A] focus:ring-1 focus:ring-[#1E3A8A]"
+          className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#00253D] focus:ring-1 focus:ring-[#00253D]"
         />
       </div>
 
@@ -118,7 +118,7 @@ export default function ContactForm() {
           onChange={(e) => update('message', e.target.value)}
           placeholder="Questions about delivery, pricing, availability..."
           rows={4}
-          className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#1E3A8A] focus:ring-1 focus:ring-[#1E3A8A] resize-none"
+          className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#00253D] focus:ring-1 focus:ring-[#00253D] resize-none"
         />
       </div>
 
@@ -130,8 +130,8 @@ export default function ContactForm() {
         type="submit"
         disabled={status === 'loading'}
         className={cn(
-          'w-full flex items-center justify-center gap-2 bg-[#1E3A8A] text-white font-bold py-4 rounded-xl transition-colors text-sm',
-          status === 'loading' ? 'opacity-60 cursor-not-allowed' : 'hover:bg-blue-900'
+          'w-full flex items-center justify-center gap-2 bg-[#00253D] text-white font-bold py-4 rounded-xl transition-colors text-sm',
+          status === 'loading' ? 'opacity-60 cursor-not-allowed' : 'hover:opacity-90'
         )}
       >
         <Send size={16} />

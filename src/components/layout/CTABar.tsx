@@ -9,7 +9,7 @@ const PERKS = [
 
 export default function CTABar() {
   return (
-    <div className="bg-[#16A34A] text-white py-3">
+    <div className="bg-[#1E3331] text-white py-3">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-sm font-medium">
           {PERKS.map(({ icon: Icon, text }) => (

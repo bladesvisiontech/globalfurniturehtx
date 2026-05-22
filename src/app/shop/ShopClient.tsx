@@ -46,7 +46,7 @@ export default function ShopClient() {
                 className={cn(
                   'block px-3 py-2 rounded-lg text-sm font-medium transition-colors',
                   !activeCategory
-                    ? 'bg-[#1E3A8A] text-white'
+                    ? 'bg-[#00253D] text-white'
                     : 'text-gray-700 hover:bg-gray-100'
                 )}
               >
@@ -60,7 +60,7 @@ export default function ShopClient() {
                   className={cn(
                     'block px-3 py-2 rounded-lg text-sm font-medium transition-colors',
                     activeCategory === cat.slug
-                      ? 'bg-[#1E3A8A] text-white'
+                      ? 'bg-[#00253D] text-white'
                       : 'text-gray-700 hover:bg-gray-100'
                   )}
                 >
@@ -76,7 +76,7 @@ export default function ShopClient() {
           {filtered.length === 0 ? (
             <div className="text-center py-20 text-gray-400">
               <p className="text-lg">No products found in this category.</p>
-              <Link href="/shop" className="mt-4 inline-block text-[#1E3A8A] underline text-sm">
+              <Link href="/shop" className="mt-4 inline-block text-[#00253D] underline text-sm">
                 View all furniture
               </Link>
             </div>

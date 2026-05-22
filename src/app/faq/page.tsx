@@ -12,10 +12,10 @@ export default function FAQPage() {
 
   return (
     <div>
-      <section className="bg-[#1E3A8A] text-white py-16">
+      <section className="bg-[#00253D] text-white py-16">
         <div className="max-w-7xl mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-3">Frequently Asked Questions</h1>
-          <p className="text-blue-100 text-xl">Everything you need to know about Global Furniture HTX.</p>
+          <p className="text-white/70 text-xl">Everything you need to know about Global Furniture HTX.</p>
         </div>
       </section>
       <FAQClient grouped={grouped} />

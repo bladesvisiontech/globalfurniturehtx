@@ -23,7 +23,7 @@ function FAQAccordion({ item }: { item: FAQItem }) {
     <div className="border border-gray-100 rounded-xl overflow-hidden">
       <button
         onClick={() => setOpen(!open)}
-        className="w-full flex items-center justify-between px-6 py-4 text-left hover:bg-gray-50 transition-colors"
+        className="w-full flex items-center justify-between px-6 py-4 text-left hover:bg-[#F5F2EC] transition-colors"
       >
         <span className="font-semibold text-gray-900 text-sm pr-4">{item.question}</span>
         <ChevronDown
@@ -32,7 +32,7 @@ function FAQAccordion({ item }: { item: FAQItem }) {
         />
       </button>
       {open && (
-        <div className="px-6 pb-4 text-gray-600 text-sm leading-relaxed border-t bg-gray-50 pt-4">
+        <div className="px-6 pb-4 text-gray-600 text-sm leading-relaxed border-t bg-[#F5F2EC] pt-4">
           {item.answer}
         </div>
       )}
@@ -45,7 +45,7 @@ export default function FAQClient({ grouped }: Props) {
     <div className="max-w-3xl mx-auto px-4 py-16">
       {Object.entries(grouped).map(([category, items]) => (
         <div key={category} className="mb-10">
-          <h2 className="text-lg font-bold text-[#1E3A8A] mb-4 uppercase tracking-wide text-sm">{category}</h2>
+          <h2 className="text-lg font-bold text-[#00253D] mb-4 uppercase tracking-wide text-sm">{category}</h2>
           <div className="space-y-2">
             {items.map((item) => (
               <FAQAccordion key={item.id} item={item} />
@@ -54,10 +54,10 @@ export default function FAQClient({ grouped }: Props) {
         </div>
       ))}
 
-      <div className="bg-[#1E3A8A] text-white rounded-2xl p-8 text-center mt-8">
+      <div className="bg-[#00253D] text-white rounded-2xl p-8 text-center mt-8">
         <h3 className="text-xl font-bold mb-2">Still have questions?</h3>
-        <p className="text-blue-100 text-sm mb-4">Our team is happy to help. Call us or stop by the showroom.</p>
-        <Link href="/contact" className="inline-block bg-[#16A34A] text-white font-bold px-8 py-3 rounded-xl hover:bg-green-700 transition-colors">
+        <p className="text-white/70 text-sm mb-4">Our team is happy to help. Call us or stop by the showroom.</p>
+        <Link href="/contact" className="inline-block bg-[#1E3331] text-white font-bold px-8 py-3 rounded-xl hover:bg-[#2a4745] transition-colors">
           Contact Us
         </Link>
       </div>

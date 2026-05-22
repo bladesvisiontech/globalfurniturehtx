@@ -19,7 +19,7 @@ export async function POST(req: NextRequest) {
       subject: `New Quote Request from ${name}`,
       html: `
         <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto;">
-          <div style="background: #1E3A8A; color: white; padding: 24px; border-radius: 8px 8px 0 0;">
+          <div style="background: #00253D; color: white; padding: 24px; border-radius: 8px 8px 0 0;">
             <h1 style="margin: 0; font-size: 20px;">New Quote Request</h1>
             <p style="margin: 4px 0 0; color: #93C5FD; font-size: 14px;">Global Furniture HTX Website</p>
           </div>
@@ -31,7 +31,7 @@ export async function POST(req: NextRequest) {
               </tr>
               <tr>
                 <td style="padding: 8px 0; font-weight: bold; color: #374151;">Phone</td>
-                <td style="padding: 8px 0; color: #111827;"><a href="tel:${phone}" style="color: #1E3A8A;">${phone}</a></td>
+                <td style="padding: 8px 0; color: #111827;"><a href="tel:${phone}" style="color: #00253D;">${phone}</a></td>
               </tr>
               ${email ? `<tr>
                 <td style="padding: 8px 0; font-weight: bold; color: #374151;">Email</td>
@@ -47,7 +47,7 @@ export async function POST(req: NextRequest) {
               </tr>` : ''}
             </table>
             <div style="margin-top: 20px; padding-top: 16px; border-top: 1px solid #e5e7eb;">
-              <a href="tel:${phone}" style="background: #16A34A; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 14px;">
+              <a href="tel:${phone}" style="background: #1E3331; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 14px;">
                 Call ${name} Back
               </a>
             </div>
