@@ -2,112 +2,169 @@
 
 import Link from 'next/link'
 import { useState } from 'react'
-import { Phone, Menu, X } from 'lucide-react'
+import { Phone, Menu, X, ChevronDown } from 'lucide-react'
 import siteData from '@/data/site.json'
 
 const NAV_LINKS = [
-  { href: '/', label: 'Home' },
-  { href: '/shop', label: 'Shop' },
+  { href: '/shop', label: 'Shop', hasDropdown: true },
   { href: '/services', label: 'Services' },
   { href: '/about', label: 'About' },
-  { href: '/blog', label: 'Blog' },
+  { href: '/blog', label: 'Journal' },
+  { href: '/testimonials', label: 'Reviews' },
   { href: '/contact', label: 'Contact' },
+]
+
+const SHOP_CATEGORIES = [
+  { href: '/shop?category=living-room', label: 'Living Room' },
+  { href: '/shop?category=bedroom', label: 'Bedroom' },
+  { href: '/shop?category=dining-room', label: 'Dining Room' },
+  { href: '/shop?category=mattresses', label: 'Mattresses' },
+  { href: '/shop?category=accent-decor', label: 'Accent & Decor' },
+  { href: '/shop?category=office', label: 'Office' },
 ]
 
 export default function Header() {
   const [open, setOpen] = useState(false)
+  const [shopOpen, setShopOpen] = useState(false)
 
   return (
-    <header className="bg-white shadow-sm sticky top-0 z-50">
-      {/* Top bar */}
-      <div className="bg-[#1E3A8A] text-white text-sm py-2">
-        <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
-          <span>{siteData.deliveryNote}</span>
+    <header className="bg-white sticky top-0 z-50" style={{ borderBottom: '1px solid #F0F0F0' }}>
+      {/* Top announcement bar */}
+      <div className="bg-[#1B4332] text-white text-xs tracking-wide py-2">
+        <div className="max-w-screen-xl mx-auto px-6 flex items-center justify-between">
+          <span className="text-green-200 font-light">{siteData.deliveryNote}</span>
           <a
             href={siteData.phoneUrl}
-            className="flex items-center gap-1 font-semibold hover:text-green-300 transition-colors"
+            className="flex items-center gap-1.5 font-medium text-white hover:text-green-200 transition-colors"
           >
-            <Phone size={14} />
+            <Phone size={12} />
             {siteData.phone}
           </a>
         </div>
       </div>
 
       {/* Main nav */}
-      <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+      <div className="max-w-screen-xl mx-auto px-6 h-16 flex items-center justify-between">
+
         {/* Logo */}
-        <Link href="/" className="flex flex-col leading-tight">
-          <span className="text-xl font-bold text-[#1E3A8A]">Global Furniture</span>
-          <span className="text-sm font-semibold text-[#16A34A] tracking-widest uppercase">HTX</span>
+        <Link href="/" className="flex flex-col leading-none">
+          <span className="text-[15px] font-semibold tracking-[0.18em] uppercase text-[#1B4332]">
+            Global Furniture
+          </span>
+          <span className="text-[11px] font-light tracking-[0.35em] uppercase text-[#1E3A8A] mt-0.5">
+            Houston, TX
+          </span>
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden md:flex items-center gap-6">
-          {NAV_LINKS.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="text-gray-700 hover:text-[#1E3A8A] font-medium transition-colors text-sm"
-            >
-              {link.label}
-            </Link>
-          ))}
+        <nav className="hidden lg:flex items-center gap-8">
+          {NAV_LINKS.map((link) =>
+            link.hasDropdown ? (
+              <div
+                key={link.href}
+                className="relative"
+                onMouseEnter={() => setShopOpen(true)}
+                onMouseLeave={() => setShopOpen(false)}
+              >
+                <Link
+                  href={link.href}
+                  className="flex items-center gap-1 text-sm text-gray-800 hover:text-[#1B4332] transition-colors font-medium"
+                >
+                  {link.label}
+                  <ChevronDown size={13} className={`transition-transform ${shopOpen ? 'rotate-180' : ''}`} />
+                </Link>
+
+                {shopOpen && (
+                  <div
+                    className="absolute top-full left-1/2 -translate-x-1/2 pt-3 z-50"
+                  >
+                    <div
+                      className="bg-white py-4 px-2 min-w-[180px]"
+                      style={{ boxShadow: '0 4px 24px rgba(0,0,0,0.07)', border: '1px solid #F0F0F0' }}
+                    >
+                      {SHOP_CATEGORIES.map((cat) => (
+                        <Link
+                          key={cat.href}
+                          href={cat.href}
+                          className="block px-4 py-2.5 text-sm text-gray-700 hover:text-[#1B4332] hover:bg-[#F0F7F4] transition-colors"
+                        >
+                          {cat.label}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-sm text-gray-800 hover:text-[#1B4332] transition-colors font-medium"
+              >
+                {link.label}
+              </Link>
+            )
+          )}
         </nav>
 
-        {/* Desktop CTA */}
-        <div className="hidden md:flex items-center gap-3">
-          <a
-            href={siteData.phoneUrl}
-            className="bg-[#16A34A] text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-green-700 transition-colors flex items-center gap-2"
-          >
-            <Phone size={15} />
-            Call Now
-          </a>
+        {/* Desktop CTAs */}
+        <div className="hidden lg:flex items-center gap-3">
           <Link
             href="/contact#quote"
-            className="border-2 border-[#1E3A8A] text-[#1E3A8A] px-4 py-2 rounded-lg text-sm font-semibold hover:bg-[#1E3A8A] hover:text-white transition-colors"
+            className="text-sm font-medium text-[#1B4332] border border-[#1B4332] px-5 py-2 hover:bg-[#1B4332] hover:text-white transition-colors"
+            style={{ borderRadius: 25 }}
           >
-            Request Quote
+            Request a Quote
           </Link>
+          <a
+            href={siteData.phoneUrl}
+            className="text-sm font-medium text-white bg-[#1B4332] px-5 py-2 hover:bg-[#2D6A4F] transition-colors flex items-center gap-2"
+            style={{ borderRadius: 25 }}
+          >
+            <Phone size={13} />
+            Call Now
+          </a>
         </div>
 
         {/* Mobile hamburger */}
         <button
-          className="md:hidden p-2 text-gray-700"
+          className="lg:hidden p-2 text-gray-600"
           onClick={() => setOpen(!open)}
           aria-label="Toggle menu"
         >
-          {open ? <X size={24} /> : <Menu size={24} />}
+          {open ? <X size={22} /> : <Menu size={22} />}
         </button>
       </div>
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden border-t bg-white px-4 pb-4">
-          <nav className="flex flex-col gap-1 pt-3">
+        <div className="lg:hidden border-t border-[#F0F0F0] bg-white">
+          <nav className="px-6 py-4 flex flex-col gap-1">
             {NAV_LINKS.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
                 onClick={() => setOpen(false)}
-                className="py-2 px-3 rounded-lg text-gray-700 hover:bg-gray-50 hover:text-[#1E3A8A] font-medium"
+                className="py-3 text-sm font-medium text-gray-800 hover:text-[#1B4332] border-b border-[#F0F0F0] last:border-0"
               >
                 {link.label}
               </Link>
             ))}
           </nav>
-          <div className="flex flex-col gap-2 mt-4">
+          <div className="px-6 pb-5 flex flex-col gap-2">
             <a
               href={siteData.phoneUrl}
-              className="bg-[#16A34A] text-white px-4 py-3 rounded-lg font-semibold text-center flex items-center justify-center gap-2"
+              className="text-sm font-medium text-white bg-[#1B4332] px-5 py-3 text-center flex items-center justify-center gap-2"
+              style={{ borderRadius: 25 }}
             >
-              <Phone size={16} />
+              <Phone size={14} />
               Call {siteData.phone}
             </a>
             <Link
               href="/contact#quote"
               onClick={() => setOpen(false)}
-              className="border-2 border-[#1E3A8A] text-[#1E3A8A] px-4 py-3 rounded-lg font-semibold text-center"
+              className="text-sm font-medium text-[#1B4332] border border-[#1B4332] px-5 py-3 text-center"
+              style={{ borderRadius: 25 }}
             >
               Request a Quote
             </Link>
