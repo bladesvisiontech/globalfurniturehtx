@@ -4,17 +4,17 @@ import siteData from '@/data/site.json'
 const PERKS = [
   { icon: Truck, text: 'Same-Day Delivery in Houston' },
   { icon: CreditCard, text: 'Financing Available — No Credit Needed' },
-  { icon: Phone, text: `Call ${siteData.phone}` },
+  { icon: Phone, text: siteData.phone },
 ]
 
 export default function CTABar() {
   return (
-    <div className="bg-[#1E3331] text-white py-3">
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-sm font-medium">
+    <div className="bg-[#E7E0CE]" style={{ borderBottom: '1px solid #ECEAE4' }}>
+      <div className="max-w-screen-xl mx-auto px-6 py-3.5">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-12 text-[10px] tracking-widest uppercase text-[#1E3331]/60 font-medium">
           {PERKS.map(({ icon: Icon, text }) => (
             <div key={text} className="flex items-center gap-2">
-              <Icon size={16} className="shrink-0" />
+              <Icon size={13} className="text-[#7DA68B] shrink-0" />
               <span>{text}</span>
             </div>
           ))}

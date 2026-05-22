@@ -24,7 +24,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         />
         {!product.inStock && (
           <div className="absolute inset-0 bg-white/60 flex items-center justify-center">
-            <span className="text-xs font-medium tracking-widest uppercase text-gray-500">Sold Out</span>
+            <span className="text-xs font-medium tracking-widest uppercase text-[#1E3331]/50">Sold Out</span>
           </div>
         )}
         {hasDiscount && (
@@ -44,13 +44,13 @@ export default function ProductCard({ product }: ProductCardProps) {
         </p>
 
         {/* Name */}
-        <h3 className="text-sm font-medium text-gray-900 leading-snug mb-2 group-hover:text-[#1E3331] transition-colors">
+        <h3 className="text-sm font-medium text-[#1E3331] leading-snug mb-2 group-hover:text-[#1E3331] transition-colors">
           {product.name}
         </h3>
 
         {/* Colors */}
         {product.colors && product.colors.length > 0 && (
-          <p className="text-[11px] text-gray-400 mb-2 font-light">
+          <p className="text-[11px] text-[#1E3331]/40 mb-2 font-light">
             {product.colors.join(' · ')}
           </p>
         )}
@@ -62,7 +62,7 @@ export default function ProductCard({ product }: ProductCardProps) {
               <span className="text-sm font-semibold text-[#1E3331]">
                 {formatPrice(product.salePrice!)}
               </span>
-              <span className="text-xs text-gray-300 line-through">
+              <span className="text-xs text-[#1E3331]/25 line-through">
                 {formatPrice(product.price)}
               </span>
             </>

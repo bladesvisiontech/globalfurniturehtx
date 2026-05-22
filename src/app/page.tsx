@@ -72,7 +72,7 @@ export default function HomePage() {
 
       {/* ── Perks strip ──────────────────────────────────── */}
       <div style={{ borderBottom: '1px solid #F0F0F0' }}>
-        <div className="max-w-screen-xl mx-auto px-6 py-4 flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-12 text-xs tracking-widest uppercase text-gray-500 font-medium">
+        <div className="max-w-screen-xl mx-auto px-6 py-4 flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-12 text-xs tracking-widest uppercase text-[#1E3331]/50 font-medium">
           {['Same-Day Delivery in Houston', 'Financing — No Credit Needed', 'Professional Assembly Included'].map((t) => (
             <span key={t} className="flex items-center gap-2">
               <span className="w-1 h-1 rounded-full bg-[#7DA68B] inline-block" />
@@ -87,7 +87,7 @@ export default function HomePage() {
         <div className="flex items-end justify-between mb-12">
           <div>
             <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-2 font-medium">Explore</p>
-            <h2 className="text-3xl font-light text-gray-900">Shop by Room</h2>
+            <h2 className="text-3xl font-light text-[#1E3331]">Shop by Room</h2>
           </div>
           <Link href="/shop" className="text-xs tracking-widest uppercase text-[#1E3331] hover:opacity-70 transition-opacity flex items-center gap-2 font-medium">
             View All <ArrowRight size={13} />
@@ -107,7 +107,7 @@ export default function HomePage() {
                 )}
                 <div className="absolute inset-0 bg-[#1E3331]/0 group-hover:bg-[#1E3331]/10 transition-colors" />
               </div>
-              <p className="text-xs font-medium text-gray-700 group-hover:text-[#1E3331] transition-colors">
+              <p className="text-xs font-medium text-[#1E3331]/70 group-hover:text-[#1E3331] transition-colors">
                 {cat.name}
               </p>
             </Link>
@@ -121,7 +121,7 @@ export default function HomePage() {
           <div className="flex items-end justify-between mb-12">
             <div>
               <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-2 font-medium">Featured</p>
-              <h2 className="text-3xl font-light text-gray-900">Best Sellers</h2>
+              <h2 className="text-3xl font-light text-[#1E3331]">Best Sellers</h2>
             </div>
             <Link href="/shop" className="text-xs tracking-widest uppercase text-[#1E3331] hover:opacity-70 transition-opacity flex items-center gap-2 font-medium">
               Full Catalog <ArrowRight size={13} />
@@ -141,8 +141,8 @@ export default function HomePage() {
         <div className="max-w-screen-xl mx-auto px-6 py-24">
           <div className="max-w-lg mb-14">
             <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-2 font-medium">Flexible Options</p>
-            <h2 className="text-3xl font-light text-gray-900 mb-4">Financing Available</h2>
-            <p className="text-sm font-light text-gray-500 leading-relaxed">
+            <h2 className="text-3xl font-light text-[#1E3331] mb-4">Financing Available</h2>
+            <p className="text-sm font-light text-[#1E3331]/50 leading-relaxed">
               No credit? No problem. We partner with three leading financing companies so you can take your furniture home today and pay over time.
             </p>
           </div>
@@ -160,7 +160,7 @@ export default function HomePage() {
                 <p className="text-lg font-semibold text-[#1E3331] mb-1.5 group-hover:text-[#1E3331]">
                   {partner.name}
                 </p>
-                <p className="text-xs font-light text-gray-500 mb-4">{partner.description}</p>
+                <p className="text-xs font-light text-[#1E3331]/50 mb-4">{partner.description}</p>
                 <span className="text-xs tracking-widest uppercase text-[#1E3331] flex items-center gap-1.5 font-medium">
                   Apply Now <ArrowRight size={11} />
                 </span>
@@ -217,13 +217,13 @@ export default function HomePage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div>
             <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-3 font-medium">Houston Showroom</p>
-            <h2 className="text-4xl font-light text-gray-900 mb-6 leading-tight">
+            <h2 className="text-4xl font-light text-[#1E3331] mb-6 leading-tight">
               Come See It<br />In Person
             </h2>
-            <p className="text-sm font-light text-gray-500 leading-relaxed mb-8 max-w-sm">
+            <p className="text-sm font-light text-[#1E3331]/50 leading-relaxed mb-8 max-w-sm">
               Our showroom is stocked with the full collection. Our team is ready to help you find the perfect pieces for your space and budget.
             </p>
-            <ul className="space-y-3 mb-10 text-sm font-light text-gray-500">
+            <ul className="space-y-3 mb-10 text-sm font-light text-[#1E3331]/50">
               <li className="flex items-start gap-3">
                 <MapPin size={15} className="text-[#1E3331] shrink-0 mt-0.5" />
                 <a href={siteData.googleMapsUrl} target="_blank" rel="noopener noreferrer" className="hover:text-[#1E3331] transition-colors">
@@ -256,10 +256,10 @@ export default function HomePage() {
               </a>
             </div>
           </div>
-          <div className="text-sm font-light text-gray-400 space-y-2 md:pl-8" style={{ borderLeft: '1px solid #F0F0F0' }}>
-            <p className="text-[10px] tracking-widest uppercase mb-4 text-gray-400">Store Hours</p>
-            <p className="text-gray-600">{siteData.hours}</p>
-            <p className="text-xs mt-4 text-gray-400">{siteData.deliveryNote}</p>
+          <div className="text-sm font-light text-[#1E3331]/40 space-y-2 md:pl-8" style={{ borderLeft: '1px solid #F0F0F0' }}>
+            <p className="text-[10px] tracking-widest uppercase mb-4 text-[#1E3331]/40">Store Hours</p>
+            <p className="text-[#1E3331]/60">{siteData.hours}</p>
+            <p className="text-xs mt-4 text-[#1E3331]/40">{siteData.deliveryNote}</p>
           </div>
         </div>
       </section>

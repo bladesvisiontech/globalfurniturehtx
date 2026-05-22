@@ -68,7 +68,7 @@ export default function Header() {
               >
                 <Link
                   href={link.href}
-                  className="flex items-center gap-1 text-sm text-gray-800 hover:text-[#1E3331] transition-colors font-medium"
+                  className="flex items-center gap-1 text-sm text-[#1E3331]/80 hover:text-[#1E3331] transition-colors font-medium"
                 >
                   {link.label}
                   <ChevronDown size={13} className={`transition-transform ${shopOpen ? 'rotate-180' : ''}`} />
@@ -86,7 +86,7 @@ export default function Header() {
                         <Link
                           key={cat.href}
                           href={cat.href}
-                          className="block px-4 py-2.5 text-sm text-gray-700 hover:text-[#1E3331] hover:bg-[#F5F2EC] transition-colors"
+                          className="block px-4 py-2.5 text-sm text-[#1E3331]/70 hover:text-[#1E3331] hover:bg-[#F5F2EC] transition-colors"
                         >
                           {cat.label}
                         </Link>
@@ -99,7 +99,7 @@ export default function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-sm text-gray-800 hover:text-[#1E3331] transition-colors font-medium"
+                className="text-sm text-[#1E3331]/80 hover:text-[#1E3331] transition-colors font-medium"
               >
                 {link.label}
               </Link>
@@ -128,7 +128,7 @@ export default function Header() {
 
         {/* Mobile hamburger */}
         <button
-          className="lg:hidden p-2 text-gray-600"
+          className="lg:hidden p-2 text-[#1E3331]/60"
           onClick={() => setOpen(!open)}
           aria-label="Toggle menu"
         >
@@ -145,7 +145,7 @@ export default function Header() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setOpen(false)}
-                className="py-3 text-sm font-medium text-gray-800 hover:text-[#1E3331] border-b border-[#F0F0F0] last:border-0"
+                className="py-3 text-sm font-medium text-[#1E3331]/80 hover:text-[#1E3331] border-b border-[#F0F0F0] last:border-0"
               >
                 {link.label}
               </Link>

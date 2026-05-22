@@ -4,9 +4,7 @@ import { Calendar, ChevronLeft } from 'lucide-react'
 import blogData from '@/data/blog.json'
 import { type BlogPost } from '@/types'
 
-interface Props {
-  params: Promise<{ slug: string }>
-}
+interface Props { params: Promise<{ slug: string }> }
 
 export async function generateStaticParams() {
   return (blogData.posts as BlogPost[]).map((p) => ({ slug: p.slug }))
@@ -27,44 +25,40 @@ export default async function BlogPostPage({ params }: Props) {
   const paragraphs = post.content.split('\n\n').filter(Boolean)
 
   return (
-    <div className="max-w-3xl mx-auto px-4 py-10">
-      <Link href="/blog" className="flex items-center gap-1 text-sm text-gray-400 hover:text-[#00253D] mb-6 transition-colors">
-        <ChevronLeft size={14} /> Back to Blog
+    <div className="max-w-2xl mx-auto px-6 py-16">
+      <Link href="/blog" className="flex items-center gap-1.5 text-xs text-[#1E3331]/40 hover:text-[#1E3331] mb-10 transition-colors font-medium tracking-wide">
+        <ChevronLeft size={13} /> Back to Journal
       </Link>
 
-      <div className="flex flex-wrap gap-2 mb-4">
+      <div className="flex flex-wrap gap-2 mb-5">
         {post.tags.map((tag) => (
-          <span key={tag} className="text-xs bg-[#E7E0CE]/30 text-[#00253D] px-2 py-1 rounded-full font-medium">
-            {tag}
-          </span>
+          <span key={tag} className="text-[10px] tracking-widest uppercase bg-[#E7E0CE] text-[#1E3331] px-3 py-1 font-medium">{tag}</span>
         ))}
       </div>
 
-      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">{post.title}</h1>
+      <h1 className="text-3xl md:text-4xl font-light text-[#1E3331] mb-5 leading-tight">{post.title}</h1>
 
-      <div className="flex items-center gap-4 text-gray-400 text-sm mb-8 pb-6 border-b">
-        <span className="flex items-center gap-1">
-          <Calendar size={14} />
+      <div className="flex items-center gap-4 text-[#1E3331]/40 text-xs font-light mb-10 pb-8" style={{ borderBottom: '1px solid #ECEAE4' }}>
+        <span className="flex items-center gap-1.5">
+          <Calendar size={12} />
           {new Date(post.publishedAt).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
         </span>
         <span>By {post.author}</span>
       </div>
 
-      <div className="prose prose-gray max-w-none">
-        {paragraphs.map((para, idx) => {
-          if (para.startsWith('**') && para.endsWith('**')) {
-            return <h3 key={idx} className="text-xl font-bold text-gray-900 mt-6 mb-2">{para.replace(/\*\*/g, '')}</h3>
-          }
-          return <p key={idx} className="text-gray-600 leading-relaxed mb-4">{para}</p>
-        })}
+      <div className="space-y-5">
+        {paragraphs.map((para, idx) =>
+          para.startsWith('**') && para.endsWith('**')
+            ? <h3 key={idx} className="text-lg font-medium text-[#1E3331] mt-8">{para.replace(/\*\*/g, '')}</h3>
+            : <p key={idx} className="text-[#1E3331]/60 font-light leading-relaxed text-sm">{para}</p>
+        )}
       </div>
 
-      <div className="mt-12 bg-[#00253D] text-white rounded-2xl p-8 text-center">
-        <h3 className="text-xl font-bold mb-2">Ready to shop?</h3>
-        <p className="text-white/70 text-sm mb-4">Browse our full catalog and find the perfect furniture for your home.</p>
-        <Link href="/shop" className="inline-block bg-[#1E3331] text-white font-bold px-8 py-3 rounded-xl hover:bg-[#2a4745] transition-colors">
-          View Catalog
-        </Link>
+      <div className="mt-14 bg-[#1E3331] text-white p-10 text-center">
+        <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-3 font-medium">Ready?</p>
+        <h3 className="text-2xl font-light mb-3">Browse Our Collection</h3>
+        <p className="text-white/50 text-sm font-light mb-6">Find the perfect furniture for your home.</p>
+        <Link href="/shop" className="text-sm font-medium text-[#1E3331] bg-white px-8 py-3 hover:bg-[#E7E0CE] transition-colors" style={{ borderRadius: 25 }}>View Catalog</Link>
       </div>
     </div>
   )
