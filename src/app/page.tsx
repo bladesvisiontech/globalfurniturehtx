@@ -183,8 +183,17 @@ export default function HomePage() {
       <section className="bg-[#1E3331] text-white">
         <div className="max-w-screen-xl mx-auto px-6 py-24">
           <div className="mb-14 text-center">
-            <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-2 font-medium">Reviews</p>
-            <h2 className="text-3xl font-light text-white">What Our Customers Say</h2>
+            <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-3 font-medium">Reviews</p>
+            <h2 className="text-3xl font-light text-white mb-5">What Our Customers Say</h2>
+            <div className="flex items-center justify-center gap-2">
+              <div className="flex gap-0.5">
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <Star key={i} size={14} className="text-[#7DA68B] fill-[#7DA68B]" />
+                ))}
+              </div>
+              <span className="text-white font-semibold text-sm">{siteData.googleRating}</span>
+              <span className="text-white/40 text-xs font-light">· {siteData.googleReviewCount} Google Reviews</span>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

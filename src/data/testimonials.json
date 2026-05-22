@@ -2,43 +2,35 @@
   "testimonials": [
     {
       "id": "t-1",
-      "name": "Maria G.",
+      "name": "Gaylord Hutchins",
       "location": "Houston, TX",
-      "text": "Amazing experience! I furnished my entire living room and bedroom in one visit. The staff was super helpful and we got same-day delivery. The quality is incredible for the price.",
+      "text": "I really appreciate this company I would recommend everyone to try them out. Very professional and on time. Quality of merchandise is awesome.",
       "rating": 5,
-      "date": "2025-03-15"
+      "date": "2024-08-01"
     },
     {
       "id": "t-2",
-      "name": "James R.",
-      "location": "Sugar Land, TX",
-      "text": "Used Snap Finance and got approved in minutes. My new bedroom set looks amazing. Will definitely be coming back for the dining room next!",
+      "name": "Derrick Castex",
+      "location": "Houston, TX",
+      "text": "Great customer service, prices and prompt same day delivery with reasonable delivery fee.",
       "rating": 5,
-      "date": "2025-02-28"
+      "date": "2024-05-01"
     },
     {
       "id": "t-3",
-      "name": "Sandra L.",
-      "location": "Missouri City, TX",
-      "text": "Great selection and very fair prices. The sectional I bought is top quality. The delivery team was professional and set everything up perfectly.",
+      "name": "Darrell Guinn",
+      "location": "Houston, TX",
+      "text": "I thought the prices was a joke till I got there. I went to Rooms To Go and to furnish my new house it was a little over $12k — I went here and got the same stuff for not even 25% of what Rooms To Go was charging.",
       "rating": 5,
-      "date": "2025-04-10"
+      "date": "2024-04-01"
     },
     {
       "id": "t-4",
-      "name": "Carlos M.",
-      "location": "Pearland, TX",
-      "text": "I was skeptical at first but the prices here beat everywhere else in Houston. No credit needed financing made it easy to get what I needed right away.",
-      "rating": 4,
-      "date": "2025-01-20"
-    },
-    {
-      "id": "t-5",
-      "name": "Denise T.",
+      "name": "Lakesha Lafayette",
       "location": "Houston, TX",
-      "text": "Love my new dining set! The staff helped me pick the right size for my space. Great customer service from start to finish.",
+      "text": "Very professional, fast response and great customer service. My mattress is soooo comfortable.",
       "rating": 5,
-      "date": "2025-05-01"
+      "date": "2024-03-01"
     }
   ]
 }
