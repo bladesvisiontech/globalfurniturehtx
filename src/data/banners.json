@@ -1,0 +1,34 @@
+{
+  "banners": [
+    {
+      "id": "banner-1",
+      "title": "Furnish Your Dream Home",
+      "subtitle": "Quality furniture for every room. Financing available — no credit needed.",
+      "imageUrl": "/images/banners/hero-1.jpg",
+      "ctaText": "Shop Now",
+      "ctaLink": "/shop",
+      "order": 1,
+      "active": true
+    },
+    {
+      "id": "banner-2",
+      "title": "Bedroom Sets Starting at $999",
+      "subtitle": "Complete sets including bed, nightstands & dresser. Same-day delivery available.",
+      "imageUrl": "/images/banners/hero-2.jpg",
+      "ctaText": "View Bedroom Sets",
+      "ctaLink": "/shop?category=bedroom",
+      "order": 2,
+      "active": true
+    },
+    {
+      "id": "banner-3",
+      "title": "No Credit? No Problem.",
+      "subtitle": "Apply for financing with Koalafi, Snap Finance, or Acima. Get approved today.",
+      "imageUrl": "/images/banners/hero-3.jpg",
+      "ctaText": "Apply for Financing",
+      "ctaLink": "/services#financing",
+      "order": 3,
+      "active": true
+    }
+  ]
+}

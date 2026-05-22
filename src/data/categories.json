@@ -1,0 +1,52 @@
+{
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "Living Room",
+      "slug": "living-room",
+      "description": "Sofas, sectionals, loveseats, and accent chairs for your living space.",
+      "image": "/images/categories/living-room.jpg",
+      "order": 1
+    },
+    {
+      "id": "cat-2",
+      "name": "Bedroom",
+      "slug": "bedroom",
+      "description": "Complete bedroom sets, bed frames, dressers, and nightstands.",
+      "image": "/images/categories/bedroom.jpg",
+      "order": 2
+    },
+    {
+      "id": "cat-3",
+      "name": "Dining Room",
+      "slug": "dining-room",
+      "description": "Dining tables, chairs, bar stools, and buffets for every style.",
+      "image": "/images/categories/dining-room.jpg",
+      "order": 3
+    },
+    {
+      "id": "cat-4",
+      "name": "Mattresses",
+      "slug": "mattresses",
+      "description": "Comfortable mattresses in all sizes — twin, full, queen, and king.",
+      "image": "/images/categories/mattresses.jpg",
+      "order": 4
+    },
+    {
+      "id": "cat-5",
+      "name": "Accent & Decor",
+      "slug": "accent-decor",
+      "description": "Coffee tables, lamps, rugs, and decorative pieces.",
+      "image": "/images/categories/accent-decor.jpg",
+      "order": 5
+    },
+    {
+      "id": "cat-6",
+      "name": "Office",
+      "slug": "office",
+      "description": "Desks, office chairs, and storage solutions for home offices.",
+      "image": "/images/categories/office.jpg",
+      "order": 6
+    }
+  ]
+}

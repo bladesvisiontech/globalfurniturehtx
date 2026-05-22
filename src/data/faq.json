@@ -1,0 +1,64 @@
+{
+  "faqs": [
+    {
+      "id": "faq-1",
+      "question": "Do you offer same-day delivery?",
+      "answer": "Yes! We offer same-day and next-day delivery throughout the Houston area, including Sugar Land, Pearland, Missouri City, and surrounding cities. Call us at 832-851-5250 to confirm availability for your area.",
+      "category": "Delivery"
+    },
+    {
+      "id": "faq-2",
+      "question": "What areas do you deliver to?",
+      "answer": "We deliver throughout the Greater Houston area. This includes Houston, Sugar Land, Pearland, Missouri City, Stafford, Rosenberg, Richmond, and nearby communities. Contact us for specific delivery availability.",
+      "category": "Delivery"
+    },
+    {
+      "id": "faq-3",
+      "question": "Is there a delivery fee?",
+      "answer": "Delivery fees vary depending on your location and the size of your order. Contact us for a specific quote. We often run free delivery promotions — ask us about current offers!",
+      "category": "Delivery"
+    },
+    {
+      "id": "faq-4",
+      "question": "Do you offer financing?",
+      "answer": "Yes! We partner with Koalafi, Snap Finance, and Acima to offer flexible financing options with no credit needed. You can apply in-store or ask us about the application process when you call.",
+      "category": "Financing"
+    },
+    {
+      "id": "faq-5",
+      "question": "What if I have bad credit or no credit?",
+      "answer": "No problem! Our financing partners specialize in no-credit-needed and bad-credit financing. Snap Finance and Acima are specifically designed to help customers with limited or poor credit history get approved quickly.",
+      "category": "Financing"
+    },
+    {
+      "id": "faq-6",
+      "question": "Can I see the furniture before buying?",
+      "answer": "Absolutely! Visit our showroom at 6951 McHard Rd STE D1, Houston TX 77053. Our hours are Mon–Sat 10am–8pm and Sun 11am–6pm. We have a wide selection on display for you to see and feel in person.",
+      "category": "Shopping"
+    },
+    {
+      "id": "faq-7",
+      "question": "Do you assemble the furniture?",
+      "answer": "Yes! Our delivery team will bring your furniture inside and assemble it for you at no extra charge on most orders. Ask us about assembly services when placing your order.",
+      "category": "Delivery"
+    },
+    {
+      "id": "faq-8",
+      "question": "What is your return policy?",
+      "answer": "We accept returns within 7 days of delivery on most items, provided they are in original condition and packaging. Custom orders and mattresses are final sale. Contact us at 832-851-5250 for return assistance.",
+      "category": "Policies"
+    },
+    {
+      "id": "faq-9",
+      "question": "Do you price match?",
+      "answer": "We strive to offer the best prices in Houston. If you find the same item at a lower price from a local competitor, contact us and we'll do our best to match it.",
+      "category": "Policies"
+    },
+    {
+      "id": "faq-10",
+      "question": "How do I request a quote for a specific item?",
+      "answer": "You can request a quote by calling us at 832-851-5250, using the quote form on our website, or visiting our showroom. We're happy to help you find exactly what you need within your budget.",
+      "category": "Shopping"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "testimonials": [
+    {
+      "id": "t-1",
+      "name": "Maria G.",
+      "location": "Houston, TX",
+      "text": "Amazing experience! I furnished my entire living room and bedroom in one visit. The staff was super helpful and we got same-day delivery. The quality is incredible for the price.",
+      "rating": 5,
+      "date": "2025-03-15"
+    },
+    {
+      "id": "t-2",
+      "name": "James R.",
+      "location": "Sugar Land, TX",
+      "text": "Used Snap Finance and got approved in minutes. My new bedroom set looks amazing. Will definitely be coming back for the dining room next!",
+      "rating": 5,
+      "date": "2025-02-28"
+    },
+    {
+      "id": "t-3",
+      "name": "Sandra L.",
+      "location": "Missouri City, TX",
+      "text": "Great selection and very fair prices. The sectional I bought is top quality. The delivery team was professional and set everything up perfectly.",
+      "rating": 5,
+      "date": "2025-04-10"
+    },
+    {
+      "id": "t-4",
+      "name": "Carlos M.",
+      "location": "Pearland, TX",
+      "text": "I was skeptical at first but the prices here beat everywhere else in Houston. No credit needed financing made it easy to get what I needed right away.",
+      "rating": 4,
+      "date": "2025-01-20"
+    },
+    {
+      "id": "t-5",
+      "name": "Denise T.",
+      "location": "Houston, TX",
+      "text": "Love my new dining set! The staff helped me pick the right size for my space. Great customer service from start to finish.",
+      "rating": 5,
+      "date": "2025-05-01"
+    }
+  ]
+}
