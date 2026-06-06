@@ -84,9 +84,8 @@ function MarqueeRow({ items, duration, reverse }: {
 }
 
 export default function TestimonialsMarquee({ testimonials }: Props) {
-  const half = Math.ceil(testimonials.length / 2)
-  const row1 = testimonials.slice(0, half)
-  const row2 = testimonials.slice(half)
+  // Both rows use all reviews — row 2 reversed for visual variety
+  const row2 = [...testimonials].reverse()
 
   return (
     <>
@@ -102,8 +101,8 @@ export default function TestimonialsMarquee({ testimonials }: Props) {
       `}</style>
 
       <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
-        <MarqueeRow items={row1} duration={35} />
-        <MarqueeRow items={row2} duration={42} reverse />
+        <MarqueeRow items={testimonials} duration={22} />
+        <MarqueeRow items={row2} duration={28} reverse />
       </div>
     </>
   )
