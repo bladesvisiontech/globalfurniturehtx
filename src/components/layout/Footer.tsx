@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { Phone, MapPin, Clock } from 'lucide-react'
 import siteData from '@/data/site.json'
 
@@ -30,8 +31,15 @@ export default function Footer() {
         {/* Brand */}
         <div>
           <div className="mb-6">
-            <p className="text-sm font-semibold tracking-[0.2em] uppercase text-white">Global Furniture</p>
-            <p className="text-[10px] tracking-[0.35em] uppercase text-[#7DA68B] mt-1">Houston, TX</p>
+            <Link href="/">
+              <Image
+                src="/images/logo-white.png"
+                alt="Global Furniture HTX"
+                width={140}
+                height={52}
+                className="object-contain"
+              />
+            </Link>
           </div>
           <p className="text-xs font-light text-white/50 leading-relaxed mb-6">
             Quality furniture for every Houston home. Financing available — no credit needed.
