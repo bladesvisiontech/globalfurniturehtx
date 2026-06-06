@@ -23,6 +23,7 @@ const INFO_LINKS = [
 
 export default function Footer() {
   return (
+    <>
     <footer className="bg-[#1E3331] text-white">
       <div className="max-w-screen-xl mx-auto px-6 py-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
 
@@ -126,5 +127,6 @@ export default function Footer() {
         </a>
       </div>
     </div>
+    </>
   )
 }
