@@ -7,9 +7,10 @@
       "category": "living-room",
       "price": 1299,
       "salePrice": null,
-      "description": "The Westwood Sectional combines style and comfort for modern living spaces. Upholstered in a warm stone fabric, this versatile sectional is designed to anchor any living room with a refined, contemporary look.",
-      "images": ["/images/products/sectional-westwood-stone.png"],
+      "description": "A sectional designed for those seeking both style and substance. Its generous proportions accommodate family gatherings and entertaining with ease. The soft stone finish brings warmth and elegance to any room while maintaining a timeless appeal. Built for durability and comfort, this sectional transforms your living space into an inviting retreat where relaxation meets refined taste.",
+      "images": ["/images/products/sectional-westwood-stone.png", "/images/products/sectional-westwood-stone-2.png", "/images/products/sectional-westwood-stone-3.jpg"],
       "colors": ["Stone"],
+      "dimensions": "Weight: 73.71 lbs",
       "inStock": true,
       "featured": true,
       "tags": ["sectional", "living-room", "modern"]
@@ -21,9 +22,10 @@
       "category": "living-room",
       "price": 1299,
       "salePrice": null,
-      "description": "Bold and style-conscious, the Westwood Sectional in Black brings an urban edge to any living space. Clean lines and deep cushioning make it a statement piece and an everyday comfort solution.",
+      "description": "Bold and style-conscious, the Westwood Sectional in Black brings an urban edge to any living space. Its generous proportions accommodate family gatherings with ease. Clean lines and deep cushioning make it a statement piece and an everyday comfort solution.",
       "images": ["/images/products/sectional-westwood-black.png"],
       "colors": ["Black"],
+      "dimensions": "Weight: 73.71 lbs",
       "inStock": true,
       "featured": false,
       "tags": ["sectional", "living-room", "modern"]
@@ -35,9 +37,10 @@
       "category": "living-room",
       "price": 1299,
       "salePrice": null,
-      "description": "The Westwood in Gunmetal blends style and functionality seamlessly. Its cool-toned upholstery pairs effortlessly with both neutral and bold interiors, making it an adaptable centerpiece for modern homes.",
+      "description": "The Westwood in Gunmetal blends style and functionality seamlessly. Its generous proportions accommodate family gatherings with ease. The cool-toned upholstery pairs effortlessly with both neutral and bold interiors, making it an adaptable centerpiece for modern homes.",
       "images": ["/images/products/sectional-westwood-gunmetal.png"],
       "colors": ["Gunmetal"],
+      "dimensions": "Weight: 73.71 lbs",
       "inStock": true,
       "featured": false,
       "tags": ["sectional", "living-room", "modern"]
@@ -49,9 +52,10 @@
       "category": "living-room",
       "price": 1299,
       "salePrice": null,
-      "description": "Light, airy, and contemporary — the Westwood Sectional in Cream brings warmth and elegance to any living room. Its neutral tone complements a wide range of decor styles, from minimalist to coastal.",
+      "description": "Light, airy, and contemporary — the Westwood Sectional in Cream brings warmth and elegance to any living room. Its generous proportions create an inviting retreat where relaxation meets refined taste. The soft cream finish complements a wide range of decor styles.",
       "images": ["/images/products/sectional-westwood-cream.png"],
       "colors": ["Cream"],
+      "dimensions": "Weight: 73.71 lbs",
       "inStock": true,
       "featured": true,
       "tags": ["sectional", "living-room", "cream"]
@@ -63,82 +67,88 @@
       "category": "living-room",
       "price": 1599,
       "salePrice": 1299,
-      "description": "Transform your home theater experience with the Galaxy Power Sectional. This black power reclining sectional features built-in USB charging ports, cup holders, and plush cushioning designed for maximum relaxation.",
-      "images": ["/images/products/sectional-galaxy-black.jpg"],
+      "description": "This power reclining sectional combines sleek black air leather upholstery with advanced smart features: integrated Bluetooth speakers, USB ports, wireless charging pads, storage compartments, LED ground lighting, and stainless steel cupholders. Features vertical channeled stitching and delivers ultimate relaxation and high-tech entertainment.",
+      "images": ["/images/products/sectional-galaxy-black.jpg", "/images/products/sectional-galaxy-black-2.png", "/images/products/sectional-galaxy-black-3.jpg", "/images/products/sectional-galaxy-black-4.jpg"],
       "colors": ["Black"],
+      "dimensions": "LAF/RAF: 67.5\" x 39\" x 41\" | Wedge: 69\" x 39\" x 41\"",
       "inStock": true,
       "featured": true,
-      "tags": ["sectional", "power-recliner", "living-room", "sale"]
+      "tags": ["sectional", "power-recliner", "living-room", "sale", "bluetooth", "usb"]
     },
     {
       "id": "prod-6",
-      "name": "Sofa & Loveseat Set (Ivory)",
+      "name": "S319 Sofa & Loveseat Set (Ivory)",
       "slug": "sofa-loveseat-set-ivory",
       "category": "living-room",
       "price": 1099,
       "salePrice": null,
-      "description": "A luxury faux fur sofa and loveseat set in ivory that adds softness and sophistication to your living room. The plush texture and warm ivory tone create an inviting, high-end aesthetic perfect for modern homes.",
-      "images": ["/images/products/sofa-loveseat-ivory.png"],
+      "description": "A luxury faux fur sofa and loveseat set in ivory featuring sumptuous plush cushioning with coordinating accent pillows that add dimension and style. Perfect for creating a cozy, sophisticated retreat that invites relaxation and conversation. Transform your home into a sanctuary of warmth and elegance.",
+      "images": ["/images/products/sofa-loveseat-ivory.png", "/images/products/sofa-loveseat-ivory-2.png", "/images/products/sofa-loveseat-ivory-3.jpg"],
       "colors": ["Ivory"],
+      "dimensions": "Sofa: 91\" x 38.5\" x 38.5\" | Loveseat: 67.5\" x 38.5\" x 38.5\" | Seat Height: 21\" | Seat Depth: 22\"",
       "inStock": true,
       "featured": false,
-      "tags": ["sofa", "loveseat", "set", "living-room"]
+      "tags": ["sofa", "loveseat", "set", "living-room", "faux-fur"]
     },
     {
       "id": "prod-7",
-      "name": "Sofa & Loveseat Set (Charcoal)",
+      "name": "S319 Sofa & Loveseat Set (Charcoal)",
       "slug": "sofa-loveseat-set-charcoal",
       "category": "living-room",
       "price": 1099,
       "salePrice": null,
-      "description": "Luxurious faux fur upholstery in deep charcoal gives this sofa and loveseat set a bold yet cozy character. Designed for those who want dramatic style without compromising on everyday comfort.",
-      "images": ["/images/products/sofa-loveseat-charcoal.png"],
+      "description": "Sink into luxury with this faux fur sofa and loveseat in charcoal. Stunning plush cushioning cradles you in comfort while coordinating accent pillows add dimension and style. Perfect for creating a sophisticated retreat that invites relaxation and conversation.",
+      "images": ["/images/products/sofa-loveseat-charcoal.png", "/images/products/sofa-loveseat-charcoal-2.jpg"],
       "colors": ["Charcoal"],
+      "dimensions": "Sofa: 91\" x 38.5\" x 38.5\" | Loveseat: 67.5\" x 38.5\" x 38.5\" | Seat Height: 21\" | Seat Depth: 22\"",
       "inStock": true,
       "featured": false,
-      "tags": ["sofa", "loveseat", "set", "living-room"]
+      "tags": ["sofa", "loveseat", "set", "living-room", "faux-fur"]
     },
     {
       "id": "prod-8",
-      "name": "Amalfi Sofa Collection (Champagne)",
+      "name": "Amalfi Collection (Champagne)",
       "slug": "amalfi-sofa-champagne",
       "category": "living-room",
       "price": 999,
       "salePrice": null,
-      "description": "The Amalfi Collection in Champagne elevates your living space with a contemporary design that balances elegance and everyday comfort. Its warm champagne upholstery pairs beautifully with gold and neutral accents.",
-      "images": ["/images/products/sofa-amalfi-champagne.png"],
+      "description": "Contemporary upholstered sofa collection featuring multi-tonal crushed-velvet textured fabric with gold-finished stainless steel geometric bases. Includes horizontal channel tufting on arms and designer accent pillows with metallic gold stripes. High-density foam seating combines comfort with modern aesthetic.",
+      "images": ["/images/products/sofa-amalfi-champagne.png", "/images/products/sofa-amalfi-champagne-2.jpg", "/images/products/sofa-amalfi-champagne-3.jpg"],
       "colors": ["Champagne"],
+      "dimensions": "Sofa: 90.16\" x 35.43\" x 37.01\" | Loveseat: 70.08\" x 35.43\" x 37.01\" | Chair: 46.46\" x 35.43\" x 37.01\"",
       "inStock": true,
       "featured": false,
-      "tags": ["sofa", "contemporary", "living-room"]
+      "tags": ["sofa", "contemporary", "living-room", "velvet", "gold"]
     },
     {
       "id": "prod-9",
-      "name": "Amalfi Sofa Collection (Grey)",
+      "name": "Amalfi Collection (Grey)",
       "slug": "amalfi-sofa-grey",
       "category": "living-room",
       "price": 999,
       "salePrice": null,
-      "description": "A contemporary grey fusion collection designed for modern homes. The Amalfi in Grey brings a clean, versatile look that works seamlessly with any color palette, offering both style and durability.",
-      "images": ["/images/products/sofa-amalfi-grey.png"],
+      "description": "A contemporary living room collection featuring multi-tonal grey crushed-velvet textured fabric with gold-finished stainless steel legs. The set includes horizontal channel tufting on arms and base, plus curated designer toss pillows with metallic accents. High-density foam seating combines comfort with modern aesthetic appeal.",
+      "images": ["/images/products/sofa-amalfi-grey.png", "/images/products/sofa-amalfi-grey-2.png", "/images/products/sofa-amalfi-grey-3.jpg"],
       "colors": ["Grey"],
+      "dimensions": "Sofa: 90.16\" x 35.43\" x 37.01\" | Loveseat: 70.08\" x 35.43\" x 37.01\" | Chair: 46.46\" x 35.43\" x 37.01\"",
       "inStock": true,
       "featured": false,
-      "tags": ["sofa", "contemporary", "living-room"]
+      "tags": ["sofa", "contemporary", "living-room", "velvet"]
     },
     {
       "id": "prod-10",
-      "name": "Lindon Track-Arm Sofa",
+      "name": "Lindon Track-Arm Sectional",
       "slug": "lindon-track-arm-sofa",
       "category": "living-room",
       "price": 879,
       "salePrice": null,
-      "description": "The Lindon features a sleek contemporary track arm design paired with an armless loveseat and reversible cushions. Its clean silhouette and versatile configuration make it ideal for modern living rooms of any size.",
-      "images": ["/images/products/sofa-lindon.jpg"],
-      "colors": ["Grey", "Beige"],
+      "description": "Contemporary track arm sectional featuring a casual design with armless loveseat and attached wedge. Includes 6-inch reversible plush cushions with loose reversible backs. Upholstered in textured weave with plush jacquard chenille details. Next-Gen Nuvella performance fabric offers high UV protection, is bleachable and cleanable, making it ideal for high-traffic areas.",
+      "images": ["/images/products/sofa-lindon.jpg", "/images/products/sofa-lindon-2.jpg"],
+      "colors": ["Smoke"],
+      "dimensions": "RAF Corner Chaise: 41\" x 69\" x 39\" | LAF Armless Loveseat: 95\" x 44\" x 39\" | LAF Loveseat: 62\" x 44\" x 39\"",
       "inStock": true,
       "featured": false,
-      "tags": ["sofa", "contemporary", "living-room"]
+      "tags": ["sofa", "sectional", "contemporary", "living-room", "nuvella"]
     },
     {
       "id": "prod-11",
@@ -147,96 +157,103 @@
       "category": "living-room",
       "price": 1199,
       "salePrice": null,
-      "description": "The Conlee-Pike transitional design set offers complete comfort with a classic aesthetic updated for modern sensibilities. Featuring generous cushioning and a warm fabric blend, it brings timeless elegance to your living room.",
-      "images": ["/images/products/sofa-conlee-pike.jpg"],
-      "colors": ["Brown", "Beige"],
+      "description": "A transitional design set featuring contemporary yet classically styled pieces in soft boucle upholstery with decorative velvet pillows in muted hues. Offers complete comfort and stately sophistication for the discerning homeowner who appreciates timeless elegance in modern spaces.",
+      "images": ["/images/products/sofa-conlee-pike.jpg", "/images/products/sofa-conlee-pike-2.jpg", "/images/products/sofa-conlee-pike-sofa.jpg", "/images/products/sofa-conlee-pike-love.jpg"],
+      "colors": ["Linen"],
+      "dimensions": "Sofa: 94\" x 43\" x 39\" | Loveseat: 68\" x 43\" x 39\"",
       "inStock": true,
       "featured": false,
-      "tags": ["sofa", "transitional", "living-room", "set"]
+      "tags": ["sofa", "transitional", "living-room", "boucle"]
     },
     {
       "id": "prod-12",
-      "name": "Joy II Sofa Collection (Grey)",
+      "name": "Joy II Sectional (Grey)",
       "slug": "joy-ii-sofa-grey",
       "category": "living-room",
       "price": 1049,
       "salePrice": null,
-      "description": "Joy II in Grey merges glamour with modern function. Tufted details, elegant legs, and plush cushioning create a sophisticated focal point for any living room that values both beauty and comfort.",
-      "images": ["/images/products/sofa-joy-grey.jpg"],
+      "description": "A modern glam sectional blending luxury grey velvet upholstery with functional design. Features nailhead trim, gold accent legs, an integrated drop-down table with cupholders in the center seat, and a matching storage ottoman. White faux-fur accent pillows complete the glamorous look.",
+      "images": ["/images/products/sofa-joy-grey.jpg", "/images/products/sofa-joy-grey-2.jpg"],
       "colors": ["Grey"],
+      "dimensions": "Sectional: 100.5\" x 76.5\" x 34\" | Ottoman: 32.5\" x 12.5\" x 18\"",
       "inStock": true,
       "featured": false,
-      "tags": ["sofa", "glamour", "living-room"]
+      "tags": ["sectional", "glam", "living-room", "velvet", "ottoman"]
     },
     {
       "id": "prod-13",
-      "name": "Joy II Sofa Collection (Beige)",
+      "name": "Joy II Sectional (Beige)",
       "slug": "joy-ii-sofa-beige",
       "category": "living-room",
       "price": 1049,
       "salePrice": null,
-      "description": "The Joy II in Beige elevates your living space with glamorous tufting and a warm neutral tone. Designed for those who want a statement sofa that feels as good as it looks.",
-      "images": ["/images/products/sofa-joy-beige.jpg"],
+      "description": "A modern glam sectional merging luxury textures with contemporary functionality. Features premium beige velvet upholstery, nailhead trim, gold accent legs, an integrated drop-down table with cupholders, matching storage ottoman, and faux-fur throw pillows.",
+      "images": ["/images/products/sofa-joy-beige.jpg", "/images/products/sofa-joy-beige-2.jpg"],
       "colors": ["Beige"],
+      "dimensions": "Sectional: 100.5\" x 76.5\" x 34\" | Ottoman: 32.5\" x 12.5\" x 18\"",
       "inStock": true,
       "featured": false,
-      "tags": ["sofa", "glamour", "living-room"]
+      "tags": ["sectional", "glam", "living-room", "velvet", "ottoman"]
     },
     {
       "id": "prod-14",
-      "name": "Joy II Sofa Collection (Black)",
+      "name": "Joy II Sectional (Black)",
       "slug": "joy-ii-sofa-black",
       "category": "living-room",
       "price": 1049,
       "salePrice": null,
-      "description": "Sophisticated and functional, the Joy II in Black brings dramatic contrast and refined tufted detailing to your living space. A bold design choice that commands attention without sacrificing everyday comfort.",
-      "images": ["/images/products/sofa-joy-black.jpg"],
-      "colors": ["Black"],
+      "description": "A modern glamour sectional set featuring midnight black velvet upholstery with gold accent legs, nailhead trim, drop-down table with cupholders, storage ottoman, and white faux-fur accent pillows. Sophisticated and functional — commands attention without sacrificing everyday comfort.",
+      "images": ["/images/products/sofa-joy-black.jpg", "/images/products/sofa-joy-black-2.png"],
+      "colors": ["Midnight Black"],
+      "dimensions": "Sectional: 100.5\" x 76.5\" x 34\" | Ottoman: 32.5\" x 12.5\" x 18\"",
       "inStock": true,
       "featured": false,
-      "tags": ["sofa", "glamour", "living-room"]
+      "tags": ["sectional", "glam", "living-room", "velvet", "ottoman"]
     },
     {
       "id": "prod-15",
-      "name": "Star Modular Sofa (Light Grey)",
+      "name": "Star Modular Sectional (Light Grey)",
       "slug": "star-modular-sofa-ltgrey",
       "category": "living-room",
       "price": 1149,
       "salePrice": null,
-      "description": "The Star Collection in Light Grey offers unmatched flexibility with its modular design. Rearrange and reconfigure to suit any space or occasion — perfect for growing families and evolving interiors.",
-      "images": ["/images/products/sofa-star-ltgrey.jpg"],
+      "description": "A modular sectional from the Star Collection featuring textured light grey fabric with a drop-down console table, dual cup holders, accent pillows, storage ottoman, and X-pattern tufting throughout. Rearrange and reconfigure to suit any space — perfect for growing families and evolving interiors.",
+      "images": ["/images/products/sofa-star-ltgrey.jpg", "/images/products/sofa-star-ltgrey-2.png"],
       "colors": ["Light Grey"],
+      "dimensions": "Sectional: 100.5\" x 76.5\" x 34\" | Ottoman: 32.5\" x 12.5\" x 18\"",
       "inStock": true,
       "featured": false,
-      "tags": ["sofa", "modular", "living-room"]
+      "tags": ["sectional", "modular", "living-room", "ottoman"]
     },
     {
       "id": "prod-16",
-      "name": "Star Modular Sofa (Dark Grey)",
+      "name": "Star Modular Sectional (Dark Grey)",
       "slug": "star-modular-sofa-dkgrey",
       "category": "living-room",
       "price": 1149,
       "salePrice": null,
-      "description": "The Star in Dark Grey delivers a sophisticated, urban edge to any living room. Its modular design adapts to your lifestyle, while the deep grey tone anchors the space with confidence and style.",
-      "images": ["/images/products/sofa-star-dkgrey.jpg"],
+      "description": "A sophisticated sectional from the Star Collection featuring premium dark grey fabric with a drop-down console table, dual cup holders, hidden storage ottoman, plush accent pillows, and precision tufting. The dark grey tone anchors the space with confidence and style.",
+      "images": ["/images/products/sofa-star-dkgrey.jpg", "/images/products/sofa-star-dkgrey-2.png"],
       "colors": ["Dark Grey"],
+      "dimensions": "Sectional: 100.5\" x 76.5\" x 34\" | Ottoman: 32.5\" x 12.5\" x 18\"",
       "inStock": true,
       "featured": false,
-      "tags": ["sofa", "modular", "living-room"]
+      "tags": ["sectional", "modular", "living-room", "ottoman"]
     },
     {
       "id": "prod-17",
-      "name": "Star Modular Sofa (Black)",
+      "name": "Star Modular Sectional (Black)",
       "slug": "star-modular-sofa-black",
       "category": "living-room",
       "price": 1149,
       "salePrice": null,
-      "description": "Elevate your living environment with the Star Modular Sofa in Black. Its bold color and flexible configuration make it a versatile choice for modern lofts, open-concept spaces, and family rooms alike.",
-      "images": ["/images/products/sofa-star-black.jpg"],
+      "description": "A modern sectional from the Star Collection featuring sleek black PU upholstery with a drop-down console equipped with dual cup holders, plush accent pillows, storage ottoman, and button-tufted backrest details. Bold color and flexible configuration for modern lofts and open-concept spaces.",
+      "images": ["/images/products/sofa-star-black.jpg", "/images/products/sofa-star-black-2.png"],
       "colors": ["Black"],
+      "dimensions": "Sectional: 100.5\" x 76.5\" x 34\" | Ottoman: 32.5\" x 12.5\" x 18\"",
       "inStock": true,
       "featured": false,
-      "tags": ["sofa", "modular", "living-room"]
+      "tags": ["sectional", "modular", "living-room", "ottoman"]
     },
     {
       "id": "prod-18",
@@ -245,12 +262,13 @@
       "category": "living-room",
       "price": 1399,
       "salePrice": 1199,
-      "description": "The Grace Collection in Black corduroy features a power reclining sofa and loveseat with a convenient drop-down table and cup holders. Comfort and entertainment converge in this ultimate relaxation set.",
-      "images": ["/images/products/sofa-grace-black.jpg"],
+      "description": "A reclining living room set in black corduroy featuring a sofa with drop-down table, reclining loveseat, and glider recliner. Complete comfort and entertainment in one package — built for families who want maximum relaxation and functionality.",
+      "images": ["/images/products/sofa-grace-black.jpg", "/images/products/sofa-grace-black-2.jpg", "/images/products/sofa-grace-black-3.jpg"],
       "colors": ["Black"],
+      "dimensions": "Sofa: 77.2\" x 38\" x 40\" | Loveseat: 56.7\" x 38\" x 40\" | Recliner: 33.5\" x 38\" x 40\"",
       "inStock": true,
       "featured": false,
-      "tags": ["sofa", "recliner", "living-room", "sale"]
+      "tags": ["sofa", "recliner", "living-room", "corduroy", "sale"]
     },
     {
       "id": "prod-19",
@@ -259,54 +277,58 @@
       "category": "living-room",
       "price": 1399,
       "salePrice": 1199,
-      "description": "Warm brown corduroy upholstery meets powerful reclining mechanics in the Grace Collection. Complete with a drop-down table and storage console, this set is built for families who want comfort and functionality.",
-      "images": ["/images/products/sofa-grace-brown.jpg"],
+      "description": "Warm brown corduroy upholstery meets powerful reclining mechanics in the Grace Collection. Includes a sofa with drop-down table, reclining loveseat, and glider recliner. Built for families who want comfort, functionality, and style in a complete living room solution.",
+      "images": ["/images/products/sofa-grace-brown.jpg", "/images/products/sofa-grace-brown-2.jpg", "/images/products/sofa-grace-brown-3.jpg"],
       "colors": ["Brown"],
+      "dimensions": "Sofa: 77.2\" x 38\" x 40\" | Loveseat: 56.7\" x 38\" x 40\" | Recliner: 33.5\" x 38\" x 40\"",
       "inStock": true,
       "featured": false,
-      "tags": ["sofa", "recliner", "living-room", "sale"]
+      "tags": ["sofa", "recliner", "living-room", "corduroy", "sale"]
     },
     {
       "id": "prod-20",
-      "name": "Ferland Cloud Sofa (Beige)",
+      "name": "Ferland Cloud Collection (Beige)",
       "slug": "ferland-cloud-sofa-beige",
       "category": "living-room",
       "price": 1249,
       "salePrice": null,
-      "description": "Sink into cloud-like comfort with the Ferland Collection in Beige. Oversized cushions, a low-profile silhouette, and ultra-soft upholstery combine to create the ultimate relaxation experience for your living room.",
-      "images": ["/images/products/sofa-ferland-beige.png"],
+      "description": "A plush reclining living room collection featuring shaggy faux-fur upholstery in beige. Includes manual reclining functionality with side handles, deep horizontal tufting, ergonomic support, and an integrated phone holder on the recliner. Designed as an oversized, cloud-like seating experience for ultimate relaxation.",
+      "images": ["/images/products/sofa-ferland-beige.png", "/images/products/sofa-ferland-beige-2.jpg", "/images/products/sofa-ferland-beige-3.jpg", "/images/products/sofa-ferland-beige-sofa.jpg"],
       "colors": ["Beige"],
+      "dimensions": "Sofa: 85.5\" x 40\" x 40.5\" | Loveseat: 77.5\" x 40\" x 40.5\" | Recliner: 52\" x 40\" x 40.5\"",
       "inStock": true,
       "featured": true,
-      "tags": ["sofa", "cloud", "living-room", "comfort"]
+      "tags": ["sofa", "cloud", "living-room", "recliner", "faux-fur"]
     },
     {
       "id": "prod-21",
-      "name": "Austin Luscios Sofa (Black)",
+      "name": "Austin Luscios Sectional (Black)",
       "slug": "austin-luscios-sofa-black",
       "category": "living-room",
       "price": 949,
       "salePrice": null,
-      "description": "The Austin Luscios in Black chenille fabric delivers a luxurious feel at an accessible price. Its deep, rich tone and plush texture make it a standout piece for any modern or transitional living space.",
-      "images": ["/images/products/sofa-austin-black.png"],
+      "description": "A 3-piece sectional sofa upholstered in premium black chenille fabric. The Austin Luscios delivers a luxurious feel with deep, rich tone and plush texture — a standout piece for any modern or transitional living space.",
+      "images": ["/images/products/sofa-austin-black.png", "/images/products/sofa-austin-black-2.png"],
       "colors": ["Black"],
+      "dimensions": "94\" L x 143\" D x 60\" H | Seat Height: 36\"",
       "inStock": true,
       "featured": false,
-      "tags": ["sofa", "chenille", "living-room"]
+      "tags": ["sectional", "chenille", "living-room"]
     },
     {
       "id": "prod-22",
-      "name": "Austin Ash Sofa",
+      "name": "Austin Ash Sectional",
       "slug": "austin-ash-sofa",
       "category": "living-room",
       "price": 949,
       "salePrice": null,
-      "description": "The Austin Ash Collection features premium chenille fabric in a warm ash tone, offering a perfect balance of comfort and contemporary style. Ideal for living rooms that want a relaxed yet polished aesthetic.",
-      "images": ["/images/products/sofa-austin-ash.png"],
+      "description": "A 3-piece sectional upholstered in premium ash-colored chenille fabric. The Austin Ash offers a perfect balance of comfort and contemporary style — ideal for living rooms that want a relaxed yet polished aesthetic.",
+      "images": ["/images/products/sofa-austin-ash.png", "/images/products/sofa-austin-ash-2.png"],
       "colors": ["Ash"],
+      "dimensions": "94\" L x 143\" D x 60\" H | Seat Height: 36\"",
       "inStock": true,
       "featured": false,
-      "tags": ["sofa", "chenille", "living-room"]
+      "tags": ["sectional", "chenille", "living-room"]
     },
     {
       "id": "prod-23",
@@ -315,12 +337,13 @@
       "category": "living-room",
       "price": 799,
       "salePrice": null,
-      "description": "The Acklen Place Wide Seat Power Recliner offers endless adaptability for your relaxation needs. With an extra-wide seat, smooth power recline, and supportive cushioning, it is built for full-body comfort and daily use.",
-      "images": ["/images/products/recliner-acklen.jpg"],
-      "colors": ["Brown", "Grey"],
+      "description": "A power recliner featuring one-touch controls for adjusting both the seat and headrest. Incorporates Next-Gen Nuvella upholstery designed for durability and easy maintenance. Zero-draw technology only consumes power when the USB receptacle is actively in use — energy efficient and always ready.",
+      "images": ["/images/products/recliner-acklen.jpg", "/images/products/recliner-acklen-open.jpg", "/images/products/recliner-acklen-side.jpg", "/images/products/recliner-acklen-angle.jpg"],
+      "colors": ["Pewter"],
+      "dimensions": "52\" L x 42\" D x 42\" H | Weight: 163 lbs",
       "inStock": true,
       "featured": false,
-      "tags": ["recliner", "living-room", "power"]
+      "tags": ["recliner", "living-room", "power", "nuvella", "usb"]
     },
     {
       "id": "prod-24",
@@ -329,12 +352,13 @@
       "category": "living-room",
       "price": 1099,
       "salePrice": null,
-      "description": "The Bleckley Power Reclining Loveseat with console combines luxurious relaxation features with practical storage. Dual power recline, a center console with cup holders, and USB charging make it a complete comfort station.",
-      "images": ["/images/products/recliner-bleckley.jpg"],
-      "colors": ["Brown"],
+      "description": "Power reclining loveseat with console featuring leather and faux leather upholstery. Includes power headrest adjustment, Zero³ reclining mechanism for minimal wall clearance, sculptural padded arms, built-in USB charging ports (Type A and C), and cup holders. A complete comfort station for your living room.",
+      "images": ["/images/products/recliner-bleckley.jpg", "/images/products/recliner-bleckley-2.jpg", "/images/products/recliner-bleckley-usb.jpg"],
+      "colors": ["Anchor"],
+      "dimensions": "LAF Wall Power Recliner: 44\" x 40\" x 42\" | Console: 12\" x 40\" x 42\" | Wedge: 70\" x 45\" x 42\"",
       "inStock": true,
       "featured": false,
-      "tags": ["recliner", "loveseat", "living-room", "power"]
+      "tags": ["recliner", "loveseat", "living-room", "power", "usb"]
     },
     {
       "id": "prod-25",
@@ -343,12 +367,13 @@
       "category": "living-room",
       "price": 1049,
       "salePrice": null,
-      "description": "Designed for modern lounging, the Nexus Power Reclining Loveseat in Dark Grey offers smooth power recline and a streamlined contemporary look. Perfect for media rooms and open-plan living areas.",
-      "images": ["/images/products/recliner-nexus-dkgrey.png"],
+      "description": "Premium power reclining loveseat featuring dual independent motors, soft-touch breathable dark grey fabric, ergonomic high-density foam padding, and reinforced stitching for lumbar and neck support. Includes wireless charging pad and stainless steel cup holders.",
+      "images": ["/images/products/recliner-nexus-dkgrey.png", "/images/products/recliner-nexus-dkgrey-2.jpg", "/images/products/recliner-nexus-dkgrey-console.jpg"],
       "colors": ["Dark Grey"],
+      "dimensions": "Overall: 132\" x 118\" x 39\"",
       "inStock": true,
       "featured": false,
-      "tags": ["recliner", "loveseat", "living-room", "power"]
+      "tags": ["recliner", "loveseat", "living-room", "power", "wireless-charging"]
     },
     {
       "id": "prod-26",
@@ -357,12 +382,13 @@
       "category": "living-room",
       "price": 1049,
       "salePrice": null,
-      "description": "The Nexus in Light Grey enhances your living space with a soft, neutral tone and reliable power reclining comfort. Dual recline, plush cushioning, and clean lines make it a versatile choice for any room.",
-      "images": ["/images/products/recliner-nexus-ltgrey.jpg"],
+      "description": "A premium power reclining loveseat featuring dual independent power motors at both ends, high-quality soft-touch light grey fabric, ergonomic design with high-density foam padding, reinforced stitching for lumbar and neck support, wireless charging pad, and stainless steel cup holders.",
+      "images": ["/images/products/recliner-nexus-ltgrey.jpg", "/images/products/recliner-nexus-ltgrey-2.jpg"],
       "colors": ["Light Grey"],
+      "dimensions": "Overall: 132\" x 118\" x 39\"",
       "inStock": true,
       "featured": false,
-      "tags": ["recliner", "loveseat", "living-room", "power"]
+      "tags": ["recliner", "loveseat", "living-room", "power", "wireless-charging"]
     },
     {
       "id": "prod-27",
@@ -371,12 +397,13 @@
       "category": "bedroom",
       "price": 1799,
       "salePrice": null,
-      "description": "The Cassandra Bedroom Collection is a masterpiece of contemporary design. Featuring a dramatic panel headboard, matching dresser, and nightstands with mirrored accents, it transforms your bedroom into a luxurious retreat.",
+      "description": "A modern luxury bedroom set featuring a plush, channel-tufted headboard with integrated LED lighting for atmospheric ambiance. The collection includes vertical linear textures, polished chrome hardware, and faux marble accents on the headboard and mirror. All pieces feature smooth-gliding drawers and tapered legs for an airy, upscale aesthetic.",
       "images": ["/images/products/bedroom-cassandra.jpg"],
-      "colors": ["Dark Brown", "Black"],
+      "colors": ["Hi Gloss Grey"],
+      "dimensions": "Queen HB: 62.6\" x 3.1\" x 56.7\" | Dresser: 61.5\" x 17.7\" x 35.2\" | Mirror: 43.5\" x 2.4\" x 38.4\" | Nightstand: 23.2\" x 15.6\" x 23\" | Chest: 31.1\" x 17.7\" x 49.9\"",
       "inStock": true,
       "featured": true,
-      "tags": ["bedroom", "set", "contemporary"]
+      "tags": ["bedroom", "set", "contemporary", "led", "glam"]
     },
     {
       "id": "prod-28",
@@ -385,12 +412,13 @@
       "category": "bedroom",
       "price": 1699,
       "salePrice": null,
-      "description": "Transform your bedroom into a serene sanctuary with the Ivette Collection in White. Clean lines, a platform bed with upholstered headboard, and matching storage pieces create a cohesive, spa-like atmosphere.",
-      "images": ["/images/products/bedroom-ivette.png"],
-      "colors": ["White"],
+      "description": "A contemporary white bedroom suite featuring a geometric quilted headboard with integrated LED lighting. The collection emphasizes modern elegance through high-gloss finishes and textured detailing. Designed to create an airy, upscale sleeping environment — a true sanctuary.",
+      "images": ["/images/products/bedroom-ivette.png", "/images/products/bedroom-ivette-2.png", "/images/products/bedroom-ivette-3.jpg"],
+      "colors": ["White High Gloss"],
+      "dimensions": "Queen HB: 63.4\" x 1.9\" x 56.5\" | Dresser: 63\" x 17.9\" x 36.4\" | Mirror: 47.2\" x 1.3\" x 37.4\" | Nightstand: 25.6\" x 15.6\" x 24.6\" | Chest: 35.4\" x 17.9\" x 48.2\"",
       "inStock": true,
       "featured": false,
-      "tags": ["bedroom", "set", "white", "modern"]
+      "tags": ["bedroom", "set", "white", "modern", "led"]
     },
     {
       "id": "prod-29",
@@ -399,12 +427,13 @@
       "category": "bedroom",
       "price": 699,
       "salePrice": null,
-      "description": "The Gloria Smart Vanity makes a bold statement with its hi-gloss black finish and integrated LED lighting. Featuring a Hollywood-style mirror, ample storage drawers, and a cushioned stool — your beauty routine elevated.",
-      "images": ["/images/products/vanity-gloria.jpg"],
-      "colors": ["Black"],
+      "description": "A Hollywood Regency-style vanity combining luxury with modern technology. Features a hi-gloss black finish with tempered glass desktop, red velvet-lined drawers, and an oversized mirror with crystal border and touch-screen LED frame. Includes 13-drawer configuration and matching storage stool with hidden compartment.",
+      "images": ["/images/products/vanity-gloria.jpg", "/images/products/vanity-gloria-2.jpg", "/images/products/vanity-gloria-3.jpg", "/images/products/vanity-gloria-stool.jpg"],
+      "colors": ["Black Hi Gloss"],
+      "dimensions": "Mirror: 37\" x 2\" x 31.5\" | Top: 56.7\" x 22.6\" x 5.5\" | Base: 14.8\" x 22.6\" x 27\" | Stool: 15.4\" x 15.4\" x 19.3\"",
       "inStock": true,
       "featured": false,
-      "tags": ["vanity", "bedroom", "smart", "led"]
+      "tags": ["vanity", "bedroom", "smart", "led", "hollywood"]
     },
     {
       "id": "prod-30",
@@ -413,12 +442,13 @@
       "category": "bedroom",
       "price": 649,
       "salePrice": null,
-      "description": "The luminous Ivette Smart Vanity redefines your beauty routine with integrated LED lighting, a Hollywood-style mirror, and elegant storage. A sophisticated addition to any bedroom or dressing room.",
-      "images": ["/images/products/vanity-ivette.jpg"],
-      "colors": ["White", "Rose Gold"],
+      "description": "The Ivette Luminous Smart Vanity features a hi-gloss white finish with LED-integrated mirror and an innovative illuminated glass desktop that showcases built-in jewelry and cosmetic organizers. Includes nine drawers with chrome knobs, dual-pillar LED lighting, and smart organizational compartments with dividers.",
+      "images": ["/images/products/vanity-ivette.jpg", "/images/products/vanity-ivette-2.jpg", "/images/products/vanity-ivette-3.jpg"],
+      "colors": ["White Hi Gloss"],
+      "dimensions": "Vanity: 57.3\" x 58.4\" x 23.8\" | Mirror: 37.5\" x 2.2\" x 29.5\" | Stool: 17.3\" x 17.3\" x 18.5\"",
       "inStock": true,
       "featured": false,
-      "tags": ["vanity", "bedroom", "smart", "led"]
+      "tags": ["vanity", "bedroom", "smart", "led", "white"]
     },
     {
       "id": "prod-31",
@@ -427,12 +457,13 @@
       "category": "mattresses",
       "price": 899,
       "salePrice": null,
-      "description": "The Destin Cove Pillow Top 16\" Queen Mattress features a tri-layer plush quilt construction that delivers pressure-relieving comfort for a restorative night sleep. Its extra-thick design cradles every curve for deep relaxation.",
-      "images": ["/images/products/mattress-destin-pillowtop.jpg"],
+      "description": "A pillow top queen mattress featuring tri-layer plush quilt foam and quick-response memory foam that cradles pressure points. Plush zoned sculpted foam conforms to body contours, while a robust reinforced coil system minimizes motion transfer for undisturbed sleep.",
+      "images": ["/images/products/mattress-destin-pillowtop.jpg", "/images/products/mattress-destin-pillowtop-angle.jpg"],
       "colors": ["White"],
+      "dimensions": "Queen: 79.5\" L x 60\" W x 16\" H | Weight: 118 lbs",
       "inStock": true,
       "featured": false,
-      "tags": ["mattress", "queen", "pillow-top", "plush"]
+      "tags": ["mattress", "queen", "pillow-top", "plush", "hybrid"]
     },
     {
       "id": "prod-32",
@@ -441,12 +472,13 @@
       "category": "mattresses",
       "price": 799,
       "salePrice": null,
-      "description": "Experience the perfect balance of softness and support with the Destin Cove Plush 15\" Queen Mattress. Its tri-layer plush quilt foam construction provides a cloud-like sleep surface ideal for side and back sleepers.",
-      "images": ["/images/products/mattress-destin-plush.jpg"],
+      "description": "Queen mattress featuring tri-layer plush quilt foam and quick-response memory foam that cradles pressure points. High-density foam conforms to body contours while a reinforced coil system reduces motion transfer for undisturbed sleep. Ideal for side and back sleepers.",
+      "images": ["/images/products/mattress-destin-plush.jpg", "/images/products/mattress-destin-plush-angle.jpg"],
       "colors": ["White"],
+      "dimensions": "Queen: 79.5\" L x 60\" D x 15\" H | Weight: 110 lbs",
       "inStock": true,
       "featured": false,
-      "tags": ["mattress", "queen", "plush"]
+      "tags": ["mattress", "queen", "plush", "hybrid"]
     },
     {
       "id": "prod-33",
@@ -455,54 +487,58 @@
       "category": "mattresses",
       "price": 699,
       "salePrice": null,
-      "description": "The Destin Cove Firm 14\" Queen Mattress delivers consistent, full-body support through its tri-layer construction. Ideal for stomach and back sleepers who need firm, pressure-free support throughout the night.",
+      "description": "Queen mattress featuring tri-layer plush quilt foam and quick-response memory foam for consistent full-body support. High-density memory foam provides stability while a reinforced coil system reduces motion transfer. Ideal for stomach and back sleepers who need firm, pressure-free support throughout the night.",
       "images": ["/images/products/mattress-destin-firm.jpg"],
       "colors": ["White"],
+      "dimensions": "Queen: 79.5\" L x 60\" W x 14\" H | Weight: 135 lbs",
       "inStock": true,
       "featured": true,
-      "tags": ["mattress", "queen", "firm"]
+      "tags": ["mattress", "queen", "firm", "hybrid"]
     },
     {
       "id": "prod-34",
-      "name": "10\" Memory Foam Mattress (Queen)",
+      "name": "Peak 2.0 10\" Memory Foam (Queen)",
       "slug": "memory-foam-mattress-10-queen",
       "category": "mattresses",
       "price": 499,
       "salePrice": 399,
-      "description": "Our 10\" Memory Foam Queen Mattress contours to your body for personalized comfort and pressure relief. High-density foam construction ensures lasting support and durability, night after night.",
-      "images": ["/images/products/mattress-memory-foam-10.jpg"],
+      "description": "A queen mattress featuring high-density memory foam that conforms to the body for personalized support and comfort. Includes a firm support foam layer to reduce motion transfer and a stretch knit cover for durability. Available in Queen and King sizes.",
+      "images": ["/images/products/mattress-memory-foam-10.jpg", "/images/products/mattress-memory-foam-layers.jpg"],
       "colors": ["White"],
+      "dimensions": "Queen: 60\" W x 79.5\" L x 10\" H | Weight: 60 lbs | King: 76\" W x 79.5\" L x 10\" H | Weight: 75 lbs",
       "inStock": true,
       "featured": false,
-      "tags": ["mattress", "queen", "memory-foam", "sale"]
+      "tags": ["mattress", "queen", "king", "memory-foam", "sale"]
     },
     {
       "id": "prod-35",
-      "name": "12\" Hybrid Mattress (King)",
+      "name": "Peak 2.0 12\" Hybrid Mattress (King)",
       "slug": "hybrid-mattress-12-king",
       "category": "mattresses",
       "price": 799,
       "salePrice": null,
-      "description": "The 12\" Hybrid King Mattress combines the pressure-relief of memory foam with the bounce and support of innerspring coils. Engineered for restorative rest, it is ideal for couples with different sleep preferences.",
-      "images": ["/images/products/mattress-hybrid-12.jpg"],
+      "description": "A hybrid king mattress featuring layers of comforting quilt foam and luxury loft fiber. Includes a wrapped coil unit and supple base foam for support while reducing motion transfer. Topped with a Hyper Cool cover to help regulate temperature throughout the night. Ideal for couples with different sleep preferences.",
+      "images": ["/images/products/mattress-hybrid-12.jpg", "/images/products/mattress-hybrid-12-layers.jpg"],
       "colors": ["White"],
+      "dimensions": "Queen: 60\" W x 79.5\" L x 12\" H | Weight: 85 lbs | King: 76\" W x 79.5\" L x 12\" H | Weight: 105 lbs",
       "inStock": true,
       "featured": false,
-      "tags": ["mattress", "king", "hybrid"]
+      "tags": ["mattress", "king", "queen", "hybrid", "cooling"]
     },
     {
       "id": "prod-36",
-      "name": "Hannodream Accent Table",
+      "name": "Hannodream Accent Table Set",
       "slug": "hannodream-accent-table",
       "category": "accent-decor",
       "price": 299,
       "salePrice": null,
-      "description": "The Hannodream makes a statement with its distinctive transitional silhouette. Featuring a tempered glass top and an ornate carved base, it brings sculptural beauty and practical surface space to any living room.",
-      "images": ["/images/products/table-hannodream.jpg"],
-      "colors": ["Silver", "Gold"],
+      "description": "A contemporary table set featuring distinctive architectural geometry and warm brown finish. The collection includes an end table and cocktail table crafted from solid hardwood with rustic oak veneer. Makes a statement with its distinctive transitional silhouette and sculptural caster details.",
+      "images": ["/images/products/table-hannodream.jpg", "/images/products/table-hannodream-2.jpg", "/images/products/table-hannodream-detail.jpg"],
+      "colors": ["Warm Brown"],
+      "dimensions": "End Table: 22\" x 22\" x 23.75\" | Cocktail Table: 47.88\" x 47.88\" x 18.38\"",
       "inStock": true,
       "featured": false,
-      "tags": ["table", "accent", "decor"]
+      "tags": ["table", "accent", "decor", "oak"]
     },
     {
       "id": "prod-37",
@@ -511,12 +547,13 @@
       "category": "accent-decor",
       "price": 189,
       "salePrice": null,
-      "description": "The Camdill Chairside End Table in Light Brown elevates your living room with modern features and warm wood tones. Perfectly sized to keep your essentials within reach, it is a stylish and practical addition to any seating area.",
-      "images": ["/images/products/table-camdill-lightbrown.jpg"],
+      "description": "A chairside end table featuring reeded detailing for contemporary style, subtly integrated drawers for storage, and USB ports to keep devices charged and within reach. Perfectly sized to keep your essentials at hand in any seating area.",
+      "images": ["/images/products/table-camdill-lightbrown.jpg", "/images/products/table-camdill-lightbrown-open.jpg", "/images/products/table-camdill-lightbrown-usb.jpg"],
       "colors": ["Light Brown"],
+      "dimensions": "14.13\" L x 25\" D x 23\" H",
       "inStock": true,
       "featured": false,
-      "tags": ["table", "end-table", "accent"]
+      "tags": ["table", "end-table", "accent", "usb"]
     },
     {
       "id": "prod-38",
@@ -525,12 +562,13 @@
       "category": "accent-decor",
       "price": 189,
       "salePrice": null,
-      "description": "The Camdill in Dark Brown brings sleek styling and rich tones to your living space. Its compact footprint and elevated design make it a versatile end table that works in both traditional and contemporary settings.",
-      "images": ["/images/products/table-camdill-darkbrown.jpg"],
+      "description": "A chairside end table featuring reeded detailing and contemporary styling in rich dark brown. Includes subtly integrated drawers for storage and USB ports for device charging. A versatile end table that works in both traditional and contemporary settings.",
+      "images": ["/images/products/table-camdill-darkbrown.jpg", "/images/products/table-camdill-darkbrown-open.jpg"],
       "colors": ["Dark Brown"],
+      "dimensions": "14.13\" L x 25\" D x 23\" H",
       "inStock": true,
       "featured": false,
-      "tags": ["table", "end-table", "accent"]
+      "tags": ["table", "end-table", "accent", "usb"]
     },
     {
       "id": "prod-39",
@@ -539,12 +577,13 @@
       "category": "accent-decor",
       "price": 189,
       "salePrice": null,
-      "description": "Sleek, modern, and practical — the Camdill Chairside Table in Black complements any living space with its clean lines and matte finish. A perfect companion for sofas, recliners, and accent chairs.",
-      "images": ["/images/products/table-camdill-black.jpg"],
+      "description": "A sleek black chairside end table featuring reeded detailing for contemporary appeal. Includes subtly integrated drawers for storage and USB ports to keep devices within reach while charging. Clean lines and matte finish complement any living space.",
+      "images": ["/images/products/table-camdill-black.jpg", "/images/products/table-camdill-black-open.jpg"],
       "colors": ["Black"],
+      "dimensions": "14.13\" L x 25\" D x 23\" H",
       "inStock": true,
       "featured": false,
-      "tags": ["table", "end-table", "accent"]
+      "tags": ["table", "end-table", "accent", "usb"]
     },
     {
       "id": "prod-40",
@@ -553,12 +592,13 @@
       "category": "dining-room",
       "price": 249,
       "salePrice": null,
-      "description": "The Yomi Dining Chair in Beige faux leather with walnut legs brings organic warmth and contemporary sophistication to your dining space. Its ergonomic design ensures comfort during long meals and gatherings.",
-      "images": ["/images/products/dining-yomi-beige-walnut.jpg"],
+      "description": "A mid-century modern dining chair with a curved open-back design that provides ergonomic support while maintaining a light, airy feel. Features a walnut frame paired with beige faux leather upholstery and tapered legs inspired by 1950s design. Sold as a set of 2.",
+      "images": ["/images/products/dining-yomi-beige-walnut.jpg", "/images/products/dining-yomi-beige-walnut-2.jpg", "/images/products/dining-yomi-beige-walnut-3.jpg"],
       "colors": ["Beige", "Walnut"],
+      "dimensions": "22\" L x 21\" D x 31\" H | Weight: 50.71 lbs (set of 2)",
       "inStock": true,
       "featured": false,
-      "tags": ["dining", "chair", "faux-leather"]
+      "tags": ["dining", "chair", "mid-century", "faux-leather", "walnut"]
     },
     {
       "id": "prod-41",
@@ -567,12 +607,13 @@
       "category": "dining-room",
       "price": 249,
       "salePrice": null,
-      "description": "Clean contrast meets refined design in the Yomi Dining Chair with beige faux leather upholstery and sleek black legs. A sophisticated choice for contemporary dining rooms that value both aesthetics and comfort.",
-      "images": ["/images/products/dining-yomi-beige-black.jpg"],
+      "description": "A mid-century modern dining chair featuring a wrap-around backrest offering tailored lumbar support, with a matte black wood frame and premium beige faux leather upholstery. Combines sculptural aesthetics with ergonomic functionality. Sold as a set of 2.",
+      "images": ["/images/products/dining-yomi-beige-black.jpg", "/images/products/dining-yomi-beige-black-2.jpg"],
       "colors": ["Beige", "Black"],
+      "dimensions": "22\" L x 21\" D x 31\" H | Weight: 50.71 lbs (set of 2)",
       "inStock": true,
       "featured": false,
-      "tags": ["dining", "chair", "faux-leather"]
+      "tags": ["dining", "chair", "mid-century", "faux-leather"]
     },
     {
       "id": "prod-42",
@@ -581,12 +622,13 @@
       "category": "dining-room",
       "price": 229,
       "salePrice": null,
-      "description": "The Toni Dining Chair demonstrates sophisticated contrast with its beige upholstery and grey metal base. A transitional design that bridges classic and modern dining room aesthetics with effortless style.",
-      "images": ["/images/products/dining-toni-beige-grey.jpg"],
+      "description": "The Toni Dining Chair blends mid-century design with contemporary luxury. Features striking two-tone upholstery with beige faux leather interior and grey faux leather exterior, diamond stitching on the backrest, tapered iron legs with matte black powder coating, and gold-tone ferrules. Ergonomic subtly flared backrest for comfort.",
+      "images": ["/images/products/dining-toni-beige-grey.jpg", "/images/products/dining-toni-beige-grey-2.jpg"],
       "colors": ["Beige", "Grey"],
+      "dimensions": "21.5\" L x 21.5\" D x 30\" H | Weight: 50.71 lbs (set of 2)",
       "inStock": true,
       "featured": false,
-      "tags": ["dining", "chair", "transitional"]
+      "tags": ["dining", "chair", "mid-century", "faux-leather", "two-tone"]
     },
     {
       "id": "prod-43",
@@ -595,12 +637,13 @@
       "category": "dining-room",
       "price": 229,
       "salePrice": null,
-      "description": "Elegant and understated, the Toni Dining Chair in beige faux leather with a black frame is designed for those who appreciate refined simplicity. Sturdy construction and a cushioned seat make it as durable as it is beautiful.",
-      "images": ["/images/products/dining-toni-beige-black.jpg"],
+      "description": "The Toni Dining Chair features a striking matte black wood frame paired with premium beige faux leather upholstery. The sculptural wrap-around backrest provides lumbar support, while the diamond stitching and gold-tone ferrule accents add a refined finishing touch.",
+      "images": ["/images/products/dining-toni-beige-black.jpg", "/images/products/dining-toni-beige-black-2.jpg"],
       "colors": ["Beige", "Black"],
+      "dimensions": "21.5\" L x 21.5\" D x 30\" H | Weight: 50.71 lbs (set of 2)",
       "inStock": true,
       "featured": false,
-      "tags": ["dining", "chair", "faux-leather"]
+      "tags": ["dining", "chair", "mid-century", "faux-leather"]
     },
     {
       "id": "prod-44",
@@ -609,26 +652,28 @@
       "category": "dining-room",
       "price": 239,
       "salePrice": null,
-      "description": "The Becky Dining Chair in walnut and beige elevates your dining experience with natural warmth and timeless style. Its sculptural walnut legs and cushioned seat create the perfect combination of art and function.",
-      "images": ["/images/products/dining-becky-walnut.jpg"],
+      "description": "A modern dining chair blending mid-century influence with contemporary design. Features fluted wood detailing and a wrap-around silhouette crafted from birch wood with walnut stain finish. The seat and curved backrest are upholstered in beige premium fabric with ergonomic wrap-around arms.",
+      "images": ["/images/products/dining-becky-walnut.jpg", "/images/products/dining-becky-walnut-2.jpg"],
       "colors": ["Walnut", "Beige"],
+      "dimensions": "22.4\" L x 20.8\" D x 31.5\" H | Weight: 40 lbs",
       "inStock": true,
       "featured": false,
-      "tags": ["dining", "chair", "walnut"]
+      "tags": ["dining", "chair", "walnut", "birch", "mid-century"]
     },
     {
       "id": "prod-45",
-      "name": "Jorri Dining Set (White/Walnut)",
+      "name": "Jorri Round Dining Set (White/Walnut)",
       "slug": "jorri-dining-set-white-walnut",
       "category": "dining-room",
       "price": 1099,
       "salePrice": null,
-      "description": "The Jorri Dining Set blends organic walnut textures with a crisp white tabletop for a Scandinavian-inspired aesthetic. This complete set transforms your dining room into an inviting space for family meals and entertaining.",
-      "images": ["/images/products/dining-jorri-white-walnut.jpg"],
+      "description": "A contemporary 5-piece dining collection merging geometric design with organic textures. Features a 51\" round sintered stone top with grey veining, paired with a walnut-veneered cylindrical pedestal base with vertical fluting and U-shaped cutout. Includes 4 Becky Chairs in solid birch with walnut finish and beige upholstered seating.",
+      "images": ["/images/products/dining-jorri-white-walnut.jpg", "/images/products/dining-jorri-white-walnut-2.jpg", "/images/products/dining-jorri-white-walnut-3.jpg"],
       "colors": ["White", "Walnut"],
+      "dimensions": "Table: 51\" W x 51\" D x 30\" H | Chair: 22.4\" x 20.8\" x 31.5\"",
       "inStock": true,
       "featured": false,
-      "tags": ["dining", "set", "modern", "walnut"]
+      "tags": ["dining", "set", "round", "sintered-stone", "walnut"]
     },
     {
       "id": "prod-46",
@@ -637,12 +682,13 @@
       "category": "dining-room",
       "price": 1199,
       "salePrice": null,
-      "description": "The Valente Dining Collection meets architectural precision standards with its white and walnut combination. Clean geometric lines, solid construction, and a timeless color palette make this a heirloom-quality dining set.",
-      "images": ["/images/products/dining-valente-white-walnut.jpg"],
+      "description": "A mid-century inspired dining set featuring architectural precision with a sintered stone top and fluted walnut veneer base with brushed stainless steel accents. The collection includes the Valente Table and Becky Dining Chairs upholstered in beige premium fabric with birch wood frames. Heirloom-quality construction.",
+      "images": ["/images/products/dining-valente-white-walnut.jpg", "/images/products/dining-valente-white-walnut-2.jpg", "/images/products/dining-valente-white-walnut-3.jpg"],
       "colors": ["White", "Walnut"],
+      "dimensions": "Table: 78.7\" L x 39.3\" D x 30\" H | Chair: 22.4\" x 20.8\" x 31.5\"",
       "inStock": true,
       "featured": false,
-      "tags": ["dining", "set", "modern", "walnut"]
+      "tags": ["dining", "set", "sintered-stone", "walnut", "modern"]
     },
     {
       "id": "prod-47",
@@ -651,12 +697,13 @@
       "category": "dining-room",
       "price": 1349,
       "salePrice": null,
-      "description": "The Roxy Sculptural Dining Collection in White and Bronze is a work of art for your dining room. Its dramatic bronze pedestal base and white marble-look tabletop create an unforgettable centerpiece for any gathering.",
-      "images": ["/images/products/dining-roxy-white-bronze.jpg"],
+      "description": "A contemporary dining ensemble showcasing a breathtaking brushed bronze iron base in a unique U-shaped silhouette with a glossy white sintered stone top with grey veining. The accompanying Toni Chairs blend beige and grey faux leather upholstery with black iron legs finished in gold accents. Every meal becomes a luxury experience.",
+      "images": ["/images/products/dining-roxy-white-bronze.jpg", "/images/products/dining-roxy-white-bronze-2.jpg", "/images/products/dining-roxy-white-bronze-3.jpg"],
       "colors": ["White", "Bronze"],
+      "dimensions": "Table: 78.74\" L x 36.61\" D x 30\" H | Chair: 20.47\" W x 25.2\" D x 37.4\" H",
       "inStock": true,
       "featured": true,
-      "tags": ["dining", "set", "sculptural", "statement"]
+      "tags": ["dining", "set", "sculptural", "sintered-stone", "bronze"]
     },
     {
       "id": "prod-48",
@@ -665,12 +712,13 @@
       "category": "dining-room",
       "price": 1349,
       "salePrice": null,
-      "description": "Drama and sophistication define the Roxy in Black and Bronze. This sculptural dining collection transforms any space with its bold aesthetic, making every meal feel like a luxury dining experience.",
-      "images": ["/images/products/dining-roxy-black-bronze.png"],
+      "description": "A sophisticated dining collection combining a matte black sintered stone top with a crescent-shaped brushed bronze iron base. The accompanying Toni Chairs feature two-tone upholstery with beige faux leather interiors and black faux leather exteriors, complemented by matte black iron legs with polished gold-color caps.",
+      "images": ["/images/products/dining-roxy-black-bronze.png", "/images/products/dining-roxy-black-bronze-2.jpg", "/images/products/dining-roxy-black-bronze-3.jpg"],
       "colors": ["Black", "Bronze"],
+      "dimensions": "Table: 78.7\" L x 39.2\" D x 30\" H | Chair: 20.47\" L x 25.2\" D x 37.4\" H",
       "inStock": true,
       "featured": false,
-      "tags": ["dining", "set", "sculptural", "statement"]
+      "tags": ["dining", "set", "sculptural", "sintered-stone", "black"]
     }
   ]
 }
