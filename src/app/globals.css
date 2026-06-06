@@ -2,10 +2,10 @@
 
 :root {
   /* ── Brand palette ─────────────────────────────────── */
-  --green:      #7DA68B;   /* Dark Green  · primary        */
+  --green:      #1E3331;   /* Dark Green  · primary        */
   --cream:      #E7E0CE;   /* Cream       · warm bg        */
-  --blue:       #7DA68B;   /* Dark Blue   · secondary      */
-  --dry-green:  #0e2b62;   /* Dry Green   · accent/sage    */
+  --blue:       #0e2b62;   /* Dark Blue   · secondary      */
+  --dry-green:  #7DA68B;   /* Dry Green   · accent/sage    */
 
   /* ── Functional ────────────────────────────────────── */
   --bg:         #FFFFFF;

@@ -23,14 +23,14 @@ const INFO_LINKS = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#7DA68B] text-white">
+    <footer className="bg-[#1E3331] text-white">
       <div className="max-w-screen-xl mx-auto px-6 py-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
 
         {/* Brand */}
         <div>
           <div className="mb-6">
             <p className="text-sm font-semibold tracking-[0.2em] uppercase text-white">Global Furniture</p>
-            <p className="text-[10px] tracking-[0.35em] uppercase text-[#0e2b62] mt-1">Houston, TX</p>
+            <p className="text-[10px] tracking-[0.35em] uppercase text-[#7DA68B] mt-1">Houston, TX</p>
           </div>
           <p className="text-xs font-light text-white/50 leading-relaxed mb-6">
             Quality furniture for every Houston home. Financing available — no credit needed.
@@ -39,7 +39,7 @@ export default function Footer() {
             href={siteData.instagram}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[10px] tracking-widest uppercase text-[#0e2b62] hover:text-white transition-colors font-medium"
+            className="text-[10px] tracking-widest uppercase text-[#7DA68B] hover:text-white transition-colors font-medium"
           >
             {siteData.instagramHandle}
           </a>
@@ -78,23 +78,23 @@ export default function Footer() {
           <h3 className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/40 mb-5">Visit</h3>
           <ul className="space-y-4 text-xs font-light text-white/60">
             <li className="flex items-start gap-2.5">
-              <MapPin size={13} className="shrink-0 mt-0.5 text-[#0e2b62]" />
+              <MapPin size={13} className="shrink-0 mt-0.5 text-[#7DA68B]" />
               <a href={siteData.googleMapsUrl} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors leading-relaxed">
                 {siteData.address}<br />{siteData.city}, {siteData.state} {siteData.zip}
               </a>
             </li>
             <li className="flex items-center gap-2.5">
-              <Phone size={13} className="shrink-0 text-[#0e2b62]" />
+              <Phone size={13} className="shrink-0 text-[#7DA68B]" />
               <a href={siteData.phoneUrl} className="hover:text-white transition-colors">{siteData.phone}</a>
             </li>
             <li className="flex items-start gap-2.5">
-              <Clock size={13} className="shrink-0 mt-0.5 text-[#0e2b62]" />
+              <Clock size={13} className="shrink-0 mt-0.5 text-[#7DA68B]" />
               <span className="leading-relaxed">{siteData.hours}</span>
             </li>
           </ul>
           <a
             href={siteData.phoneUrl}
-            className="mt-8 inline-block text-xs font-medium text-[#7DA68B] bg-white px-6 py-2.5 hover:bg-[#F5F2EC] transition-colors"
+            className="mt-8 inline-block text-xs font-medium text-[#1E3331] bg-white px-6 py-2.5 hover:bg-[#F5F2EC] transition-colors"
             style={{ borderRadius: 25 }}
           >
             Call Now

@@ -46,7 +46,7 @@ export default function HeroCarousel({ banners, phone, phoneUrl }: Props) {
 
   return (
     <section
-      className="relative bg-[#7DA68B] text-white overflow-hidden"
+      className="relative bg-[#1E3331] text-white overflow-hidden"
       style={{ minHeight: 'calc(100vh - 88px)', maxHeight: 700 }}
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
@@ -77,7 +77,7 @@ export default function HeroCarousel({ banners, phone, phoneUrl }: Props) {
               }}
             />
             {/* gradient overlay */}
-            <div className="absolute inset-0 bg-gradient-to-r from-[#071529]/90 via-[#071529]/55 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-r from-[#0d2b1e]/90 via-[#0d2b1e]/55 to-transparent" />
           </div>
         )
       })}
@@ -88,7 +88,7 @@ export default function HeroCarousel({ banners, phone, phoneUrl }: Props) {
         style={{ minHeight: 'inherit' }}
       >
         <div className="max-w-xl py-24">
-          <p className="text-[11px] tracking-[0.3em] uppercase text-[#0e2b62] mb-5 font-medium"
+          <p className="text-[11px] tracking-[0.3em] uppercase text-[#7DA68B] mb-5 font-medium"
             style={{ animation: 'fadeSlideUp 0.7s ease both', animationDelay: '0.1s' }}
           >
             Houston, TX · Financing Available
@@ -113,7 +113,7 @@ export default function HeroCarousel({ banners, phone, phoneUrl }: Props) {
           >
             <Link
               href={banners[current].ctaLink}
-              className="text-sm font-medium text-[#7DA68B] bg-white px-7 py-3.5 hover:bg-[#F5F2EC] transition-colors flex items-center gap-2"
+              className="text-sm font-medium text-[#1E3331] bg-white px-7 py-3.5 hover:bg-[#F5F2EC] transition-colors flex items-center gap-2"
               style={{ borderRadius: 25 }}
             >
               {banners[current].ctaText}
