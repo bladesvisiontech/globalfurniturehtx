@@ -48,13 +48,13 @@ export default function Header() {
       <div className="max-w-screen-xl mx-auto px-6 h-16 flex items-center justify-between">
 
         {/* Logo */}
-        <Link href="/" className="flex items-center">
+        <Link href="/" className="flex items-center h-10 w-32">
           <Image
             src="/images/logo.jpg"
             alt="Global Furniture HTX"
-            width={160}
-            height={60}
-            className="object-contain"
+            width={128}
+            height={40}
+            className="object-contain w-full h-full"
             priority
           />
         </Link>
