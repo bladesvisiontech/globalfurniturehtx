@@ -109,5 +109,22 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+
+    {/* Agency credit */}
+    <div className="bg-[#0e1c2f] py-3">
+      <div className="max-w-screen-xl mx-auto px-6 flex items-center justify-center gap-2 text-[11px] text-white/40 font-light">
+        <span>Made with</span>
+        <span className="text-white/60">♥</span>
+        <span>by</span>
+        <a
+          href="https://www.inmotionteam.com/es"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-1.5 hover:opacity-80 transition-opacity"
+        >
+          <img src="/images/inmotion.svg" alt="Inmotion" className="h-4 w-auto" />
+        </a>
+      </div>
+    </div>
   )
 }
