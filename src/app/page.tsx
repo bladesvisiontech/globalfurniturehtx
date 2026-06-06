@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { Phone, MapPin, Star, ArrowRight } from 'lucide-react'
+import { Phone, MapPin, Star, ArrowRight, CheckCircle, Zap, RefreshCw } from 'lucide-react'
 import ProductCard from '@/components/ui/ProductCard'
 import HeroCarousel from '@/components/ui/HeroCarousel'
 import ScrollReveal from '@/components/ui/ScrollReveal'
@@ -13,9 +13,30 @@ import testimonialsData from '@/data/testimonials.json'
 import { type Product } from '@/types'
 
 const FINANCING_PARTNERS = [
-  { name: 'Koalafi', href: 'https://koalafi.com', description: 'Lease-to-own financing' },
-  { name: 'Snap Finance', href: 'https://snapfinance.com', description: 'No credit needed' },
-  { name: 'Acima', href: 'https://acima.com', description: 'Rent-to-own options' },
+  {
+    name: 'Koalafi',
+    href: 'https://koalafi.com',
+    description: 'Lease-to-own financing',
+    badge: 'Most Popular',
+    icon: CheckCircle,
+    perks: ['Flexible payment terms', 'Quick online approval', 'No credit required'],
+  },
+  {
+    name: 'Snap Finance',
+    href: 'https://snapfinance.com',
+    description: 'No credit needed',
+    badge: 'Fast Approval',
+    icon: Zap,
+    perks: ['Limited credit history OK', 'Simple application', 'Fast decisions'],
+  },
+  {
+    name: 'Acima',
+    href: 'https://acima.com',
+    description: 'Rent-to-own options',
+    badge: 'Own It Early',
+    icon: RefreshCw,
+    perks: ['Early purchase option', 'Weekly or monthly payments', 'Take furniture home today'],
+  },
 ]
 
 export default function HomePage() {
@@ -108,9 +129,11 @@ export default function HomePage() {
       {/* ── Financing ────────────────────────────────────── */}
       <section className="bg-[#F5F2EC]">
         <div className="max-w-screen-xl mx-auto px-6 py-24">
+
+          {/* Header */}
           <ScrollReveal direction="up" duration={600}>
-            <div className="max-w-lg mb-14">
-              <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-2 font-medium">Flexible Options</p>
+            <div className="text-center max-w-xl mx-auto mb-16">
+              <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-3 font-medium">Flexible Options</p>
               <h2 className="text-3xl font-light text-[#0e2b62] mb-4">Financing Available</h2>
               <p className="text-sm font-light text-[#1E3331]/50 leading-relaxed">
                 No credit? No problem. We partner with three leading financing companies so you can take your furniture home today and pay over time.
@@ -118,29 +141,61 @@ export default function HomePage() {
             </div>
           </ScrollReveal>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            {FINANCING_PARTNERS.map((partner, i) => (
-              <ScrollReveal key={partner.name} direction="up" delay={i * 100} duration={500}>
-                <a
-                  href={partner.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-white p-8 group hover:shadow-sm transition-shadow block h-full"
-                  style={{ border: '1px solid #ECEAE4' }}
-                >
-                  <p className="text-lg font-semibold text-[#0e2b62] mb-1.5">{partner.name}</p>
-                  <p className="text-xs font-light text-[#1E3331]/50 mb-4">{partner.description}</p>
-                  <span className="text-xs tracking-widest uppercase text-[#1E3331] flex items-center gap-1.5 font-medium">
-                    Apply Now <ArrowRight size={11} />
-                  </span>
-                </a>
-              </ScrollReveal>
-            ))}
+          {/* Cards */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+            {FINANCING_PARTNERS.map((partner, i) => {
+              const Icon = partner.icon
+              return (
+                <ScrollReveal key={partner.name} direction="up" delay={i * 100} duration={500}>
+                  <a
+                    href={partner.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-white group hover:shadow-md transition-all duration-300 block h-full overflow-hidden"
+                    style={{ border: '1px solid #ECEAE4' }}
+                  >
+                    {/* Top accent bar */}
+                    <div className="h-1 bg-[#0e2b62] group-hover:bg-[#7DA68B] transition-colors duration-300" />
+
+                    <div className="p-8">
+                      {/* Icon + badge row */}
+                      <div className="flex items-start justify-between mb-6">
+                        <div className="w-12 h-12 bg-[#0e2b62]/8 flex items-center justify-center" style={{ borderRadius: 12 }}>
+                          <Icon size={22} className="text-[#0e2b62]" />
+                        </div>
+                        <span className="text-[9px] tracking-widest uppercase font-semibold text-[#7DA68B] bg-[#7DA68B]/10 px-2.5 py-1">
+                          {partner.badge}
+                        </span>
+                      </div>
+
+                      {/* Name + description */}
+                      <p className="text-xl font-semibold text-[#0e2b62] mb-1">{partner.name}</p>
+                      <p className="text-xs font-light text-[#1E3331]/45 mb-6">{partner.description}</p>
+
+                      {/* Perks list */}
+                      <ul className="space-y-2 mb-8">
+                        {partner.perks.map((perk) => (
+                          <li key={perk} className="flex items-center gap-2.5 text-xs text-[#1E3331]/60 font-light">
+                            <span className="w-1.5 h-1.5 rounded-full bg-[#7DA68B] shrink-0" />
+                            {perk}
+                          </li>
+                        ))}
+                      </ul>
+
+                      {/* CTA */}
+                      <div className="flex items-center gap-2 text-xs font-semibold tracking-widest uppercase text-[#0e2b62] group-hover:gap-3 transition-all">
+                        Apply Now <ArrowRight size={13} />
+                      </div>
+                    </div>
+                  </a>
+                </ScrollReveal>
+              )
+            })}
           </div>
 
-          <ScrollReveal direction="up" delay={150} duration={500}>
-            <div className="mt-8">
-              <Link href="/services#financing" className="text-xs tracking-widest uppercase text-[#1E3331] hover:opacity-70 transition-opacity flex items-center gap-2 font-medium">
+          <ScrollReveal direction="up" delay={200} duration={500}>
+            <div className="mt-10 text-center">
+              <Link href="/services#financing" className="text-xs tracking-widest uppercase text-[#1E3331]/50 hover:text-[#1E3331] transition-colors flex items-center gap-2 font-medium justify-center">
                 Learn more about financing <ArrowRight size={12} />
               </Link>
             </div>
