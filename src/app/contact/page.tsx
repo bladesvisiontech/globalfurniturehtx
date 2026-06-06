@@ -20,7 +20,7 @@ export default function ContactPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
           <div>
             <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-3 font-medium">Reach Us</p>
-            <h2 className="text-3xl font-light text-[#1E3331] mb-10">Get in Touch</h2>
+            <h2 className="text-3xl font-light text-[#0e2b62] mb-10">Get in Touch</h2>
             <ul className="space-y-8 mb-10">
               <li className="flex items-start gap-4">
                 <div className="w-9 h-9 bg-[#E7E0CE] flex items-center justify-center shrink-0">
@@ -53,14 +53,14 @@ export default function ContactPage() {
                 </div>
               </li>
             </ul>
-            <a href={siteData.phoneUrl} className="text-sm font-medium text-white bg-[#1E3331] px-7 py-3 hover:opacity-90 transition-opacity flex items-center gap-2 w-fit" style={{ borderRadius: 25 }}>
+            <a href={siteData.phoneUrl} className="text-sm font-medium text-white bg-[#0e2b62] px-7 py-3 hover:opacity-90 transition-opacity flex items-center gap-2 w-fit" style={{ borderRadius: 25 }}>
               <Phone size={14} /> Call {siteData.phone}
             </a>
           </div>
 
           <div id="quote">
             <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-3 font-medium">Quote Request</p>
-            <h2 className="text-3xl font-light text-[#1E3331] mb-2">Request a Quote</h2>
+            <h2 className="text-3xl font-light text-[#0e2b62] mb-2">Request a Quote</h2>
             <p className="text-[#1E3331]/40 text-sm font-light mb-8">Fill out the form and we&apos;ll get back to you shortly.</p>
             <Suspense fallback={null}>
               <ContactForm />

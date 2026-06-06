@@ -77,10 +77,10 @@ export default function AboutPage() {
               </li>
             </ul>
             <div className="flex gap-3 flex-wrap">
-              <a href={siteData.phoneUrl} className="text-sm font-medium text-white bg-[#1E3331] px-7 py-3 hover:opacity-90 transition-opacity flex items-center gap-2" style={{ borderRadius: 25 }}>
+              <a href={siteData.phoneUrl} className="text-sm font-medium text-white bg-[#0e2b62] px-7 py-3 hover:opacity-90 transition-opacity flex items-center gap-2" style={{ borderRadius: 25 }}>
                 <Phone size={14} /> Call Us
               </a>
-              <a href={siteData.googleMapsUrl} target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-[#1E3331] border border-[#1E3331] px-7 py-3 hover:bg-[#1E3331] hover:text-white transition-colors flex items-center gap-2" style={{ borderRadius: 25 }}>
+              <a href={siteData.googleMapsUrl} target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-[#0e2b62] border border-[#0e2b62] px-7 py-3 hover:bg-[#0e2b62] hover:text-white transition-colors flex items-center gap-2" style={{ borderRadius: 25 }}>
                 <MapPin size={14} /> Directions
               </a>
             </div>

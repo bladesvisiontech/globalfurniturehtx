@@ -33,7 +33,7 @@ export default function ContactForm() {
     return (
       <div className="bg-[#F5F2EC] p-10 text-center" style={{ border: '1px solid #ECEAE4' }}>
         <CheckCircle className="text-[#7DA68B] mx-auto mb-4" size={36} />
-        <h3 className="text-xl font-light text-[#1E3331] mb-2">Message Sent</h3>
+        <h3 className="text-xl font-light text-[#0e2b62] mb-2">Message Sent</h3>
         <p className="text-[#1E3331]/50 text-sm font-light">We&apos;ll be in touch shortly. Or call us at <a href="tel:+18328515250" className="text-[#1E3331] font-medium">832-851-5250</a>.</p>
         <button onClick={() => setStatus('idle')} className="mt-6 text-xs tracking-widest uppercase text-[#7DA68B] font-medium hover:text-[#1E3331] transition-colors">Send another →</button>
       </div>

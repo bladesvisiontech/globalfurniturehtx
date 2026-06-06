@@ -51,13 +51,13 @@ export default function ServicesPage() {
                 </li>
               ))}
             </ul>
-            <a href={siteData.phoneUrl} className="text-sm font-medium text-white bg-[#1E3331] px-7 py-3.5 hover:opacity-90 transition-opacity flex items-center gap-2 w-fit" style={{ borderRadius: 25 }}>
+            <a href={siteData.phoneUrl} className="text-sm font-medium text-white bg-[#0e2b62] px-7 py-3.5 hover:opacity-90 transition-opacity flex items-center gap-2 w-fit" style={{ borderRadius: 25 }}>
               <Phone size={14} /> Schedule Delivery
             </a>
           </div>
           <div className="bg-[#F5F2EC] p-12 text-center" style={{ border: '1px solid #ECEAE4' }}>
             <p className="text-5xl mb-5">🚚</p>
-            <h3 className="text-xl font-light text-[#1E3331] mb-2">Same-Day Available</h3>
+            <h3 className="text-xl font-light text-[#0e2b62] mb-2">Same-Day Available</h3>
             <p className="text-[#1E3331]/50 text-xs font-light mb-6 leading-relaxed">Order before noon and we&apos;ll deliver the same day in most Houston-area locations.</p>
             <p className="text-xs text-[#1E3331]/30 mb-4">Call to confirm availability for your area</p>
             <p className="text-[#1E3331] font-semibold">{siteData.phone}</p>
@@ -80,7 +80,7 @@ export default function ServicesPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {FINANCING_PARTNERS.map((partner) => (
               <div key={partner.name} className="bg-white p-8" style={{ border: '1px solid #ECEAE4' }}>
-                <h3 className="text-lg font-semibold text-[#1E3331] mb-3">{partner.name}</h3>
+                <h3 className="text-lg font-semibold text-[#0e2b62] mb-3">{partner.name}</h3>
                 <p className="text-[#1E3331]/50 text-xs font-light leading-relaxed mb-6">{partner.description}</p>
                 <ul className="space-y-2 mb-8">
                   {partner.features.map((f) => (
@@ -90,7 +90,7 @@ export default function ServicesPage() {
                     </li>
                   ))}
                 </ul>
-                <a href={partner.href} target="_blank" rel="noopener noreferrer" className="block text-center text-xs font-medium text-[#1E3331] border border-[#1E3331] py-2.5 hover:bg-[#1E3331] hover:text-white transition-colors" style={{ borderRadius: 25 }}>
+                <a href={partner.href} target="_blank" rel="noopener noreferrer" className="block text-center text-xs font-medium text-[#0e2b62] border border-[#0e2b62] py-2.5 hover:bg-[#0e2b62] hover:text-white transition-colors" style={{ borderRadius: 25 }}>
                   Apply with {partner.name}
                 </a>
               </div>
@@ -111,7 +111,7 @@ export default function ServicesPage() {
       <section className="max-w-screen-xl mx-auto px-6 py-20 text-center">
         <h2 className="text-3xl font-light text-[#0e2b62] mb-4">Ready to Shop?</h2>
         <p className="text-[#1E3331]/50 text-sm font-light mb-8">Browse our catalog and find your perfect furniture today.</p>
-        <Link href="/shop" className="text-sm font-medium text-white bg-[#1E3331] px-8 py-3.5 hover:opacity-90 transition-opacity" style={{ borderRadius: 25 }}>View Catalog</Link>
+        <Link href="/shop" className="text-sm font-medium text-white bg-[#0e2b62] px-8 py-3.5 hover:opacity-90 transition-opacity" style={{ borderRadius: 25 }}>View Catalog</Link>
       </section>
     </div>
   )

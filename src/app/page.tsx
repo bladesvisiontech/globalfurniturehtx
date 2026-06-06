@@ -157,7 +157,7 @@ export default function HomePage() {
                 className="bg-white p-8 group hover:shadow-sm transition-shadow"
                 style={{ border: '1px solid #ECEAE4' }}
               >
-                <p className="text-lg font-semibold text-[#1E3331] mb-1.5 group-hover:text-[#1E3331]">
+                <p className="text-lg font-semibold text-[#0e2b62] mb-1.5 group-hover:text-[#1E3331]">
                   {partner.name}
                 </p>
                 <p className="text-xs font-light text-[#1E3331]/50 mb-4">{partner.description}</p>
@@ -257,7 +257,7 @@ export default function HomePage() {
               </a>
               <a
                 href={siteData.phoneUrl}
-                className="text-sm font-medium text-[#1E3331] border border-[#1E3331] px-7 py-3.5 hover:bg-[#1E3331] hover:text-white transition-colors flex items-center gap-2"
+                className="text-sm font-medium text-[#0e2b62] border border-[#0e2b62] px-7 py-3.5 hover:bg-[#0e2b62] hover:text-white transition-colors flex items-center gap-2"
                 style={{ borderRadius: 25 }}
               >
                 <Phone size={14} />

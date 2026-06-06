@@ -64,7 +64,7 @@ export default async function ProductPage({ params }: Props) {
           <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-3 font-medium">
             {product.category.replace(/-/g, ' ')}
           </p>
-          <h1 className="text-3xl font-light text-[#1E3331] mb-4 leading-snug">{product.name}</h1>
+          <h1 className="text-3xl font-light text-[#0e2b62] mb-4 leading-snug">{product.name}</h1>
 
           {/* Price */}
           <div className="flex items-center gap-3 mb-5">
@@ -116,10 +116,10 @@ export default async function ProductPage({ params }: Props) {
 
           {/* CTAs */}
           <div className="space-y-3 mb-8">
-            <a href={siteData.phoneUrl} className="flex items-center justify-center gap-2 w-full text-sm font-medium text-white bg-[#1E3331] py-4 hover:opacity-90 transition-opacity" style={{ borderRadius: 25 }}>
+            <a href={siteData.phoneUrl} className="flex items-center justify-center gap-2 w-full text-sm font-medium text-white bg-[#0e2b62] py-4 hover:opacity-90 transition-opacity" style={{ borderRadius: 25 }}>
               <Phone size={16} /> Call to Order — {siteData.phone}
             </a>
-            <Link href={`/contact?product=${encodeURIComponent(product.name)}#quote`} className="flex items-center justify-center gap-2 w-full text-sm font-medium text-[#1E3331] border border-[#1E3331] py-4 hover:bg-[#1E3331] hover:text-white transition-colors" style={{ borderRadius: 25 }}>
+            <Link href={`/contact?product=${encodeURIComponent(product.name)}#quote`} className="flex items-center justify-center gap-2 w-full text-sm font-medium text-[#0e2b62] border border-[#0e2b62] py-4 hover:bg-[#0e2b62] hover:text-white transition-colors" style={{ borderRadius: 25 }}>
               Request a Quote
             </Link>
           </div>

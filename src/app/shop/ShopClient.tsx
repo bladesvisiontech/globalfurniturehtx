@@ -20,7 +20,7 @@ export default function ShopClient() {
     <div className="max-w-screen-xl mx-auto px-6 py-12">
       <div className="mb-10">
         <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-2 font-medium">Catalog</p>
-        <h1 className="text-3xl font-light text-[#1E3331]">{activeName}</h1>
+        <h1 className="text-3xl font-light text-[#0e2b62]">{activeName}</h1>
         <p className="text-[#1E3331]/40 text-xs mt-1 font-light">{filtered.length} products</p>
       </div>
 

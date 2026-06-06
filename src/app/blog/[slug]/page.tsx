@@ -36,7 +36,7 @@ export default async function BlogPostPage({ params }: Props) {
         ))}
       </div>
 
-      <h1 className="text-3xl md:text-4xl font-light text-[#1E3331] mb-5 leading-tight">{post.title}</h1>
+      <h1 className="text-3xl md:text-4xl font-light text-[#0e2b62] mb-5 leading-tight">{post.title}</h1>
 
       <div className="flex items-center gap-4 text-[#1E3331]/40 text-xs font-light mb-10 pb-8" style={{ borderBottom: '1px solid #ECEAE4' }}>
         <span className="flex items-center gap-1.5">
