@@ -18,7 +18,7 @@ const FINANCING_PARTNERS = [
     href: 'https://koalafi.com',
     description: 'Lease-to-own financing',
     badge: 'Most Popular',
-    logo: '/images/financing/koalafi.svg',
+    logo: '/images/financing/koalafi.webp',
     perks: ['Flexible payment terms', 'Quick online approval', 'No credit required'],
   },
   {
@@ -26,7 +26,7 @@ const FINANCING_PARTNERS = [
     href: 'https://snapfinance.com',
     description: 'No credit needed',
     badge: 'Fast Approval',
-    logo: '/images/financing/snapfinance.svg',
+    logo: '/images/financing/snapfinance.png',
     perks: ['Limited credit history OK', 'Simple application', 'Fast decisions'],
   },
   {
@@ -34,7 +34,7 @@ const FINANCING_PARTNERS = [
     href: 'https://acima.com',
     description: 'Rent-to-own options',
     badge: 'Own It Early',
-    logo: '/images/financing/acima.svg',
+    logo: '/images/financing/acima.png',
     perks: ['Early purchase option', 'Weekly or monthly payments', 'Take furniture home today'],
   },
 ]
