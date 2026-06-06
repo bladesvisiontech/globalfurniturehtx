@@ -67,6 +67,13 @@ export interface Testimonial {
 }
 
 // ── Blog ───────────────────────────────────────────────────
+export interface BlogContentImage {
+  afterParagraph: number
+  src: string
+  alt: string
+  caption: string
+}
+
 export interface BlogPost {
   id: string
   title: string
@@ -74,6 +81,7 @@ export interface BlogPost {
   excerpt: string
   content: string
   coverImage: string
+  contentImages?: BlogContentImage[]
   author: string
   publishedAt: string
   tags: string[]

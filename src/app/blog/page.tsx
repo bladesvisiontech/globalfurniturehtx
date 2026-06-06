@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { Calendar, ArrowRight } from 'lucide-react'
 import blogData from '@/data/blog.json'
 import { type BlogPost } from '@/types'
@@ -22,8 +23,16 @@ export default function BlogPage() {
           {posts.map((post) => (
             <Link key={post.id} href={`/blog/${post.slug}`} className="group block">
               <article>
-                <div className="aspect-[4/3] bg-[#E7E0CE] mb-5 overflow-hidden flex items-center justify-center">
-                  <span className="text-5xl opacity-40">🛋️</span>
+                <div className="aspect-[4/3] bg-[#F5F2EC] mb-5 overflow-hidden relative">
+                  {post.coverImage && (
+                    <Image
+                      src={post.coverImage}
+                      alt={post.title}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    />
+                  )}
                 </div>
                 <div className="flex items-center gap-2 text-[#1E3331]/40 text-xs mb-3 font-light">
                   <Calendar size={11} />
@@ -31,7 +40,7 @@ export default function BlogPage() {
                 </div>
                 <h2 className="text-sm font-medium text-[#1E3331] mb-2 group-hover:text-[#0e2b62] transition-colors leading-snug">{post.title}</h2>
                 <p className="text-[#1E3331]/50 text-xs font-light leading-relaxed line-clamp-3 mb-4">{post.excerpt}</p>
-                <span className="text-[10px] tracking-widest uppercase text-[#7DA68B] flex items-center gap-1.5 font-medium">
+                <span className="text-[10px] tracking-widests uppercase text-[#7DA68B] flex items-center gap-1.5 font-medium">
                   Read More <ArrowRight size={11} />
                 </span>
               </article>

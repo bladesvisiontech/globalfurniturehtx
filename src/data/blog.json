@@ -6,7 +6,21 @@
       "slug": "how-to-choose-the-right-sectional",
       "excerpt": "Not all sectionals fit every space. Learn how to measure your room and pick the perfect configuration.",
       "content": "When shopping for a sectional sofa, the most important step is measuring your space. Start by measuring the length of each wall in your living room, then mark the floor with tape to visualize how the sectional will fit. A good rule of thumb is to leave at least 18 inches between the sofa and the coffee table, and at least 36 inches as a walkway.\n\nNext, consider the shape: L-shaped sectionals work well in corner layouts, while U-shaped sectionals are great for larger open spaces. Think about how you use your living room — if you frequently host guests, a larger configuration makes sense.\n\nFinally, choose a fabric that fits your lifestyle. Microfiber and performance fabrics are easy to clean and great for families with kids or pets. Velvet looks luxurious but requires more care.",
-      "coverImage": "/images/blog/sectional-guide.jpg",
+      "coverImage": "/images/products/sectional-westwood-stone.png",
+      "contentImages": [
+        {
+          "afterParagraph": 0,
+          "src": "/images/products/sectional-galaxy-black.jpg",
+          "alt": "Galaxy sectional in a corner living room layout",
+          "caption": "L-shaped sectionals maximize seating in corner layouts."
+        },
+        {
+          "afterParagraph": 1,
+          "src": "/images/products/sectional-westwood-stone-2.png",
+          "alt": "Close-up of Westwood sectional upholstery and cushions",
+          "caption": "Fabric choice affects both comfort and long-term durability."
+        }
+      ],
       "author": "Global Furniture HTX",
       "publishedAt": "2025-04-15",
       "tags": ["living room", "sectional", "buying guide"]
@@ -17,7 +31,21 @@
       "slug": "bedroom-set-buying-guide",
       "excerpt": "A complete bedroom set can transform your space. Here's what to check before you buy.",
       "content": "A bedroom set typically includes a bed frame, one or two nightstands, and a dresser. Some sets also include a mirror and a chest of drawers. Before purchasing, confirm exactly what pieces are included.\n\nSize matters: make sure your bedroom can accommodate a king or queen bed while still leaving room to walk around comfortably. As a general guide, leave at least 24 inches on each side of the bed.\n\nMaterial and finish are important for longevity. Solid wood pieces are the most durable, followed by engineered wood with real wood veneer. Avoid pieces with a plastic laminate finish if you plan to use them for many years.\n\nAt Global Furniture HTX, all our bedroom sets come with a warranty and can be delivered the same day.",
-      "coverImage": "/images/blog/bedroom-guide.jpg",
+      "coverImage": "/images/products/bedroom-cassandra.jpg",
+      "contentImages": [
+        {
+          "afterParagraph": 0,
+          "src": "/images/products/bedroom-ivette.png",
+          "alt": "Complete Ivette bedroom set with bed, nightstands and dresser",
+          "caption": "A complete set keeps finishes and proportions consistent throughout the room."
+        },
+        {
+          "afterParagraph": 2,
+          "src": "/images/products/bedroom-cassandra-2.jpg",
+          "alt": "Cassandra bedroom dresser and nightstand detail",
+          "caption": "Solid wood construction ensures years of durability."
+        }
+      ],
       "author": "Global Furniture HTX",
       "publishedAt": "2025-03-20",
       "tags": ["bedroom", "buying guide", "sets"]
@@ -28,7 +56,21 @@
       "slug": "furniture-financing-options-explained",
       "excerpt": "No credit, bad credit, or just prefer to pay over time? Here's how our financing partners can help.",
       "content": "We know that furnishing a home is a big investment. That's why we partner with three leading no-credit-needed financing companies: Koalafi, Snap Finance, and Acima.\n\n**Koalafi** offers lease-to-own financing with flexible payment options. You can apply online in minutes and get a decision quickly.\n\n**Snap Finance** specializes in customers with limited or poor credit history. Their application process is simple and approvals are fast.\n\n**Acima** provides rent-to-own solutions with early purchase options, so you can own your furniture outright if you choose to pay it off early.\n\nAll three partners offer flexible payment schedules that can be weekly, bi-weekly, or monthly. Visit our showroom or call us to learn more about which option is best for you.",
-      "coverImage": "/images/blog/financing-guide.jpg",
+      "coverImage": "/images/products/sofa-amalfi-champagne.png",
+      "contentImages": [
+        {
+          "afterParagraph": 0,
+          "src": "/images/products/sofa-ferland-beige.png",
+          "alt": "Ferland sofa set in a Houston living room",
+          "caption": "Furnish your entire home today — pay over time with our financing partners."
+        },
+        {
+          "afterParagraph": 3,
+          "src": "/images/products/sofa-grace-black.jpg",
+          "alt": "Grace sofa set available with no-credit financing",
+          "caption": "Every piece in our showroom is available through our financing programs."
+        }
+      ],
       "author": "Global Furniture HTX",
       "publishedAt": "2025-02-10",
       "tags": ["financing", "Koalafi", "Snap Finance", "Acima"]
