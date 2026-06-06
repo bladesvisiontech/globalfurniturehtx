@@ -58,7 +58,7 @@ export default function TestimonialsPage() {
             href={siteData.googleReviewsUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-xs tracking-widests uppercase text-[#7DA68B] hover:text-[#1E3331] transition-colors font-medium flex items-center gap-2 justify-center"
+            className="text-xs tracking-widest uppercase text-[#7DA68B] hover:text-[#1E3331] transition-colors font-medium flex items-center gap-2 justify-center"
           >
             Read all {siteData.googleReviewCount} reviews on Google <ArrowRight size={12} />
           </a>

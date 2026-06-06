@@ -2,35 +2,147 @@
   "testimonials": [
     {
       "id": "t-1",
-      "name": "Gaylord Hutchins",
+      "name": "Kenisha Spriggs",
       "location": "Houston, TX",
-      "text": "I really appreciate this company I would recommend everyone to try them out. Very professional and on time. Quality of merchandise is awesome.",
+      "text": "I had an amazing experience with Global Furniture HTX! From the moment I walked in, the customer service was top-tier — friendly, attentive, and genuinely focused on helping me find exactly what I needed.",
       "rating": 5,
-      "date": "2024-08-01"
+      "date": "2025-05-01"
     },
     {
       "id": "t-2",
-      "name": "Derrick Castex",
+      "name": "Dewon Pullen",
       "location": "Houston, TX",
-      "text": "Great customer service, prices and prompt same day delivery with reasonable delivery fee.",
+      "text": "Great experience with Global Furniture HTX. The quality of the furniture is top tier, prices are fair, and the customer service is solid from start to finish. They made the whole process smooth and stress-free. Definitely recommend if you're looking to furnish your home the right way.",
       "rating": 5,
-      "date": "2024-05-01"
+      "date": "2025-05-10"
     },
     {
       "id": "t-3",
       "name": "Darrell Guinn",
       "location": "Houston, TX",
-      "text": "I thought the prices was a joke till I got there. I went to Rooms To Go and to furnish my new house it was a little over $12k — I went here and got the same stuff for not even 25% of what Rooms To Go was charging.",
+      "text": "I thought the prices was a joke till I got there. I went to Rooms to Go and to furnish my new house it was a lil over 12k. I went here and got the same stuff for not even 25% of what Rooms to Go was charging.",
       "rating": 5,
-      "date": "2024-04-01"
+      "date": "2024-06-01"
     },
     {
       "id": "t-4",
+      "name": "Carlotte Austin",
+      "location": "Houston, TX",
+      "text": "I'm happy with my purchases. Terrance was helpful in helping me pick out a mattress for my new bedroom set. Best mattress I've slept on in years. When the guys delivered my furniture they set up my bed and dresser and left no mess behind.",
+      "rating": 5,
+      "date": "2025-05-05"
+    },
+    {
+      "id": "t-5",
+      "name": "Nary Spears",
+      "location": "Houston, TX",
+      "text": "Terence is very professional and knowledgeable about the store products. Adrion made a timely and also a professional delivery. This is the place to go for quality, affordable mattresses.",
+      "rating": 5,
+      "date": "2025-05-08"
+    },
+    {
+      "id": "t-6",
+      "name": "Tonya Horn",
+      "location": "Houston, TX",
+      "text": "I had a great experience with Global Furniture from start to finish. The staff was friendly, knowledgeable and never pushy, making the shopping process stress-free. The selection was impressive — well made pieces at fair prices.",
+      "rating": 5,
+      "date": "2025-05-12"
+    },
+    {
+      "id": "t-7",
+      "name": "Lakendra Williams",
+      "location": "Houston, TX",
+      "text": "I had a great experience shopping at this furniture store. They were knowledgeable about their products and took the time to answer my questions and help me find pieces that matched my style and budget.",
+      "rating": 5,
+      "date": "2025-05-15"
+    },
+    {
+      "id": "t-8",
       "name": "Lakesha Lafayette",
       "location": "Houston, TX",
-      "text": "Very professional, fast response and great customer service. My mattress is soooo comfortable.",
+      "text": "Very professional, fast response and great customer service. My mattress is soooo comfortable!",
       "rating": 5,
-      "date": "2024-03-01"
+      "date": "2024-06-15"
+    },
+    {
+      "id": "t-9",
+      "name": "Derrick Castex",
+      "location": "Houston, TX",
+      "text": "Great customer service, prices and prompt same day delivery with reasonable delivery fee.",
+      "rating": 5,
+      "date": "2024-06-01"
+    },
+    {
+      "id": "t-10",
+      "name": "Gaylord Hutchins",
+      "location": "Houston, TX",
+      "text": "I really appreciate this company. I would recommend everyone to try them out. Very professional and on time. Quality of merchandise is awesome.",
+      "rating": 5,
+      "date": "2024-09-01"
+    },
+    {
+      "id": "t-11",
+      "name": "Exclusive Collision",
+      "location": "Houston, TX",
+      "text": "Great Quality! Best prices and service! They delivered and removed my old furniture! I can't recommend enough!!!",
+      "rating": 5,
+      "date": "2025-05-14"
+    },
+    {
+      "id": "t-12",
+      "name": "Jaterra Williams",
+      "location": "Houston, TX",
+      "text": "The only furniture store that I shop at for quality products at a great price — nobody can beat!!",
+      "rating": 5,
+      "date": "2025-05-16"
+    },
+    {
+      "id": "t-13",
+      "name": "Porsche Jackson",
+      "location": "Houston, TX",
+      "text": "I purchased a new mattress and I've been sleeping on cloud 9 ever since. Thank you for your quality service!!",
+      "rating": 5,
+      "date": "2025-05-10"
+    },
+    {
+      "id": "t-14",
+      "name": "Nicoloe Lee",
+      "location": "Houston, TX",
+      "text": "Best prices in Houston. My whole experience was great. Check them out — you will love them.",
+      "rating": 5,
+      "date": "2025-05-15"
+    },
+    {
+      "id": "t-15",
+      "name": "Bobby Austin",
+      "location": "Houston, TX",
+      "text": "Service was on point. The crew set up furniture at a fast pace — great crew.",
+      "rating": 5,
+      "date": "2025-05-08"
+    },
+    {
+      "id": "t-16",
+      "name": "Lessie Benion",
+      "location": "Houston, TX",
+      "text": "Very professional and was a fast install.",
+      "rating": 5,
+      "date": "2024-06-01"
+    },
+    {
+      "id": "t-17",
+      "name": "Bj Austin",
+      "location": "Houston, TX",
+      "text": "Had a great experience at Global Furniture. The salesman was very helpful. Everything was very affordable and delivery was on time.",
+      "rating": 5,
+      "date": "2025-05-16"
+    },
+    {
+      "id": "t-18",
+      "name": "Porsche Jackson",
+      "location": "Houston, TX",
+      "text": "Great quality and service.",
+      "rating": 5,
+      "date": "2025-05-28"
     }
   ]
 }

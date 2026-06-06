@@ -40,7 +40,7 @@ export default function BlogPage() {
                 </div>
                 <h2 className="text-sm font-medium text-[#1E3331] mb-2 group-hover:text-[#0e2b62] transition-colors leading-snug">{post.title}</h2>
                 <p className="text-[#1E3331]/50 text-xs font-light leading-relaxed line-clamp-3 mb-4">{post.excerpt}</p>
-                <span className="text-[10px] tracking-widests uppercase text-[#7DA68B] flex items-center gap-1.5 font-medium">
+                <span className="text-[10px] tracking-widest uppercase text-[#7DA68B] flex items-center gap-1.5 font-medium">
                   Read More <ArrowRight size={11} />
                 </span>
               </article>

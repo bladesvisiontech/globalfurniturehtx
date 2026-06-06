@@ -61,7 +61,7 @@ export default function ContactForm() {
         <input type="text" value={form.productInterest} onChange={(e) => update('productInterest', e.target.value)} placeholder="e.g. King bedroom set, sectional sofa..." className={cn(inputClass, focusStyle)} style={inputStyle} />
       </div>
       <div>
-        <label className="block text-[10px] tracking-widests uppercase text-[#1E3331]/40 mb-1.5 font-medium">Message</label>
+        <label className="block text-[10px] tracking-widest uppercase text-[#1E3331]/40 mb-1.5 font-medium">Message</label>
         <textarea value={form.message} onChange={(e) => update('message', e.target.value)} placeholder="Questions about delivery, pricing, availability..." rows={4} className={cn(inputClass, focusStyle, 'resize-none')} style={inputStyle} />
       </div>
       {status === 'error' && <p className="text-red-400 text-xs font-light">Something went wrong. Please try again or call us directly.</p>}

@@ -108,7 +108,7 @@ export default async function ProductPage({ params }: Props) {
           <div className="p-5" style={{ border: '1px solid #ECEAE4' }}>
             <div className="flex items-center gap-2 mb-3">
               <CreditCard size={15} className="text-[#7DA68B]" />
-              <span className="text-[10px] tracking-widests uppercase text-[#1E3331] font-medium">Financing Available — No Credit Needed</span>
+              <span className="text-[10px] tracking-widest uppercase text-[#1E3331] font-medium">Financing Available — No Credit Needed</span>
             </div>
             <div className="flex flex-wrap gap-2">
               {FINANCING_PARTNERS.map((p) => (
