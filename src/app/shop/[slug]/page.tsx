@@ -4,7 +4,6 @@ import { Phone, ChevronLeft, MapPin, CreditCard } from 'lucide-react'
 import productsData from '@/data/products.json'
 import siteData from '@/data/site.json'
 import { type Product } from '@/types'
-import { formatPrice } from '@/lib/utils'
 import ProductImageGallery from '@/components/ui/ProductImageGallery'
 
 interface Props { params: Promise<{ slug: string }> }
@@ -30,8 +29,6 @@ export default async function ProductPage({ params }: Props) {
   const product = (productsData.products as Product[]).find((p) => p.slug === slug)
   if (!product) notFound()
 
-  const hasDiscount = product.salePrice && product.salePrice < product.price
-
   return (
     <div className="max-w-screen-xl mx-auto px-6 py-12">
       {/* Breadcrumb */}
@@ -52,7 +49,6 @@ export default async function ProductPage({ params }: Props) {
         <ProductImageGallery
           images={product.images}
           productName={product.name}
-          hasSaleBadge={!!hasDiscount}
         />
 
         {/* Details */}
@@ -61,18 +57,6 @@ export default async function ProductPage({ params }: Props) {
             {product.category.replace(/-/g, ' ')}
           </p>
           <h1 className="text-3xl font-light text-[#0e2b62] mb-4 leading-snug">{product.name}</h1>
-
-          {/* Price */}
-          <div className="flex items-center gap-3 mb-5">
-            {hasDiscount ? (
-              <>
-                <span className="text-2xl font-semibold text-[#1E3331]">{formatPrice(product.salePrice!)}</span>
-                <span className="text-base text-[#1E3331]/25 line-through">{formatPrice(product.price)}</span>
-              </>
-            ) : (
-              <span className="text-2xl font-semibold text-[#1E3331]">{formatPrice(product.price)}</span>
-            )}
-          </div>
 
           {product.inStock ? (
             <span className="inline-flex items-center gap-1.5 text-[#7DA68B] text-xs font-medium tracking-widest uppercase bg-[#7DA68B]/10 px-3 py-1.5 mb-6">

@@ -6,10 +6,9 @@ import Image from 'next/image'
 interface Props {
   images: string[]
   productName: string
-  hasSaleBadge?: boolean
 }
 
-export default function ProductImageGallery({ images, productName, hasSaleBadge }: Props) {
+export default function ProductImageGallery({ images, productName }: Props) {
   const [active, setActive] = useState(0)
 
   if (images.length === 0) return null
@@ -27,13 +26,6 @@ export default function ProductImageGallery({ images, productName, hasSaleBadge 
           priority={active === 0}
           sizes="(max-width: 1024px) 100vw, 50vw"
         />
-        {hasSaleBadge && active === 0 && (
-          <div className="absolute top-4 left-4">
-            <span className="text-[10px] font-semibold tracking-widest uppercase bg-[#0e2b62] text-white px-3 py-1.5">
-              Sale
-            </span>
-          </div>
-        )}
         {/* Image counter pill */}
         {images.length > 1 && (
           <div className="absolute bottom-4 right-4 bg-black/40 text-white text-[10px] font-medium tracking-widest px-2.5 py-1">

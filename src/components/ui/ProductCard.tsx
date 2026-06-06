@@ -1,14 +1,12 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { type Product } from '@/types'
-import { formatPrice } from '@/lib/utils'
 
 interface ProductCardProps {
   product: Product
 }
 
 export default function ProductCard({ product }: ProductCardProps) {
-  const hasDiscount = product.salePrice && product.salePrice < product.price
   const displayImage = product.images[0] ?? '/images/placeholder.jpg'
 
   return (
@@ -27,51 +25,21 @@ export default function ProductCard({ product }: ProductCardProps) {
             <span className="text-xs font-medium tracking-widest uppercase text-[#1E3331]/50">Sold Out</span>
           </div>
         )}
-        {hasDiscount && (
-          <div className="absolute top-3 left-3">
-            <span className="text-[10px] font-semibold tracking-widest uppercase bg-[#0e2b62] text-white px-2.5 py-1">
-              Sale
-            </span>
-          </div>
-        )}
       </div>
 
       {/* Info */}
       <div className="px-0.5">
-        {/* Category */}
         <p className="text-[10px] font-medium tracking-[0.2em] uppercase text-[#7DA68B] mb-1.5">
           {product.category.replace(/-/g, ' ')}
         </p>
-
-        {/* Name */}
         <h3 className="text-sm font-medium text-[#1E3331] leading-snug mb-2 group-hover:text-[#1E3331] transition-colors">
           {product.name}
         </h3>
-
-        {/* Colors */}
         {product.colors && product.colors.length > 0 && (
-          <p className="text-[11px] text-[#1E3331]/40 mb-2 font-light">
+          <p className="text-[11px] text-[#1E3331]/40 font-light">
             {product.colors.join(' · ')}
           </p>
         )}
-
-        {/* Price */}
-        <div className="flex items-center gap-2.5">
-          {hasDiscount ? (
-            <>
-              <span className="text-sm font-semibold text-[#1E3331]">
-                {formatPrice(product.salePrice!)}
-              </span>
-              <span className="text-xs text-[#1E3331]/25 line-through">
-                {formatPrice(product.price)}
-              </span>
-            </>
-          ) : (
-            <span className="text-sm font-semibold text-[#1E3331]">
-              {formatPrice(product.price)}
-            </span>
-          )}
-        </div>
       </div>
     </Link>
   )
