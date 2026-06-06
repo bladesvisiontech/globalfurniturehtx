@@ -69,7 +69,7 @@ export default function TestimonialsPage() {
         <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-3 font-medium">Next Step</p>
         <h2 className="text-2xl font-light text-[#1E3331] mb-4">Experience it yourself</h2>
         <p className="text-[#1E3331]/50 text-sm font-light mb-8">Visit our showroom or browse online and see why Houston families choose us.</p>
-        <Link href="/shop" className="text-sm font-medium text-white bg-[#1E3331] px-8 py-3.5 hover:opacity-90 transition-opacity" style={{ borderRadius: 25 }}>
+        <Link href="/shop" className="text-sm font-medium text-white bg-[#0e2b62] px-8 py-3.5 hover:opacity-90 transition-opacity" style={{ borderRadius: 25 }}>
           Shop Now
         </Link>
       </section>

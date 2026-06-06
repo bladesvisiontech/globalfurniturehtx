@@ -29,7 +29,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         )}
         {hasDiscount && (
           <div className="absolute top-3 left-3">
-            <span className="text-[10px] font-semibold tracking-widest uppercase bg-[#00253D] text-white px-2.5 py-1">
+            <span className="text-[10px] font-semibold tracking-widest uppercase bg-[#0e2b62] text-white px-2.5 py-1">
               Sale
             </span>
           </div>

@@ -51,7 +51,7 @@ export default function Header() {
           <span className="text-[15px] font-semibold tracking-[0.18em] uppercase text-[#1E3331]">
             Global Furniture
           </span>
-          <span className="text-[11px] font-light tracking-[0.35em] uppercase text-[#00253D] mt-0.5">
+          <span className="text-[11px] font-light tracking-[0.35em] uppercase text-[#0e2b62] mt-0.5">
             Houston, TX
           </span>
         </Link>
@@ -111,14 +111,14 @@ export default function Header() {
         <div className="hidden lg:flex items-center gap-3">
           <Link
             href="/contact#quote"
-            className="text-sm font-medium text-[#1E3331] border border-[#1E3331] px-5 py-2 hover:bg-[#1E3331] hover:text-white transition-colors"
+            className="text-sm font-medium text-[#0e2b62] border border-[#0e2b62] px-5 py-2 hover:bg-[#0e2b62] hover:text-white transition-colors"
             style={{ borderRadius: 25 }}
           >
             Request a Quote
           </Link>
           <a
             href={siteData.phoneUrl}
-            className="text-sm font-medium text-white bg-[#1E3331] px-5 py-2 hover:bg-[#1E3331] transition-colors flex items-center gap-2"
+            className="text-sm font-medium text-white bg-[#0e2b62] px-5 py-2 hover:bg-[#0e2b62]/90 transition-colors flex items-center gap-2"
             style={{ borderRadius: 25 }}
           >
             <Phone size={13} />
@@ -154,7 +154,7 @@ export default function Header() {
           <div className="px-6 pb-5 flex flex-col gap-2">
             <a
               href={siteData.phoneUrl}
-              className="text-sm font-medium text-white bg-[#1E3331] px-5 py-3 text-center flex items-center justify-center gap-2"
+              className="text-sm font-medium text-white bg-[#0e2b62] px-5 py-3 text-center flex items-center justify-center gap-2"
               style={{ borderRadius: 25 }}
             >
               <Phone size={14} />
@@ -163,7 +163,7 @@ export default function Header() {
             <Link
               href="/contact#quote"
               onClick={() => setOpen(false)}
-              className="text-sm font-medium text-[#1E3331] border border-[#1E3331] px-5 py-3 text-center"
+              className="text-sm font-medium text-[#0e2b62] border border-[#0e2b62] px-5 py-3 text-center"
               style={{ borderRadius: 25 }}
             >
               Request a Quote

@@ -9,7 +9,7 @@ export default function BlogPage() {
   const posts = blogData.posts as BlogPost[]
   return (
     <div>
-      <section className="bg-[#00253D] text-white py-20">
+      <section className="bg-[#0e2b62] text-white py-20">
         <div className="max-w-screen-xl mx-auto px-6">
           <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-3 font-medium">Resources</p>
           <h1 className="text-5xl font-light mb-4">Furniture Journal</h1>
@@ -29,7 +29,7 @@ export default function BlogPage() {
                   <Calendar size={11} />
                   {new Date(post.publishedAt).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
                 </div>
-                <h2 className="text-sm font-medium text-[#1E3331] mb-2 group-hover:text-[#00253D] transition-colors leading-snug">{post.title}</h2>
+                <h2 className="text-sm font-medium text-[#1E3331] mb-2 group-hover:text-[#0e2b62] transition-colors leading-snug">{post.title}</h2>
                 <p className="text-[#1E3331]/50 text-xs font-light leading-relaxed line-clamp-3 mb-4">{post.excerpt}</p>
                 <span className="text-[10px] tracking-widest uppercase text-[#7DA68B] flex items-center gap-1.5 font-medium">
                   Read More <ArrowRight size={11} />

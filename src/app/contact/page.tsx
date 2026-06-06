@@ -8,7 +8,7 @@ export const metadata = { title: 'Contact Us' }
 export default function ContactPage() {
   return (
     <div>
-      <section className="bg-[#00253D] text-white py-20">
+      <section className="bg-[#0e2b62] text-white py-20">
         <div className="max-w-screen-xl mx-auto px-6">
           <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-3 font-medium">Get in Touch</p>
           <h1 className="text-5xl font-light mb-4">Contact Us</h1>
@@ -28,7 +28,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="text-[10px] tracking-widest uppercase text-[#1E3331]/40 mb-1 font-medium">Phone</p>
-                  <a href={siteData.phoneUrl} className="text-lg font-light text-[#1E3331] hover:text-[#00253D] transition-colors">{siteData.phone}</a>
+                  <a href={siteData.phoneUrl} className="text-lg font-light text-[#1E3331] hover:text-[#0e2b62] transition-colors">{siteData.phone}</a>
                   <p className="text-xs text-[#1E3331]/40 font-light mt-0.5">Call or text during business hours</p>
                 </div>
               </li>

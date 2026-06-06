@@ -21,7 +21,7 @@ const FINANCING_PARTNERS = [
 export default function ServicesPage() {
   return (
     <div>
-      <section className="bg-[#00253D] text-white py-20">
+      <section className="bg-[#0e2b62] text-white py-20">
         <div className="max-w-screen-xl mx-auto px-6">
           <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-3 font-medium">How We Help</p>
           <h1 className="text-5xl font-light mb-4">Services & Financing</h1>
@@ -39,7 +39,7 @@ export default function ServicesPage() {
               </div>
               <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] font-medium">Logistics</p>
             </div>
-            <h2 className="text-3xl font-light text-[#1E3331] mb-5">Delivery Service</h2>
+            <h2 className="text-3xl font-light text-[#0e2b62] mb-5">Delivery Service</h2>
             <p className="text-[#1E3331]/60 font-light text-sm leading-relaxed mb-8">
               We deliver throughout the Greater Houston area, including Sugar Land, Pearland, Missouri City, Stafford, Rosenberg, and Richmond. Our professional delivery team handles everything — from pickup to assembly.
             </p>
@@ -74,7 +74,7 @@ export default function ServicesPage() {
             </div>
             <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] font-medium">Financing</p>
           </div>
-          <h2 className="text-3xl font-light text-[#1E3331] mb-4">Financing Options</h2>
+          <h2 className="text-3xl font-light text-[#0e2b62] mb-4">Financing Options</h2>
           <p className="text-[#1E3331]/50 font-light text-sm mb-12 max-w-lg">We partner with three leading no-credit-needed financing companies to help you get the furniture you need today, and pay over time.</p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -109,7 +109,7 @@ export default function ServicesPage() {
       </section>
 
       <section className="max-w-screen-xl mx-auto px-6 py-20 text-center">
-        <h2 className="text-3xl font-light text-[#1E3331] mb-4">Ready to Shop?</h2>
+        <h2 className="text-3xl font-light text-[#0e2b62] mb-4">Ready to Shop?</h2>
         <p className="text-[#1E3331]/50 text-sm font-light mb-8">Browse our catalog and find your perfect furniture today.</p>
         <Link href="/shop" className="text-sm font-medium text-white bg-[#1E3331] px-8 py-3.5 hover:opacity-90 transition-opacity" style={{ borderRadius: 25 }}>View Catalog</Link>
       </section>

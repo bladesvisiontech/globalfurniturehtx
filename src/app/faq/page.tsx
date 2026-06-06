@@ -11,7 +11,7 @@ export default function FAQPage() {
   }, {})
   return (
     <div>
-      <section className="bg-[#00253D] text-white py-20">
+      <section className="bg-[#0e2b62] text-white py-20">
         <div className="max-w-screen-xl mx-auto px-6">
           <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-3 font-medium">Help Center</p>
           <h1 className="text-5xl font-light mb-4">Frequently Asked Questions</h1>

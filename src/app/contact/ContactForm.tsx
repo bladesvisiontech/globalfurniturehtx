@@ -65,7 +65,7 @@ export default function ContactForm() {
         <textarea value={form.message} onChange={(e) => update('message', e.target.value)} placeholder="Questions about delivery, pricing, availability..." rows={4} className={cn(inputClass, focusStyle, 'resize-none')} style={inputStyle} />
       </div>
       {status === 'error' && <p className="text-red-400 text-xs font-light">Something went wrong. Please try again or call us directly.</p>}
-      <button type="submit" disabled={status === 'loading'} className={cn('w-full flex items-center justify-center gap-2 text-sm font-medium text-white bg-[#1E3331] py-4 transition-opacity', status === 'loading' ? 'opacity-50 cursor-not-allowed' : 'hover:opacity-90')}>
+      <button type="submit" disabled={status === 'loading'} className={cn('w-full flex items-center justify-center gap-2 text-sm font-medium text-white bg-[#0e2b62] py-4 transition-opacity', status === 'loading' ? 'opacity-50 cursor-not-allowed' : 'hover:opacity-90')}>
         {status === 'loading' ? 'Sending...' : <><span>Send Message</span><ArrowRight size={14} /></>}
       </button>
     </form>

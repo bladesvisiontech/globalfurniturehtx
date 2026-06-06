@@ -87,7 +87,7 @@ export default function HomePage() {
         <div className="flex items-end justify-between mb-12">
           <div>
             <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-2 font-medium">Explore</p>
-            <h2 className="text-3xl font-light text-[#1E3331]">Shop by Room</h2>
+            <h2 className="text-3xl font-light text-[#0e2b62]">Shop by Room</h2>
           </div>
           <Link href="/shop" className="text-xs tracking-widest uppercase text-[#1E3331] hover:opacity-70 transition-opacity flex items-center gap-2 font-medium">
             View All <ArrowRight size={13} />
@@ -121,7 +121,7 @@ export default function HomePage() {
           <div className="flex items-end justify-between mb-12">
             <div>
               <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-2 font-medium">Featured</p>
-              <h2 className="text-3xl font-light text-[#1E3331]">Best Sellers</h2>
+              <h2 className="text-3xl font-light text-[#0e2b62]">Best Sellers</h2>
             </div>
             <Link href="/shop" className="text-xs tracking-widest uppercase text-[#1E3331] hover:opacity-70 transition-opacity flex items-center gap-2 font-medium">
               Full Catalog <ArrowRight size={13} />
@@ -141,7 +141,7 @@ export default function HomePage() {
         <div className="max-w-screen-xl mx-auto px-6 py-24">
           <div className="max-w-lg mb-14">
             <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-2 font-medium">Flexible Options</p>
-            <h2 className="text-3xl font-light text-[#1E3331] mb-4">Financing Available</h2>
+            <h2 className="text-3xl font-light text-[#0e2b62] mb-4">Financing Available</h2>
             <p className="text-sm font-light text-[#1E3331]/50 leading-relaxed">
               No credit? No problem. We partner with three leading financing companies so you can take your furniture home today and pay over time.
             </p>
@@ -226,7 +226,7 @@ export default function HomePage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div>
             <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-3 font-medium">Houston Showroom</p>
-            <h2 className="text-4xl font-light text-[#1E3331] mb-6 leading-tight">
+            <h2 className="text-4xl font-light text-[#0e2b62] mb-6 leading-tight">
               Come See It<br />In Person
             </h2>
             <p className="text-sm font-light text-[#1E3331]/50 leading-relaxed mb-8 max-w-sm">
@@ -249,7 +249,7 @@ export default function HomePage() {
                 href={siteData.googleMapsUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm font-medium text-white bg-[#1E3331] px-7 py-3.5 hover:bg-[#1E3331] transition-colors flex items-center gap-2"
+                className="text-sm font-medium text-white bg-[#0e2b62] px-7 py-3.5 hover:bg-[#0e2b62]/90 transition-colors flex items-center gap-2"
                 style={{ borderRadius: 25 }}
               >
                 <MapPin size={14} />

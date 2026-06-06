@@ -13,7 +13,7 @@ const VALUES = [
 export default function AboutPage() {
   return (
     <div>
-      <section className="bg-[#00253D] text-white py-20">
+      <section className="bg-[#0e2b62] text-white py-20">
         <div className="max-w-screen-xl mx-auto px-6">
           <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-3 font-medium">Our Story</p>
           <h1 className="text-5xl font-light mb-4">About Global Furniture HTX</h1>
@@ -24,7 +24,7 @@ export default function AboutPage() {
       <section className="max-w-screen-xl mx-auto px-6 py-20">
         <div className="max-w-3xl">
           <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-3 font-medium">Who We Are</p>
-          <h2 className="text-3xl font-light text-[#1E3331] mb-8">Our Story</h2>
+          <h2 className="text-3xl font-light text-[#0e2b62] mb-8">Our Story</h2>
           <div className="space-y-5 text-[#1E3331]/60 font-light leading-relaxed text-sm">
             <p>Global Furniture HTX was founded with one mission: to make quality furniture accessible to every Houston family, regardless of budget or credit history.</p>
             <p>Located in the heart of southwest Houston, our showroom offers a wide selection of living room sets, bedroom furniture, dining sets, mattresses, and accent pieces — all at competitive prices.</p>
@@ -38,7 +38,7 @@ export default function AboutPage() {
         <div className="max-w-screen-xl mx-auto px-6 py-20">
           <div className="text-center mb-14">
             <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-3 font-medium">Why Us</p>
-            <h2 className="text-3xl font-light text-[#1E3331]">Why Choose Us</h2>
+            <h2 className="text-3xl font-light text-[#0e2b62]">Why Choose Us</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {VALUES.map(({ icon: Icon, title, desc }) => (
@@ -58,7 +58,7 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
           <div>
             <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-3 font-medium">Find Us</p>
-            <h2 className="text-3xl font-light text-[#1E3331] mb-8">Visit Our Showroom</h2>
+            <h2 className="text-3xl font-light text-[#0e2b62] mb-8">Visit Our Showroom</h2>
             <ul className="space-y-5 mb-10">
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="text-[#7DA68B] shrink-0 mt-0.5" />
@@ -69,7 +69,7 @@ export default function AboutPage() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={16} className="text-[#7DA68B] shrink-0" />
-                <a href={siteData.phoneUrl} className="text-sm font-medium text-[#1E3331] hover:text-[#00253D] transition-colors">{siteData.phone}</a>
+                <a href={siteData.phoneUrl} className="text-sm font-medium text-[#1E3331] hover:text-[#0e2b62] transition-colors">{siteData.phone}</a>
               </li>
               <li className="flex items-start gap-3">
                 <Clock size={16} className="text-[#7DA68B] shrink-0 mt-0.5" />

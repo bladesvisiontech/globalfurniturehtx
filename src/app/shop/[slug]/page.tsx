@@ -54,7 +54,7 @@ export default async function ProductPage({ params }: Props) {
           <Image src={displayImage} alt={product.name} fill className="object-cover" priority sizes="(max-width: 1024px) 100vw, 50vw" />
           {hasDiscount && (
             <div className="absolute top-4 left-4">
-              <span className="text-[10px] font-semibold tracking-widest uppercase bg-[#00253D] text-white px-3 py-1.5">Sale</span>
+              <span className="text-[10px] font-semibold tracking-widest uppercase bg-[#0e2b62] text-white px-3 py-1.5">Sale</span>
             </div>
           )}
         </div>
