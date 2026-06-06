@@ -2,7 +2,10 @@ import { Phone, MapPin, Clock, Truck, CreditCard, Users } from 'lucide-react'
 import Link from 'next/link'
 import siteData from '@/data/site.json'
 
-export const metadata = { title: 'About Us' }
+export const metadata = {
+  title: 'About Us',
+  description: 'Welcome to Global Furniture HTX, your one-stop shop for high-quality mattresses, stylish, and affordable furniture in Houston, TX. Modern and classic designs for every taste and budget. Expert team, exceptional service, and exclusive deals.',
+}
 
 const VALUES = [
   { icon: Users, title: 'Family-Owned', desc: 'A Houston family business dedicated to serving our community with quality and care.' },
@@ -26,10 +29,9 @@ export default function AboutPage() {
           <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-3 font-medium">Who We Are</p>
           <h2 className="text-3xl font-light text-[#0e2b62] mb-8">Our Story</h2>
           <div className="space-y-5 text-[#1E3331]/60 font-light leading-relaxed text-sm">
-            <p>Global Furniture HTX was founded with one mission: to make quality furniture accessible to every Houston family, regardless of budget or credit history.</p>
-            <p>Located in the heart of southwest Houston, our showroom offers a wide selection of living room sets, bedroom furniture, dining sets, mattresses, and accent pieces — all at competitive prices.</p>
-            <p>We believe that your home should reflect who you are. That&apos;s why we carry a diverse catalog of styles, from modern and contemporary to classic and traditional.</p>
-            <p>With same-day delivery and flexible financing through our trusted partners, we make it easy to get the furniture you love into your home fast.</p>
+            <p>Welcome to Global Furniture HTX, your one-stop shop for high-quality mattresses, stylish, and affordable furniture. Whether you&apos;re furnishing your living room, bedroom, office, or outdoor space, we offer a wide range of modern and classic designs to fit every taste and budget.</p>
+            <p>Our expert team is dedicated to helping you find the perfect pieces to create a comfortable and inviting home. Visit us today and discover exceptional craftsmanship, exceptional service, and exclusive deals.</p>
+            <p>Transform your space with Global Furniture HTX — where comfort meets style.</p>
           </div>
         </div>
       </section>

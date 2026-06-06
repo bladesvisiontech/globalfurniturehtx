@@ -3,7 +3,7 @@ import { Phone, MapPin, Clock } from 'lucide-react'
 import siteData from '@/data/site.json'
 import ContactForm from './ContactForm'
 
-export const metadata = { title: 'Contact Us' }
+export const metadata = { title: 'Contact Us', description: 'Get in touch with Global Furniture HTX in Houston, TX. Request a free quote, ask about financing, or schedule a showroom visit. Call us or fill out our quick contact form.' }
 
 export default function ContactPage() {
   return (

@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { Truck, CreditCard, Phone, CheckCircle } from 'lucide-react'
 import siteData from '@/data/site.json'
 
-export const metadata = { title: 'Services & Financing' }
+export const metadata = { title: 'Services & Financing', description: 'Global Furniture HTX offers same-day delivery, professional assembly, and flexible financing with no credit needed through Koalafi, Snap Finance, and Acima. Serving Houston, TX.' }
 
 const DELIVERY_FEATURES = [
   'Same-day delivery available in Houston',

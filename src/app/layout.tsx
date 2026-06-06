@@ -13,7 +13,13 @@ export const metadata: Metadata = {
     default: `${siteData.name} | Quality Furniture in Houston, TX`,
     template: `%s | ${siteData.name}`,
   },
-  description: `${siteData.tagline}. Shop bedroom sets, living room furniture, dining sets, and mattresses. Financing available — no credit needed. Serving Houston, TX.`,
+  description: `Welcome to Global Furniture HTX, your one-stop shop for high-quality mattresses, stylish, and affordable furniture in Houston, TX. Modern and classic designs for every taste and budget. Financing available — no credit needed.`,
+  keywords: ['furniture Houston TX', 'bedroom sets Houston', 'living room furniture', 'mattresses Houston', 'furniture financing no credit', 'Global Furniture HTX', 'affordable furniture Houston'],
+  openGraph: {
+    siteName: siteData.name,
+    locale: 'en_US',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

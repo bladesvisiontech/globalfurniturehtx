@@ -1,7 +1,7 @@
 import faqData from '@/data/faq.json'
 import FAQClient from './FAQClient'
 
-export const metadata = { title: 'FAQ' }
+export const metadata = { title: 'FAQ', description: 'Frequently asked questions about Global Furniture HTX — delivery, financing options, return policy, assembly, and more. Get answers before you visit our Houston showroom.' }
 
 export default function FAQPage() {
   const grouped = faqData.faqs.reduce<Record<string, typeof faqData.faqs>>((acc, faq) => {

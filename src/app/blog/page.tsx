@@ -4,7 +4,7 @@ import { Calendar, ArrowRight } from 'lucide-react'
 import blogData from '@/data/blog.json'
 import { type BlogPost } from '@/types'
 
-export const metadata = { title: 'Journal' }
+export const metadata = { title: 'Journal', description: 'Furniture tips, buying guides, and design ideas from Global Furniture HTX. Learn how to choose the right pieces for your Houston home and explore financing options.' }
 
 export default function BlogPage() {
   const posts = blogData.posts as BlogPost[]

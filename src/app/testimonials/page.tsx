@@ -3,7 +3,7 @@ import Link from 'next/link'
 import testimonialsData from '@/data/testimonials.json'
 import siteData from '@/data/site.json'
 
-export const metadata = { title: 'Customer Reviews' }
+export const metadata = { title: 'Customer Reviews', description: 'See what Houston families are saying about Global Furniture HTX. Read real customer reviews and testimonials about our furniture quality, delivery, and financing service.' }
 
 export default function TestimonialsPage() {
   const testimonials = testimonialsData.testimonials
