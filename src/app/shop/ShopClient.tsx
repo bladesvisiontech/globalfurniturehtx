@@ -21,22 +21,22 @@ export default function ShopClient() {
       <div className="mb-10">
         <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-2 font-medium">Catalog</p>
         <h1 className="text-3xl font-light text-[#0e2b62]">{activeName}</h1>
-        <p className="text-[#1E3331]/40 text-xs mt-1 font-light">{filtered.length} products</p>
+        <p className="text-[#0e2b62]/40 text-xs mt-1 font-light">{filtered.length} products</p>
       </div>
 
       <div className="flex flex-col md:flex-row gap-10">
         {/* Sidebar */}
         <aside className="md:w-48 shrink-0">
-          <p className="text-[10px] font-medium uppercase tracking-[0.2em] text-[#1E3331]/40 mb-4">Category</p>
+          <p className="text-[10px] font-medium uppercase tracking-[0.2em] text-[#0e2b62]/40 mb-4">Category</p>
           <ul className="space-y-1">
             <li>
-              <Link href="/shop" className={cn('block px-3 py-2 text-xs font-medium transition-colors', !activeCategory ? 'text-[#1E3331] bg-[#E7E0CE]' : 'text-[#1E3331]/50 hover:text-[#1E3331]')}>
+              <Link href="/shop" className={cn('block px-3 py-2 text-xs font-medium transition-colors', !activeCategory ? 'text-[#0e2b62] bg-[#E7E0CE]' : 'text-[#0e2b62]/50 hover:text-[#0e2b62]')}>
                 All Furniture
               </Link>
             </li>
             {categories.map((cat) => (
               <li key={cat.id}>
-                <Link href={`/shop?category=${cat.slug}`} className={cn('block px-3 py-2 text-xs font-medium transition-colors', activeCategory === cat.slug ? 'text-[#1E3331] bg-[#E7E0CE]' : 'text-[#1E3331]/50 hover:text-[#1E3331]')}>
+                <Link href={`/shop?category=${cat.slug}`} className={cn('block px-3 py-2 text-xs font-medium transition-colors', activeCategory === cat.slug ? 'text-[#0e2b62] bg-[#E7E0CE]' : 'text-[#0e2b62]/50 hover:text-[#0e2b62]')}>
                   {cat.name}
                 </Link>
               </li>
@@ -47,9 +47,9 @@ export default function ShopClient() {
         {/* Grid */}
         <div className="flex-1">
           {filtered.length === 0 ? (
-            <div className="text-center py-20 text-[#1E3331]/40">
+            <div className="text-center py-20 text-[#0e2b62]/40">
               <p className="text-sm font-light">No products found in this category.</p>
-              <Link href="/shop" className="mt-4 inline-block text-xs tracking-widest uppercase text-[#7DA68B] font-medium hover:text-[#1E3331]">View all furniture</Link>
+              <Link href="/shop" className="mt-4 inline-block text-xs tracking-widest uppercase text-[#7DA68B] font-medium hover:text-[#0e2b62]">View all furniture</Link>
             </div>
           ) : (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-12">

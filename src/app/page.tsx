@@ -35,7 +35,7 @@ export default function HomePage() {
       {/* ── Perks strip ──────────────────────────────────── */}
       <ScrollReveal direction="none" duration={500}>
         <div style={{ borderBottom: '1px solid #F0F0F0' }}>
-          <div className="max-w-screen-xl mx-auto px-6 py-4 flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-12 text-xs tracking-widest uppercase text-[#1E3331]/50 font-medium">
+          <div className="max-w-screen-xl mx-auto px-6 py-4 flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-12 text-xs tracking-widest uppercase text-[#0e2b62]/50 font-medium">
             {['Same-Day Delivery in Houston', 'Financing — No Credit Needed', 'Professional Assembly Included'].map((t) => (
               <span key={t} className="flex items-center gap-2">
                 <span className="w-1 h-1 rounded-full bg-[#7DA68B] inline-block" />
@@ -54,7 +54,7 @@ export default function HomePage() {
               <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-2 font-medium">Explore</p>
               <h2 className="text-3xl font-light text-[#0e2b62]">Shop by Room</h2>
             </div>
-            <Link href="/shop" className="text-xs tracking-widest uppercase text-[#1E3331] hover:opacity-70 transition-opacity flex items-center gap-2 font-medium">
+            <Link href="/shop" className="text-xs tracking-widest uppercase text-[#0e2b62] hover:opacity-70 transition-opacity flex items-center gap-2 font-medium">
               View All <ArrowRight size={13} />
             </Link>
           </div>
@@ -68,9 +68,9 @@ export default function HomePage() {
                   {cat.image && (
                     <Image src={cat.image} alt={cat.name} fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
                   )}
-                  <div className="absolute inset-0 bg-[#1E3331]/0 group-hover:bg-[#1E3331]/10 transition-colors" />
+                  <div className="absolute inset-0 bg-[#0e2b62]/0 group-hover:bg-[#0e2b62]/10 transition-colors" />
                 </div>
-                <p className="text-xs font-medium text-[#1E3331]/70 group-hover:text-[#1E3331] transition-colors">
+                <p className="text-xs font-medium text-[#0e2b62]/70 group-hover:text-[#0e2b62] transition-colors">
                   {cat.name}
                 </p>
               </Link>
@@ -88,7 +88,7 @@ export default function HomePage() {
                 <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-2 font-medium">Featured</p>
                 <h2 className="text-3xl font-light text-[#0e2b62]">Best Sellers</h2>
               </div>
-              <Link href="/shop" className="text-xs tracking-widest uppercase text-[#1E3331] hover:opacity-70 transition-opacity flex items-center gap-2 font-medium">
+              <Link href="/shop" className="text-xs tracking-widest uppercase text-[#0e2b62] hover:opacity-70 transition-opacity flex items-center gap-2 font-medium">
                 Full Catalog <ArrowRight size={13} />
               </Link>
             </div>
@@ -111,7 +111,7 @@ export default function HomePage() {
             <div className="max-w-lg mb-14">
               <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-2 font-medium">Flexible Options</p>
               <h2 className="text-3xl font-light text-[#0e2b62] mb-4">Financing Available</h2>
-              <p className="text-sm font-light text-[#1E3331]/50 leading-relaxed">
+              <p className="text-sm font-light text-[#0e2b62]/50 leading-relaxed">
                 No credit? No problem. We partner with three leading financing companies so you can take your furniture home today and pay over time.
               </p>
             </div>
@@ -128,8 +128,8 @@ export default function HomePage() {
                   style={{ border: '1px solid #ECEAE4' }}
                 >
                   <p className="text-lg font-semibold text-[#0e2b62] mb-1.5">{partner.name}</p>
-                  <p className="text-xs font-light text-[#1E3331]/50 mb-4">{partner.description}</p>
-                  <span className="text-xs tracking-widest uppercase text-[#1E3331] flex items-center gap-1.5 font-medium">
+                  <p className="text-xs font-light text-[#0e2b62]/50 mb-4">{partner.description}</p>
+                  <span className="text-xs tracking-widest uppercase text-[#0e2b62] flex items-center gap-1.5 font-medium">
                     Apply Now <ArrowRight size={11} />
                   </span>
                 </a>
@@ -139,7 +139,7 @@ export default function HomePage() {
 
           <ScrollReveal direction="up" delay={150} duration={500}>
             <div className="mt-8">
-              <Link href="/services#financing" className="text-xs tracking-widest uppercase text-[#1E3331] hover:opacity-70 transition-opacity flex items-center gap-2 font-medium">
+              <Link href="/services#financing" className="text-xs tracking-widest uppercase text-[#0e2b62] hover:opacity-70 transition-opacity flex items-center gap-2 font-medium">
                 Learn more about financing <ArrowRight size={12} />
               </Link>
             </div>
@@ -148,7 +148,7 @@ export default function HomePage() {
       </section>
 
       {/* ── Testimonials ─────────────────────────────────── */}
-      <section className="bg-[#1E3331] text-white">
+      <section className="bg-[#0e2b62] text-white">
         <div className="max-w-screen-xl mx-auto px-6 py-24">
           <ScrollReveal direction="up" duration={600}>
             <div className="mb-14 text-center">
@@ -204,19 +204,19 @@ export default function HomePage() {
               <h2 className="text-4xl font-light text-[#0e2b62] mb-6 leading-tight">
                 Come See It<br />In Person
               </h2>
-              <p className="text-sm font-light text-[#1E3331]/50 leading-relaxed mb-8 max-w-sm">
+              <p className="text-sm font-light text-[#0e2b62]/50 leading-relaxed mb-8 max-w-sm">
                 Our showroom is stocked with the full collection. Our team is ready to help you find the perfect pieces for your space and budget.
               </p>
-              <ul className="space-y-3 mb-10 text-sm font-light text-[#1E3331]/50">
+              <ul className="space-y-3 mb-10 text-sm font-light text-[#0e2b62]/50">
                 <li className="flex items-start gap-3">
-                  <MapPin size={15} className="text-[#1E3331] shrink-0 mt-0.5" />
-                  <a href={siteData.googleMapsUrl} target="_blank" rel="noopener noreferrer" className="hover:text-[#1E3331] transition-colors">
+                  <MapPin size={15} className="text-[#0e2b62] shrink-0 mt-0.5" />
+                  <a href={siteData.googleMapsUrl} target="_blank" rel="noopener noreferrer" className="hover:text-[#0e2b62] transition-colors">
                     {siteData.address}, {siteData.city} {siteData.state} {siteData.zip}
                   </a>
                 </li>
                 <li className="flex items-center gap-3">
-                  <Phone size={15} className="text-[#1E3331] shrink-0" />
-                  <a href={siteData.phoneUrl} className="hover:text-[#1E3331] transition-colors">{siteData.phone}</a>
+                  <Phone size={15} className="text-[#0e2b62] shrink-0" />
+                  <a href={siteData.phoneUrl} className="hover:text-[#0e2b62] transition-colors">{siteData.phone}</a>
                 </li>
               </ul>
               <div className="flex flex-wrap gap-3">
@@ -243,10 +243,10 @@ export default function HomePage() {
           </ScrollReveal>
 
           <ScrollReveal direction="right" duration={700} delay={100}>
-            <div className="text-sm font-light text-[#1E3331]/40 space-y-2 md:pl-8" style={{ borderLeft: '1px solid #F0F0F0' }}>
-              <p className="text-[10px] tracking-widest uppercase mb-4 text-[#1E3331]/40">Store Hours</p>
-              <p className="text-[#1E3331]/60">{siteData.hours}</p>
-              <p className="text-xs mt-4 text-[#1E3331]/40">{siteData.deliveryNote}</p>
+            <div className="text-sm font-light text-[#0e2b62]/40 space-y-2 md:pl-8" style={{ borderLeft: '1px solid #F0F0F0' }}>
+              <p className="text-[10px] tracking-widest uppercase mb-4 text-[#0e2b62]/40">Store Hours</p>
+              <p className="text-[#0e2b62]/60">{siteData.hours}</p>
+              <p className="text-xs mt-4 text-[#0e2b62]/40">{siteData.deliveryNote}</p>
             </div>
           </ScrollReveal>
         </div>

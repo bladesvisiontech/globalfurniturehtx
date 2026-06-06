@@ -46,7 +46,7 @@ export default function HeroCarousel({ banners, phone, phoneUrl }: Props) {
 
   return (
     <section
-      className="relative bg-[#1E3331] text-white overflow-hidden"
+      className="relative bg-[#0e2b62] text-white overflow-hidden"
       style={{ minHeight: 'calc(100vh - 88px)', maxHeight: 700 }}
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
@@ -77,7 +77,7 @@ export default function HeroCarousel({ banners, phone, phoneUrl }: Props) {
               }}
             />
             {/* gradient overlay */}
-            <div className="absolute inset-0 bg-gradient-to-r from-[#0d2b1e]/90 via-[#0d2b1e]/55 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-r from-[#071529]/90 via-[#071529]/55 to-transparent" />
           </div>
         )
       })}
@@ -113,7 +113,7 @@ export default function HeroCarousel({ banners, phone, phoneUrl }: Props) {
           >
             <Link
               href={banners[current].ctaLink}
-              className="text-sm font-medium text-[#1E3331] bg-white px-7 py-3.5 hover:bg-[#F5F2EC] transition-colors flex items-center gap-2"
+              className="text-sm font-medium text-[#0e2b62] bg-white px-7 py-3.5 hover:bg-[#F5F2EC] transition-colors flex items-center gap-2"
               style={{ borderRadius: 25 }}
             >
               {banners[current].ctaText}

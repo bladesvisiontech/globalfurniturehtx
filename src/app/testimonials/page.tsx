@@ -9,7 +9,7 @@ export default function TestimonialsPage() {
   const testimonials = testimonialsData.testimonials
   return (
     <div>
-      <section className="bg-[#1E3331] text-white py-20">
+      <section className="bg-[#0e2b62] text-white py-20">
         <div className="max-w-screen-xl mx-auto px-6">
           <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-3 font-medium">Reviews</p>
           <h1 className="text-5xl font-light mb-6">Customer Reviews</h1>
@@ -44,10 +44,10 @@ export default function TestimonialsPage() {
                   <Star key={i} size={13} className={i < t.rating ? 'text-[#7DA68B] fill-[#7DA68B]' : 'text-[#ECEAE4] fill-[#ECEAE4]'} />
                 ))}
               </div>
-              <p className="text-[#1E3331]/60 text-sm font-light leading-relaxed mb-6">&ldquo;{t.text}&rdquo;</p>
+              <p className="text-[#0e2b62]/60 text-sm font-light leading-relaxed mb-6">&ldquo;{t.text}&rdquo;</p>
               <div style={{ borderTop: '1px solid #ECEAE4', paddingTop: 16 }}>
-                <p className="text-sm font-medium text-[#1E3331]">{t.name}</p>
-                <p className="text-xs text-[#1E3331]/40 mt-0.5 font-light">{t.location} · Google Review</p>
+                <p className="text-sm font-medium text-[#0e2b62]">{t.name}</p>
+                <p className="text-xs text-[#0e2b62]/40 mt-0.5 font-light">{t.location} · Google Review</p>
               </div>
             </div>
           ))}
@@ -58,7 +58,7 @@ export default function TestimonialsPage() {
             href={siteData.googleReviewsUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-xs tracking-widests uppercase text-[#7DA68B] hover:text-[#1E3331] transition-colors font-medium flex items-center gap-2 justify-center"
+            className="text-xs tracking-widests uppercase text-[#7DA68B] hover:text-[#0e2b62] transition-colors font-medium flex items-center gap-2 justify-center"
           >
             Read all {siteData.googleReviewCount} reviews on Google <ArrowRight size={12} />
           </a>
@@ -68,7 +68,7 @@ export default function TestimonialsPage() {
       <section className="bg-[#F5F2EC] py-16 text-center" style={{ borderTop: '1px solid #ECEAE4' }}>
         <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-3 font-medium">Next Step</p>
         <h2 className="text-2xl font-light text-[#0e2b62] mb-4">Experience it yourself</h2>
-        <p className="text-[#1E3331]/50 text-sm font-light mb-8">Visit our showroom or browse online and see why Houston families choose us.</p>
+        <p className="text-[#0e2b62]/50 text-sm font-light mb-8">Visit our showroom or browse online and see why Houston families choose us.</p>
         <Link href="/shop" className="text-sm font-medium text-white bg-[#0e2b62] px-8 py-3.5 hover:opacity-90 transition-opacity" style={{ borderRadius: 25 }}>
           Shop Now
         </Link>

@@ -23,7 +23,7 @@ const INFO_LINKS = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#1E3331] text-white">
+    <footer className="bg-[#0e2b62] text-white">
       <div className="max-w-screen-xl mx-auto px-6 py-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
 
         {/* Brand */}
@@ -94,7 +94,7 @@ export default function Footer() {
           </ul>
           <a
             href={siteData.phoneUrl}
-            className="mt-8 inline-block text-xs font-medium text-[#1E3331] bg-white px-6 py-2.5 hover:bg-[#F5F2EC] transition-colors"
+            className="mt-8 inline-block text-xs font-medium text-[#0e2b62] bg-white px-6 py-2.5 hover:bg-[#F5F2EC] transition-colors"
             style={{ borderRadius: 25 }}
           >
             Call Now

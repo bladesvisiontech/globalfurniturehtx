@@ -25,12 +25,12 @@ export default function BlogPage() {
                 <div className="aspect-[4/3] bg-[#E7E0CE] mb-5 overflow-hidden flex items-center justify-center">
                   <span className="text-5xl opacity-40">🛋️</span>
                 </div>
-                <div className="flex items-center gap-2 text-[#1E3331]/40 text-xs mb-3 font-light">
+                <div className="flex items-center gap-2 text-[#0e2b62]/40 text-xs mb-3 font-light">
                   <Calendar size={11} />
                   {new Date(post.publishedAt).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
                 </div>
-                <h2 className="text-sm font-medium text-[#1E3331] mb-2 group-hover:text-[#0e2b62] transition-colors leading-snug">{post.title}</h2>
-                <p className="text-[#1E3331]/50 text-xs font-light leading-relaxed line-clamp-3 mb-4">{post.excerpt}</p>
+                <h2 className="text-sm font-medium text-[#0e2b62] mb-2 group-hover:text-[#0e2b62] transition-colors leading-snug">{post.title}</h2>
+                <p className="text-[#0e2b62]/50 text-xs font-light leading-relaxed line-clamp-3 mb-4">{post.excerpt}</p>
                 <span className="text-[10px] tracking-widest uppercase text-[#7DA68B] flex items-center gap-1.5 font-medium">
                   Read More <ArrowRight size={11} />
                 </span>

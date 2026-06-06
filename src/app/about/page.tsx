@@ -25,7 +25,7 @@ export default function AboutPage() {
         <div className="max-w-3xl">
           <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-3 font-medium">Who We Are</p>
           <h2 className="text-3xl font-light text-[#0e2b62] mb-8">Our Story</h2>
-          <div className="space-y-5 text-[#1E3331]/60 font-light leading-relaxed text-sm">
+          <div className="space-y-5 text-[#0e2b62]/60 font-light leading-relaxed text-sm">
             <p>Global Furniture HTX was founded with one mission: to make quality furniture accessible to every Houston family, regardless of budget or credit history.</p>
             <p>Located in the heart of southwest Houston, our showroom offers a wide selection of living room sets, bedroom furniture, dining sets, mattresses, and accent pieces — all at competitive prices.</p>
             <p>We believe that your home should reflect who you are. That&apos;s why we carry a diverse catalog of styles, from modern and contemporary to classic and traditional.</p>
@@ -44,10 +44,10 @@ export default function AboutPage() {
             {VALUES.map(({ icon: Icon, title, desc }) => (
               <div key={title} className="bg-white p-10 text-center" style={{ border: '1px solid #ECEAE4' }}>
                 <div className="w-12 h-12 bg-[#E7E0CE] flex items-center justify-center mx-auto mb-5">
-                  <Icon className="text-[#1E3331]" size={20} />
+                  <Icon className="text-[#0e2b62]" size={20} />
                 </div>
-                <h3 className="text-sm font-semibold text-[#1E3331] mb-3">{title}</h3>
-                <p className="text-[#1E3331]/50 text-xs font-light leading-relaxed">{desc}</p>
+                <h3 className="text-sm font-semibold text-[#0e2b62] mb-3">{title}</h3>
+                <p className="text-[#0e2b62]/50 text-xs font-light leading-relaxed">{desc}</p>
               </div>
             ))}
           </div>
@@ -63,17 +63,17 @@ export default function AboutPage() {
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="text-[#7DA68B] shrink-0 mt-0.5" />
                 <div>
-                  <p className="text-sm font-medium text-[#1E3331]">{siteData.address}</p>
-                  <p className="text-sm font-light text-[#1E3331]/50">{siteData.city}, {siteData.state} {siteData.zip}</p>
+                  <p className="text-sm font-medium text-[#0e2b62]">{siteData.address}</p>
+                  <p className="text-sm font-light text-[#0e2b62]/50">{siteData.city}, {siteData.state} {siteData.zip}</p>
                 </div>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={16} className="text-[#7DA68B] shrink-0" />
-                <a href={siteData.phoneUrl} className="text-sm font-medium text-[#1E3331] hover:text-[#0e2b62] transition-colors">{siteData.phone}</a>
+                <a href={siteData.phoneUrl} className="text-sm font-medium text-[#0e2b62] hover:text-[#0e2b62] transition-colors">{siteData.phone}</a>
               </li>
               <li className="flex items-start gap-3">
                 <Clock size={16} className="text-[#7DA68B] shrink-0 mt-0.5" />
-                <p className="text-sm font-light text-[#1E3331]/60">{siteData.hours}</p>
+                <p className="text-sm font-light text-[#0e2b62]/60">{siteData.hours}</p>
               </li>
             </ul>
             <div className="flex gap-3 flex-wrap">
@@ -91,12 +91,12 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="bg-[#1E3331] text-white py-16 text-center">
+      <section className="bg-[#0e2b62] text-white py-16 text-center">
         <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-3 font-medium">Ready?</p>
         <h2 className="text-3xl font-light mb-4">Furnish Your Home Today</h2>
         <p className="text-white/50 text-sm font-light mb-8">Browse our full catalog or visit us in person.</p>
         <div className="flex justify-center gap-3 flex-wrap">
-          <Link href="/shop" className="text-sm font-medium text-[#1E3331] bg-white px-8 py-3 hover:bg-[#E7E0CE] transition-colors" style={{ borderRadius: 25 }}>Shop Now</Link>
+          <Link href="/shop" className="text-sm font-medium text-[#0e2b62] bg-white px-8 py-3 hover:bg-[#E7E0CE] transition-colors" style={{ borderRadius: 25 }}>Shop Now</Link>
           <Link href="/contact" className="text-sm font-medium text-white border border-white/30 px-8 py-3 hover:bg-white/10 transition-colors" style={{ borderRadius: 25 }}>Contact Us</Link>
         </div>
       </section>
