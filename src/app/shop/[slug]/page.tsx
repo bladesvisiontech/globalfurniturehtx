@@ -1,11 +1,11 @@
 import { notFound } from 'next/navigation'
-import Image from 'next/image'
 import Link from 'next/link'
 import { Phone, ChevronLeft, MapPin, CreditCard } from 'lucide-react'
 import productsData from '@/data/products.json'
 import siteData from '@/data/site.json'
 import { type Product } from '@/types'
 import { formatPrice } from '@/lib/utils'
+import ProductImageGallery from '@/components/ui/ProductImageGallery'
 
 interface Props { params: Promise<{ slug: string }> }
 
@@ -31,7 +31,6 @@ export default async function ProductPage({ params }: Props) {
   if (!product) notFound()
 
   const hasDiscount = product.salePrice && product.salePrice < product.price
-  const displayImage = product.images[0] ?? '/images/placeholder.jpg'
 
   return (
     <div className="max-w-screen-xl mx-auto px-6 py-12">
@@ -49,15 +48,12 @@ export default async function ProductPage({ params }: Props) {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-        {/* Image */}
-        <div className="relative aspect-[4/3] bg-[#F5F2EC] overflow-hidden sticky top-24 self-start">
-          <Image src={displayImage} alt={product.name} fill className="object-cover" priority sizes="(max-width: 1024px) 100vw, 50vw" />
-          {hasDiscount && (
-            <div className="absolute top-4 left-4">
-              <span className="text-[10px] font-semibold tracking-widest uppercase bg-[#0e2b62] text-white px-3 py-1.5">Sale</span>
-            </div>
-          )}
-        </div>
+        {/* Image gallery */}
+        <ProductImageGallery
+          images={product.images}
+          productName={product.name}
+          hasSaleBadge={!!hasDiscount}
+        />
 
         {/* Details */}
         <div className="py-2">
