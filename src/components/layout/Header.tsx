@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState } from 'react'
 import { Phone, Menu, X, ChevronDown } from 'lucide-react'
 import siteData from '@/data/site.json'
@@ -47,13 +48,15 @@ export default function Header() {
       <div className="max-w-screen-xl mx-auto px-6 h-16 flex items-center justify-between">
 
         {/* Logo */}
-        <Link href="/" className="flex flex-col leading-none">
-          <span className="text-[15px] font-semibold tracking-[0.18em] uppercase text-[#1E3331]">
-            Global Furniture
-          </span>
-          <span className="text-[11px] font-light tracking-[0.35em] uppercase text-[#0e2b62] mt-0.5">
-            Houston, TX
-          </span>
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/images/logo.jpg"
+            alt="Global Furniture HTX"
+            width={160}
+            height={60}
+            className="object-contain"
+            priority
+          />
         </Link>
 
         {/* Desktop nav */}
