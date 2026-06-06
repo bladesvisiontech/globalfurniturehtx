@@ -13,9 +13,9 @@ const DELIVERY_FEATURES = [
 ]
 
 const FINANCING_PARTNERS = [
-  { name: 'Koalafi', href: 'https://koalafi.com', description: 'Lease-to-own financing with flexible payment options. Apply online in minutes and get a quick decision.', features: ['No credit required', 'Flexible payment plans', 'Apply in minutes'] },
-  { name: 'Snap Finance', href: 'https://snapfinance.com', description: 'Specializes in customers with limited or poor credit. Simple application with fast approvals.', features: ['Bad credit OK', 'Quick approvals', 'Weekly or bi-weekly payments'] },
-  { name: 'Acima', href: 'https://acima.com', description: 'Rent-to-own with early purchase options. Own your furniture outright by paying off early.', features: ['Rent-to-own model', 'Early purchase option', 'No credit needed'] },
+  { name: 'Koalafi', href: 'https://koalafi.com', logo: '/images/financing/koalafi.webp', description: 'Lease-to-own financing with flexible payment options. Apply online in minutes and get a quick decision.', features: ['No credit required', 'Flexible payment plans', 'Apply in minutes'] },
+  { name: 'Snap Finance', href: 'https://snapfinance.com', logo: '/images/financing/snapfinance.png', description: 'Specializes in customers with limited or poor credit. Simple application with fast approvals.', features: ['Bad credit OK', 'Quick approvals', 'Weekly or bi-weekly payments'] },
+  { name: 'Acima', href: 'https://acima.com', logo: '/images/financing/acima.png', description: 'Rent-to-own with early purchase options. Own your furniture outright by paying off early.', features: ['Rent-to-own model', 'Early purchase option', 'No credit needed'] },
 ]
 
 export default function ServicesPage() {
@@ -80,7 +80,11 @@ export default function ServicesPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {FINANCING_PARTNERS.map((partner) => (
               <div key={partner.name} className="bg-white p-8" style={{ border: '1px solid #ECEAE4' }}>
-                <h3 className="text-lg font-semibold text-[#0e2b62] mb-3">{partner.name}</h3>
+                <img
+                  src={partner.logo}
+                  alt={partner.name}
+                  style={{ height: 32, width: 'auto', maxWidth: 140, objectFit: 'contain', objectPosition: 'left', marginBottom: 20 }}
+                />
                 <p className="text-[#1E3331]/50 text-xs font-light leading-relaxed mb-6">{partner.description}</p>
                 <ul className="space-y-2 mb-8">
                   {partner.features.map((f) => (
