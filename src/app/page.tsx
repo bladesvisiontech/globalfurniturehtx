@@ -4,6 +4,7 @@ import { Phone, MapPin, Star, ArrowRight } from 'lucide-react'
 import ProductCard from '@/components/ui/ProductCard'
 import HeroCarousel from '@/components/ui/HeroCarousel'
 import ScrollReveal from '@/components/ui/ScrollReveal'
+import TestimonialsMarquee from '@/components/ui/TestimonialsMarquee'
 import siteData from '@/data/site.json'
 import productsData from '@/data/products.json'
 import categoriesData from '@/data/categories.json'
@@ -148,50 +149,29 @@ export default function HomePage() {
       </section>
 
       {/* ── Testimonials ─────────────────────────────────── */}
-      <section className="bg-[#1E3331] text-white">
-        <div className="max-w-screen-xl mx-auto px-6 py-24">
-          <ScrollReveal direction="up" duration={600}>
-            <div className="mb-14 text-center">
-              <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-3 font-medium">Reviews</p>
-              <h2 className="text-3xl font-light text-white mb-5">What Our Customers Say</h2>
-              <div className="flex items-center justify-center gap-2">
-                <div className="flex gap-0.5">
-                  {Array.from({ length: 5 }).map((_, i) => (
-                    <Star key={i} size={14} className="text-[#7DA68B] fill-[#7DA68B]" />
-                  ))}
-                </div>
-                <span className="text-white font-semibold text-sm">{siteData.googleRating}</span>
-                <span className="text-white/40 text-xs font-light">· {siteData.googleReviewCount} Google Reviews</span>
+      <section className="bg-[#1E3331] text-white py-24 overflow-hidden">
+        <ScrollReveal direction="up" duration={600}>
+          <div className="max-w-screen-xl mx-auto px-6 mb-14 text-center">
+            <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-3 font-medium">Reviews</p>
+            <h2 className="text-3xl font-light text-white mb-5">What Our Customers Say</h2>
+            <div className="flex items-center justify-center gap-2">
+              <div className="flex gap-0.5">
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <Star key={i} size={14} className="text-[#7DA68B] fill-[#7DA68B]" />
+                ))}
               </div>
+              <span className="text-white font-semibold text-sm">{siteData.googleRating}</span>
+              <span className="text-white/40 text-xs font-light">· {siteData.googleReviewCount} Google Reviews</span>
             </div>
-          </ScrollReveal>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {testimonials.map((t, i) => (
-              <ScrollReveal key={t.id} direction="up" delay={i * 100} duration={550}>
-                <div className="p-8 h-full" style={{ background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.1)' }}>
-                  <div className="flex gap-0.5 mb-4">
-                    {Array.from({ length: t.rating }).map((_, j) => (
-                      <Star key={j} size={13} className="text-[#7DA68B] fill-[#7DA68B]" />
-                    ))}
-                  </div>
-                  <p className="text-sm font-light text-white/75 leading-relaxed mb-6">&ldquo;{t.text}&rdquo;</p>
-                  <div style={{ borderTop: '1px solid rgba(255,255,255,0.15)', paddingTop: 16 }}>
-                    <p className="text-sm font-medium text-white">{t.name}</p>
-                    <p className="text-xs text-white/40 mt-0.5">{t.location}</p>
-                  </div>
-                </div>
-              </ScrollReveal>
-            ))}
           </div>
+        </ScrollReveal>
 
-          <ScrollReveal direction="up" delay={200} duration={500}>
-            <div className="text-center mt-10">
-              <Link href="/testimonials" className="text-xs tracking-widest uppercase text-[#7DA68B] hover:text-white transition-colors font-medium flex items-center gap-2 justify-center">
-                Read All Reviews <ArrowRight size={12} />
-              </Link>
-            </div>
-          </ScrollReveal>
+        <TestimonialsMarquee testimonials={testimonials} />
+
+        <div className="text-center mt-12">
+          <Link href="/testimonials" className="text-xs tracking-widest uppercase text-[#7DA68B] hover:text-white transition-colors font-medium flex items-center gap-2 justify-center">
+            Read All Reviews <ArrowRight size={12} />
+          </Link>
         </div>
       </section>
 
