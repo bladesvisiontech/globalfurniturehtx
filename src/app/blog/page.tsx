@@ -9,9 +9,9 @@ export default function BlogPage() {
   const posts = blogData.posts as BlogPost[]
   return (
     <div>
-      <section className="bg-[#0e2b62] text-white py-20">
+      <section className="bg-[#7DA68B] text-white py-20">
         <div className="max-w-screen-xl mx-auto px-6">
-          <p className="text-[10px] tracking-[0.3em] uppercase text-[#7DA68B] mb-3 font-medium">Resources</p>
+          <p className="text-[10px] tracking-[0.3em] uppercase text-[#0e2b62] mb-3 font-medium">Resources</p>
           <h1 className="text-5xl font-light mb-4">Furniture Journal</h1>
           <p className="text-white/50 text-base font-light">Tips and guides for furnishing your Houston home.</p>
         </div>
@@ -25,13 +25,13 @@ export default function BlogPage() {
                 <div className="aspect-[4/3] bg-[#E7E0CE] mb-5 overflow-hidden flex items-center justify-center">
                   <span className="text-5xl opacity-40">🛋️</span>
                 </div>
-                <div className="flex items-center gap-2 text-[#0e2b62]/40 text-xs mb-3 font-light">
+                <div className="flex items-center gap-2 text-[#7DA68B]/40 text-xs mb-3 font-light">
                   <Calendar size={11} />
                   {new Date(post.publishedAt).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
                 </div>
-                <h2 className="text-sm font-medium text-[#0e2b62] mb-2 group-hover:text-[#0e2b62] transition-colors leading-snug">{post.title}</h2>
-                <p className="text-[#0e2b62]/50 text-xs font-light leading-relaxed line-clamp-3 mb-4">{post.excerpt}</p>
-                <span className="text-[10px] tracking-widest uppercase text-[#7DA68B] flex items-center gap-1.5 font-medium">
+                <h2 className="text-sm font-medium text-[#7DA68B] mb-2 group-hover:text-[#7DA68B] transition-colors leading-snug">{post.title}</h2>
+                <p className="text-[#7DA68B]/50 text-xs font-light leading-relaxed line-clamp-3 mb-4">{post.excerpt}</p>
+                <span className="text-[10px] tracking-widest uppercase text-[#0e2b62] flex items-center gap-1.5 font-medium">
                   Read More <ArrowRight size={11} />
                 </span>
               </article>

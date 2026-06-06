@@ -24,12 +24,12 @@ export default function ProductCard({ product }: ProductCardProps) {
         />
         {!product.inStock && (
           <div className="absolute inset-0 bg-white/60 flex items-center justify-center">
-            <span className="text-xs font-medium tracking-widest uppercase text-[#0e2b62]/50">Sold Out</span>
+            <span className="text-xs font-medium tracking-widest uppercase text-[#7DA68B]/50">Sold Out</span>
           </div>
         )}
         {hasDiscount && (
           <div className="absolute top-3 left-3">
-            <span className="text-[10px] font-semibold tracking-widest uppercase bg-[#0e2b62] text-white px-2.5 py-1">
+            <span className="text-[10px] font-semibold tracking-widest uppercase bg-[#7DA68B] text-white px-2.5 py-1">
               Sale
             </span>
           </div>
@@ -39,18 +39,18 @@ export default function ProductCard({ product }: ProductCardProps) {
       {/* Info */}
       <div className="px-0.5">
         {/* Category */}
-        <p className="text-[10px] font-medium tracking-[0.2em] uppercase text-[#7DA68B] mb-1.5">
+        <p className="text-[10px] font-medium tracking-[0.2em] uppercase text-[#0e2b62] mb-1.5">
           {product.category.replace(/-/g, ' ')}
         </p>
 
         {/* Name */}
-        <h3 className="text-sm font-medium text-[#0e2b62] leading-snug mb-2 group-hover:text-[#0e2b62] transition-colors">
+        <h3 className="text-sm font-medium text-[#7DA68B] leading-snug mb-2 group-hover:text-[#7DA68B] transition-colors">
           {product.name}
         </h3>
 
         {/* Colors */}
         {product.colors && product.colors.length > 0 && (
-          <p className="text-[11px] text-[#0e2b62]/40 mb-2 font-light">
+          <p className="text-[11px] text-[#7DA68B]/40 mb-2 font-light">
             {product.colors.join(' · ')}
           </p>
         )}
@@ -59,15 +59,15 @@ export default function ProductCard({ product }: ProductCardProps) {
         <div className="flex items-center gap-2.5">
           {hasDiscount ? (
             <>
-              <span className="text-sm font-semibold text-[#0e2b62]">
+              <span className="text-sm font-semibold text-[#7DA68B]">
                 {formatPrice(product.salePrice!)}
               </span>
-              <span className="text-xs text-[#0e2b62]/25 line-through">
+              <span className="text-xs text-[#7DA68B]/25 line-through">
                 {formatPrice(product.price)}
               </span>
             </>
           ) : (
-            <span className="text-sm font-semibold text-[#0e2b62]">
+            <span className="text-sm font-semibold text-[#7DA68B]">
               {formatPrice(product.price)}
             </span>
           )}
