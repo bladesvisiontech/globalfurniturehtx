@@ -29,16 +29,6 @@
       "ctaLink": "/services#financing",
       "order": 3,
       "active": true
-    },
-    {
-      "id": "banner-1781201755908",
-      "title": "Banner de prueba desde admin",
-      "subtitle": "es solo una prueba",
-      "imageUrl": "",
-      "ctaText": "Shop Now",
-      "ctaLink": "/shop",
-      "order": 4,
-      "active": true
     }
   ]
 }
