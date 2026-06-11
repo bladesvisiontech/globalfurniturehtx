@@ -16,7 +16,7 @@ export async function POST(req: NextRequest) {
 
     // Notify the store
     await resend.emails.send({
-      from: 'Global Furniture HTX <noreply@globalfurniturehtx.com>',
+      from: 'Global Furniture HTX <onboarding@resend.dev>',
       to: TO_EMAIL,
       subject: `New Quote Request from ${name}`,
       html: `
@@ -61,7 +61,7 @@ export async function POST(req: NextRequest) {
     // Send confirmation to customer (only if they provided an email)
     if (email) {
       await resend.emails.send({
-        from: 'Global Furniture HTX <noreply@globalfurniturehtx.com>',
+        from: 'Global Furniture HTX <onboarding@resend.dev>',
         to: email,
         subject: `We received your request, ${name}!`,
         html: `
